@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "edition_id": "2000-01-01-en-GB",
+  "edition_date": "2000-01-01",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2000-01-01T00:00:00Z",
+  "mode": "compact",
+  "ai_provider": "none",
+  "ai_status": "SAMPLE — NOT CURRENT NEWS",
+  "estimated_reading_minutes": 2,
+  "stories": [
+    {
+      "id": "sample-story-000",
+      "category": "Science & Tech",
+      "title": "SAMPLE: Scientists practise measuring sunlight",
+      "summary": "This is made-up demonstration text for testing the app. It is not a news report.",
+      "why_it_matters": "Samples help a parent check the reading controls.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "SAMPLE — NOT CURRENT NEWS",
+          "url": "https://www.nasa.gov/learning-resources/",
+          "published_at": "2000-01-01T00:00:00Z",
+          "retrieved_at": "2000-01-01T00:00:00Z",
+          "source_title": "SAMPLE: Scientists practise measuring sunlight",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "fact-sample-story-000"
+      ],
+      "facts": [
+        {
+          "id": "fact-sample-story-000",
+          "text": "SAMPLE: Scientists practise measuring sunlight",
+          "source_url": "https://www.nasa.gov/learning-resources/"
+        }
+      ],
+      "content_kind": "headline",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "sample-story-001",
+      "category": "Environment",
+      "title": "SAMPLE: Volunteers compare woodland observations",
+      "summary": "This is made-up demonstration text for testing the app. It is not a news report.",
+      "why_it_matters": "Samples help a parent check the reading controls.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "SAMPLE — NOT CURRENT NEWS",
+          "url": "https://www.nasa.gov/learning-resources/",
+          "published_at": "2000-01-01T00:00:00Z",
+          "retrieved_at": "2000-01-01T00:00:00Z",
+          "source_title": "SAMPLE: Volunteers compare woodland observations",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "fact-sample-story-001"
+      ],
+      "facts": [
+        {
+          "id": "fact-sample-story-001",
+          "text": "SAMPLE: Volunteers compare woodland observations",
+          "source_url": "https://www.nasa.gov/learning-resources/"
+        }
+      ],
+      "content_kind": "headline",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "sample-story-002",
+      "category": "UK",
+      "title": "SAMPLE: Library visitors explore local history",
+      "summary": "This is made-up demonstration text for testing the app. It is not a news report.",
+      "why_it_matters": "Samples help a parent check the reading controls.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "SAMPLE — NOT CURRENT NEWS",
+          "url": "https://www.nasa.gov/learning-resources/",
+          "published_at": "2000-01-01T00:00:00Z",
+          "retrieved_at": "2000-01-01T00:00:00Z",
+          "source_title": "SAMPLE: Library visitors explore local history",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "fact-sample-story-002"
+      ],
+      "facts": [
+        {
+          "id": "fact-sample-story-002",
+          "text": "SAMPLE: Library visitors explore local history",
+          "source_url": "https://www.nasa.gov/learning-resources/"
+        }
+      ],
+      "content_kind": "headline",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "sample-story-003",
+      "category": "People & Culture",
+      "title": "SAMPLE: Musicians share ideas about teamwork",
+      "summary": "This is made-up demonstration text for testing the app. It is not a news report.",
+      "why_it_matters": "Samples help a parent check the reading controls.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "SAMPLE — NOT CURRENT NEWS",
+          "url": "https://www.nasa.gov/learning-resources/",
+          "published_at": "2000-01-01T00:00:00Z",
+          "retrieved_at": "2000-01-01T00:00:00Z",
+          "source_title": "SAMPLE: Musicians share ideas about teamwork",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "fact-sample-story-003"
+      ],
+      "facts": [
+        {
+          "id": "fact-sample-story-003",
+          "text": "SAMPLE: Musicians share ideas about teamwork",
+          "source_url": "https://www.nasa.gov/learning-resources/"
+        }
+      ],
+      "content_kind": "headline",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "sample-story-004",
+      "category": "Muslim World",
+      "title": "SAMPLE: Students practise designing community gardens",
+      "summary": "This is made-up demonstration text for testing the app. It is not a news report.",
+      "why_it_matters": "Samples help a parent check the reading controls.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "SAMPLE — NOT CURRENT NEWS",
+          "url": "https://www.nasa.gov/learning-resources/",
+          "published_at": "2000-01-01T00:00:00Z",
+          "retrieved_at": "2000-01-01T00:00:00Z",
+          "source_title": "SAMPLE: Students practise designing community gardens",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "fact-sample-story-004"
+      ],
+      "facts": [
+        {
+          "id": "fact-sample-story-004",
+          "text": "SAMPLE: Students practise designing community gardens",
+          "source_url": "https://www.nasa.gov/learning-resources/"
+        }
+      ],
+      "content_kind": "headline",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-sample-story-000",
+      "question": "Complete the headline you read: “SAMPLE: ____ practise measuring sunlight”",
+      "choices": [
+        "Scientists",
+        "Library",
+        "Musicians"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “SAMPLE: Scientists practise measuring sunlight”.",
+      "story_id": "sample-story-000",
+      "fact_id": "fact-sample-story-000"
+    },
+    {
+      "id": "q-sample-story-001",
+      "question": "Complete the headline you read: “SAMPLE: Volunteers compare woodland ____”",
+      "choices": [
+        "Library",
+        "observations",
+        "Musicians"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “SAMPLE: Volunteers compare woodland observations”.",
+      "story_id": "sample-story-001",
+      "fact_id": "fact-sample-story-001"
+    },
+    {
+      "id": "q-sample-story-002",
+      "question": "Complete the headline you read: “SAMPLE: Library ____ explore local history”",
+      "choices": [
+        "Musicians",
+        "Scientists",
+        "visitors"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “SAMPLE: Library visitors explore local history”.",
+      "story_id": "sample-story-002",
+      "fact_id": "fact-sample-story-002"
+    },
+    {
+      "id": "q-sample-story-003",
+      "question": "Complete the headline you read: “SAMPLE: ____ share ideas about teamwork”",
+      "choices": [
+        "Scientists",
+        "Library",
+        "Musicians"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “SAMPLE: Musicians share ideas about teamwork”.",
+      "story_id": "sample-story-003",
+      "fact_id": "fact-sample-story-003"
+    },
+    {
+      "id": "q-sample-story-004",
+      "question": "Complete the headline you read: “SAMPLE: Students practise ____ community gardens”",
+      "choices": [
+        "Library",
+        "Musicians",
+        "designing"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “SAMPLE: Students practise designing community gardens”.",
+      "story_id": "sample-story-004",
+      "fact_id": "fact-sample-story-004"
+    }
+  ],
+  "sample": true,
+  "sample_label": "SAMPLE — NOT CURRENT NEWS"
+}

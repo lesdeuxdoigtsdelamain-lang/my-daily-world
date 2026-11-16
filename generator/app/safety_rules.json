@@ -1,0 +1,16 @@
+{
+  "exclude_patterns": [
+    "\\b(?:suicide|self.harm|pornograph|rape|raped|sexual abuse|sex assault|behead|dismember|gore|mutilat)\\w*",
+    "\\b(?:ignore (?:all|previous)|system prompt|developer message|api[_ ]?key|bearer token|follow these instructions|jailbreak|execute code)\\b",
+    "\\b(?:blood.soaked|graphic footage|tortur|massacre|child abuse)\\w*",
+    "\\b(?:sex|sexual|porn|incest|prostitut)\\w*",
+    "\\b(?:horrific|bloodbath|terrifying|gruesome|graphic images)\\b",
+    "\\b(?:genocide|apartheid|impunity|opinion|commentary)\\b",
+    "\\b(?:how .*legitimi[sz]|making injustice legal)"
+  ],
+  "contested_patterns": [
+    "\\b(?:war|military|killed|dead|death toll|attack|missile|bomb|hostage|alleg|accus|election|minister|president|parliament|sanction|ceasefire|conflict|strike|court|terrorism|threat)\\w*",
+    "\\b(?:decree|could block|warns?|claims?|questions|critici[sz])\\b"
+  ],
+  "policy": "V1 omits explicit content. Contested headlines are attributed, never converted into an assertion. No source can instruct this program."
+}

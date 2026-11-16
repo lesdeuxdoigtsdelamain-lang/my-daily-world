@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-16-en-GB",
+  "edition_date": "2026-11-16",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-16T17:58:46.946763Z",
+  "mode": "compact",
+  "ai_provider": "none",
+  "ai_status": "Disabled by configuration",
+  "estimated_reading_minutes": 4,
+  "stories": [
+    {
+      "id": "71a01b38b8739142205e",
+      "category": "UK",
+      "title": "UK-wide framework puts nurses and midwives at heart of prevention",
+      "summary": "A new UK-wide framework will help nurses, midwives and nursing associates prevent illness, reduce health inequalities and help more people live well for longer.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-wide-framework-puts-nurses-and-midwives-at-heart-of-prevention",
+          "published_at": "2026-11-16T17:32:57Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "UK-wide framework puts nurses and midwives at heart of prevention",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-71a01b38b8739142205e",
+        "f-71a01b38b8739142205e-0"
+      ],
+      "facts": [
+        {
+          "id": "f-71a01b38b8739142205e",
+          "text": "UK-wide framework puts nurses and midwives at heart of prevention",
+          "source_url": "https://www.gov.uk/government/news/uk-wide-framework-puts-nurses-and-midwives-at-heart-of-prevention"
+        },
+        {
+          "id": "f-71a01b38b8739142205e-0",
+          "text": "A new UK-wide framework will help nurses, midwives and nursing associates prevent illness, reduce health inequalities and help more people live well for longer.",
+          "source_url": "https://www.gov.uk/government/news/uk-wide-framework-puts-nurses-and-midwives-at-heart-of-prevention"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "7f3ad460c89ae8b74c70",
+      "category": "Muslim World",
+      "title": "The Last Ice on Puncak Jaya",
+      "summary": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+      "why_it_matters": "Learning about daily life, culture and ideas in many communities can broaden our understanding.",
+      "word_to_know": {
+        "word": "glacier",
+        "definition": "A large mass of ice that moves slowly."
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya",
+          "published_at": "2026-11-16T05:00:00Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "The Last Ice on Puncak Jaya",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-7f3ad460c89ae8b74c70",
+        "f-7f3ad460c89ae8b74c70-0"
+      ],
+      "facts": [
+        {
+          "id": "f-7f3ad460c89ae8b74c70",
+          "text": "The Last Ice on Puncak Jaya",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+        },
+        {
+          "id": "f-7f3ad460c89ae8b74c70-0",
+          "text": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "f79d7f807faba0f6d90a",
+      "category": "World",
+      "title": "Civil society questions decree that could block access to telecommunications networks in Mozambique",
+      "summary": "",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": null,
+      "sensitivity": "gentle",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/16/civil-society-questions-decree-that-could-block-access-to-telecommunications-networks-in-mozambique",
+          "published_at": "2026-11-16T08:38:21Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "Civil society questions decree that could block access to telecommunications networks in Mozambique",
+          "event_date": null,
+          "author": "Masudul Zarif",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-f79d7f807faba0f6d90a"
+      ],
+      "facts": [
+        {
+          "id": "f-f79d7f807faba0f6d90a",
+          "text": "Civil society questions decree that could block access to telecommunications networks in Mozambique",
+          "source_url": "https://globalvoices.org/2026/11/16/civil-society-questions-decree-that-could-block-access-to-telecommunications-networks-in-mozambique"
+        }
+      ],
+      "content_kind": "headline",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This headline reports the named publisher’s account. Read the original for context.",
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "4d9d98fcae68fdba4985",
+      "category": "Environment",
+      "title": "Timucuan to Improve Cedar Point Boat Ramp and Parking Area",
+      "summary": "Timucuan Ecological and Historic Preserve is improving the Cedar Point boat ramp entrance, parking lot and boat launch area to provide visitors with safer, more reliable access. The project will reshape and elevate these areas to reduce potholes and help prevent flooding.",
+      "why_it_matters": "Environmental news can help us learn about the world we share.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "US National Park Service",
+          "url": "https://www.nps.gov/timu/learn/news/timucuan-to-improve-cedar-point-boat-ramp-and-parking-area.htm",
+          "published_at": "2026-11-16T10:19:00Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "Timucuan to Improve Cedar Point Boat Ramp and Parking Area",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-4d9d98fcae68fdba4985",
+        "f-4d9d98fcae68fdba4985-0",
+        "f-4d9d98fcae68fdba4985-1"
+      ],
+      "facts": [
+        {
+          "id": "f-4d9d98fcae68fdba4985",
+          "text": "Timucuan to Improve Cedar Point Boat Ramp and Parking Area",
+          "source_url": "https://www.nps.gov/timu/learn/news/timucuan-to-improve-cedar-point-boat-ramp-and-parking-area.htm"
+        },
+        {
+          "id": "f-4d9d98fcae68fdba4985-0",
+          "text": "Timucuan Ecological and Historic Preserve is improving the Cedar Point boat ramp entrance, parking lot and boat launch area to provide visitors with safer, more reliable access.",
+          "source_url": "https://www.nps.gov/timu/learn/news/timucuan-to-improve-cedar-point-boat-ramp-and-parking-area.htm"
+        },
+        {
+          "id": "f-4d9d98fcae68fdba4985-1",
+          "text": "The project will reshape and elevate these areas to reduce potholes and help prevent flooding.",
+          "source_url": "https://www.nps.gov/timu/learn/news/timucuan-to-improve-cedar-point-boat-ramp-and-parking-area.htm"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "6a0fff5bc07657ec941a",
+      "category": "Money & Business",
+      "title": "GAD supports HM Treasury valuation of Ukraine loan repayments",
+      "summary": "GAD supports HM Treasury in managing a novel loan arrangement to support Ukraine.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/gad-supports-hm-treasury-valuation-of-ukraine-loan-repayments",
+          "published_at": "2026-11-16T16:10:50Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "GAD supports HM Treasury valuation of Ukraine loan repayments",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-6a0fff5bc07657ec941a",
+        "f-6a0fff5bc07657ec941a-0"
+      ],
+      "facts": [
+        {
+          "id": "f-6a0fff5bc07657ec941a",
+          "text": "GAD supports HM Treasury valuation of Ukraine loan repayments",
+          "source_url": "https://www.gov.uk/government/news/gad-supports-hm-treasury-valuation-of-ukraine-loan-repayments"
+        },
+        {
+          "id": "f-6a0fff5bc07657ec941a-0",
+          "text": "GAD supports HM Treasury in managing a novel loan arrangement to support Ukraine.",
+          "source_url": "https://www.gov.uk/government/news/gad-supports-hm-treasury-valuation-of-ukraine-loan-repayments"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "188e9640464d6e20df1e",
+      "category": "Science & Tech",
+      "title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
+      "summary": "The rumble of a rocket engine might be considered a soundtrack for Jim Mirandy’s life. Mirandy has grown up with NASA as a constant presence, and his path to becoming a civil servant at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has been decades in the making.",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy",
+          "published_at": "2026-11-16T15:22:09Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
+          "event_date": null,
+          "author": "LaToya Dean",
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-188e9640464d6e20df1e",
+        "f-188e9640464d6e20df1e-0",
+        "f-188e9640464d6e20df1e-1"
+      ],
+      "facts": [
+        {
+          "id": "f-188e9640464d6e20df1e",
+          "text": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
+          "source_url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy"
+        },
+        {
+          "id": "f-188e9640464d6e20df1e-0",
+          "text": "The rumble of a rocket engine might be considered a soundtrack for Jim Mirandy’s life.",
+          "source_url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy"
+        },
+        {
+          "id": "f-188e9640464d6e20df1e-1",
+          "text": "Mirandy has grown up with NASA as a constant presence, and his path to becoming a civil servant at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has been decades in the making.",
+          "source_url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "61fa87371928537b8f6d",
+      "category": "World",
+      "title": "The DPRK must cooperate with UN human rights mechanisms: UK Statement at the UN Third Committee",
+      "summary": "Statement by Anna Burt, Deputy Head of Political and Human Rights at the UK Mission to the WTO, UN, and Other International Organisations, at the UN Third Committee on DPRK.",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/speeches/the-dprk-must-cooperate-with-un-human-rights-mechanisms-uk-statement-at-the-un-third-committee",
+          "published_at": "2026-11-16T16:58:43Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "The DPRK must cooperate with UN human rights mechanisms: UK Statement at the UN Third Committee",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-61fa87371928537b8f6d",
+        "f-61fa87371928537b8f6d-0"
+      ],
+      "facts": [
+        {
+          "id": "f-61fa87371928537b8f6d",
+          "text": "The DPRK must cooperate with UN human rights mechanisms: UK Statement at the UN Third Committee",
+          "source_url": "https://www.gov.uk/government/speeches/the-dprk-must-cooperate-with-un-human-rights-mechanisms-uk-statement-at-the-un-third-committee"
+        },
+        {
+          "id": "f-61fa87371928537b8f6d-0",
+          "text": "Statement by Anna Burt, Deputy Head of Political and Human Rights at the UK Mission to the WTO, UN, and Other International Organisations, at the UN Third Committee on DPRK.",
+          "source_url": "https://www.gov.uk/government/speeches/the-dprk-must-cooperate-with-un-human-rights-mechanisms-uk-statement-at-the-un-third-committee"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "1ab52ca90fb0dd699adc",
+      "category": "Environment",
+      "title": "Seashore to Begin Invasive Vegetation Removal and Marsh Restoration Pilot Project in Herring River",
+      "summary": "Cape Cod National Seashore will begin targeted restoration work in the Herring River this fall as part of ongoing efforts to help restore natural saltmarsh habitat.",
+      "why_it_matters": "Environmental news can help us learn about the world we share.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "US National Park Service",
+          "url": "https://www.nps.gov/caco/learn/news/seashore-to-begin-invasive-vegetation-removal-and-marsh-restoration-pilot-project-in-herring-river.htm",
+          "published_at": "2026-11-16T02:10:00Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "Seashore to Begin Invasive Vegetation Removal and Marsh Restoration Pilot Project in Herring River",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-1ab52ca90fb0dd699adc",
+        "f-1ab52ca90fb0dd699adc-0"
+      ],
+      "facts": [
+        {
+          "id": "f-1ab52ca90fb0dd699adc",
+          "text": "Seashore to Begin Invasive Vegetation Removal and Marsh Restoration Pilot Project in Herring River",
+          "source_url": "https://www.nps.gov/caco/learn/news/seashore-to-begin-invasive-vegetation-removal-and-marsh-restoration-pilot-project-in-herring-river.htm"
+        },
+        {
+          "id": "f-1ab52ca90fb0dd699adc-0",
+          "text": "Cape Cod National Seashore will begin targeted restoration work in the Herring River this fall as part of ongoing efforts to help restore natural saltmarsh habitat.",
+          "source_url": "https://www.nps.gov/caco/learn/news/seashore-to-begin-invasive-vegetation-removal-and-marsh-restoration-pilot-project-in-herring-river.htm"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "d1072c7554c66b52d85f",
+      "category": "UK",
+      "title": "King opens new National Cyber Force HQ boosting North West growth",
+      "summary": "His Majesty King Charles III has officially opened Ribble House, the National Cyber Force’s (NCF) new headquarters in Samlesbury, Lancashire.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth",
+          "published_at": "2026-11-16T15:33:56Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "King opens new National Cyber Force HQ boosting North West growth",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-d1072c7554c66b52d85f",
+        "f-d1072c7554c66b52d85f-0"
+      ],
+      "facts": [
+        {
+          "id": "f-d1072c7554c66b52d85f",
+          "text": "King opens new National Cyber Force HQ boosting North West growth",
+          "source_url": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth"
+        },
+        {
+          "id": "f-d1072c7554c66b52d85f-0",
+          "text": "His Majesty King Charles III has officially opened Ribble House, the National Cyber Force’s (NCF) new headquarters in Samlesbury, Lancashire.",
+          "source_url": "https://www.gov.uk/government/news/king-opens-new-national-cyber-force-hq-boosting-north-west-growth"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "27ff426d4247d2c99f7f",
+      "category": "Science & Tech",
+      "title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
+      "summary": "",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb",
+          "published_at": "2026-11-16T05:05:00Z",
+          "retrieved_at": "2026-11-16T17:58:46.946763Z",
+          "source_title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-27ff426d4247d2c99f7f"
+      ],
+      "facts": [
+        {
+          "id": "f-27ff426d4247d2c99f7f",
+          "text": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
+          "source_url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb"
+        }
+      ],
+      "content_kind": "headline",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    }
+  ],
+  "on_this_day": {
+    "month_day": "11-16",
+    "year": 1945,
+    "title": "UNESCO is founded",
+    "summary": "UNESCO’s Constitution was signed in London on 16 November 1945. Its name stands for the United Nations Educational, Scientific and Cultural Organization. The organisation was created to support cooperation through education, science and culture. Its Constitution entered into force the following year. The anniversary is a chance to think about how schools, scientific knowledge and cultural exchange can contribute to understanding between people and countries.",
+    "sources": [
+      {
+        "publisher": "Wikipedia (references linked in article)",
+        "url": "https://en.wikipedia.org/wiki/UNESCO"
+      }
+    ],
+    "verified_on": "2026-11-16"
+  },
+  "quiz": [
+    {
+      "id": "q-71a01b38b8739142205e",
+      "question": "Complete the headline you read: “UK-wide framework puts nurses and midwives at heart of ____”",
+      "choices": [
+        "Cedar",
+        "Begin",
+        "prevention"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “UK-wide framework puts nurses and midwives at heart of prevention”.",
+      "story_id": "71a01b38b8739142205e",
+      "fact_id": "f-71a01b38b8739142205e"
+    },
+    {
+      "id": "q-7f3ad460c89ae8b74c70",
+      "question": "Complete the headline you read: “The Last Ice on ____ Jaya”",
+      "choices": [
+        "Begin",
+        "Cedar",
+        "Puncak"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “The Last Ice on Puncak Jaya”.",
+      "story_id": "7f3ad460c89ae8b74c70",
+      "fact_id": "f-7f3ad460c89ae8b74c70"
+    },
+    {
+      "id": "q-f79d7f807faba0f6d90a",
+      "question": "Complete the headline you read: “Civil society questions decree that could block access to ____ networks in Mozambique”",
+      "choices": [
+        "Cedar",
+        "Begin",
+        "telecommunications"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “Civil society questions decree that could block access to telecommunications networks in Mozambique”.",
+      "story_id": "f79d7f807faba0f6d90a",
+      "fact_id": "f-f79d7f807faba0f6d90a"
+    },
+    {
+      "id": "q-4d9d98fcae68fdba4985",
+      "question": "Complete the headline you read: “____ to Improve Cedar Point Boat Ramp and Parking Area”",
+      "choices": [
+        "Timucuan",
+        "Begin",
+        "Civil"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Timucuan to Improve Cedar Point Boat Ramp and Parking Area”.",
+      "story_id": "4d9d98fcae68fdba4985",
+      "fact_id": "f-4d9d98fcae68fdba4985"
+    },
+    {
+      "id": "q-6a0fff5bc07657ec941a",
+      "question": "Complete the headline you read: “GAD supports HM Treasury valuation of Ukraine loan ____”",
+      "choices": [
+        "Begin",
+        "Cedar",
+        "repayments"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “GAD supports HM Treasury valuation of Ukraine loan repayments”.",
+      "story_id": "6a0fff5bc07657ec941a",
+      "fact_id": "f-6a0fff5bc07657ec941a"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}

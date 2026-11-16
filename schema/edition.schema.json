@@ -1,0 +1,520 @@
+{
+  "$defs": {
+    "Fact": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 80,
+          "minLength": 3,
+          "title": "Id",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 700,
+          "minLength": 5,
+          "title": "Text",
+          "type": "string"
+        },
+        "source_url": {
+          "title": "Source Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "source_url"
+      ],
+      "title": "Fact",
+      "type": "object"
+    },
+    "History": {
+      "additionalProperties": false,
+      "properties": {
+        "month_day": {
+          "pattern": "^\\d{2}-\\d{2}$",
+          "title": "Month Day",
+          "type": "string"
+        },
+        "year": {
+          "maximum": 2100,
+          "minimum": 1583,
+          "title": "Year",
+          "type": "integer"
+        },
+        "title": {
+          "minLength": 5,
+          "title": "Title",
+          "type": "string"
+        },
+        "summary": {
+          "maxLength": 1500,
+          "minLength": 30,
+          "title": "Summary",
+          "type": "string"
+        },
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/HistorySource"
+          },
+          "minItems": 1,
+          "title": "Sources",
+          "type": "array"
+        },
+        "verified_on": {
+          "format": "date",
+          "title": "Verified On",
+          "type": "string"
+        }
+      },
+      "required": [
+        "month_day",
+        "year",
+        "title",
+        "summary",
+        "sources",
+        "verified_on"
+      ],
+      "title": "History",
+      "type": "object"
+    },
+    "HistorySource": {
+      "additionalProperties": false,
+      "properties": {
+        "publisher": {
+          "title": "Publisher",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "publisher",
+        "url"
+      ],
+      "title": "HistorySource",
+      "type": "object"
+    },
+    "Question": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "question": {
+          "maxLength": 400,
+          "minLength": 8,
+          "title": "Question",
+          "type": "string"
+        },
+        "choices": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Choices",
+          "type": "array"
+        },
+        "correct_index": {
+          "maximum": 2,
+          "minimum": 0,
+          "title": "Correct Index",
+          "type": "integer"
+        },
+        "explanation": {
+          "maxLength": 700,
+          "minLength": 5,
+          "title": "Explanation",
+          "type": "string"
+        },
+        "story_id": {
+          "title": "Story Id",
+          "type": "string"
+        },
+        "fact_id": {
+          "title": "Fact Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "question",
+        "choices",
+        "correct_index",
+        "explanation",
+        "story_id",
+        "fact_id"
+      ],
+      "title": "Question",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "publisher": {
+          "maxLength": 80,
+          "minLength": 2,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "published_at": {
+          "format": "date-time",
+          "title": "Published At",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "source_title": {
+          "maxLength": 250,
+          "minLength": 5,
+          "title": "Source Title",
+          "type": "string"
+        },
+        "event_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Event Date"
+        },
+        "author": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "license_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License Url"
+        }
+      },
+      "required": [
+        "publisher",
+        "url",
+        "published_at",
+        "retrieved_at",
+        "source_title"
+      ],
+      "title": "Source",
+      "type": "object"
+    },
+    "Story": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "maxLength": 80,
+          "minLength": 8,
+          "title": "Id",
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "World",
+            "UK",
+            "Science & Tech",
+            "Environment",
+            "People & Culture",
+            "Money & Business",
+            "Sport",
+            "Muslim World"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 250,
+          "minLength": 5,
+          "title": "Title",
+          "type": "string"
+        },
+        "summary": {
+          "maxLength": 1800,
+          "title": "Summary",
+          "type": "string"
+        },
+        "why_it_matters": {
+          "maxLength": 400,
+          "title": "Why It Matters",
+          "type": "string"
+        },
+        "word_to_know": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Word"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "sensitivity": {
+          "default": "low",
+          "enum": [
+            "low",
+            "gentle"
+          ],
+          "title": "Sensitivity",
+          "type": "string"
+        },
+        "country": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country"
+        },
+        "source_refs": {
+          "items": {
+            "$ref": "#/$defs/Source"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "supporting_fact_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Supporting Fact Ids",
+          "type": "array"
+        },
+        "facts": {
+          "items": {
+            "$ref": "#/$defs/Fact"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Facts",
+          "type": "array"
+        },
+        "content_kind": {
+          "default": "headline",
+          "enum": [
+            "headline",
+            "excerpt",
+            "grounded_ai"
+          ],
+          "title": "Content Kind",
+          "type": "string"
+        },
+        "age_suitability": {
+          "const": "10-15",
+          "default": "10-15",
+          "title": "Age Suitability",
+          "type": "string"
+        },
+        "uncertainty_notes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Uncertainty Notes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "category",
+        "title",
+        "summary",
+        "why_it_matters",
+        "source_refs",
+        "supporting_fact_ids",
+        "facts"
+      ],
+      "title": "Story",
+      "type": "object"
+    },
+    "Word": {
+      "additionalProperties": false,
+      "properties": {
+        "word": {
+          "maxLength": 40,
+          "title": "Word",
+          "type": "string"
+        },
+        "definition": {
+          "maxLength": 180,
+          "title": "Definition",
+          "type": "string"
+        }
+      },
+      "required": [
+        "word",
+        "definition"
+      ],
+      "title": "Word",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "edition_id": {
+      "title": "Edition Id",
+      "type": "string"
+    },
+    "edition_date": {
+      "format": "date",
+      "title": "Edition Date",
+      "type": "string"
+    },
+    "timezone": {
+      "const": "Europe/London",
+      "default": "Europe/London",
+      "title": "Timezone",
+      "type": "string"
+    },
+    "language": {
+      "const": "en-GB",
+      "default": "en-GB",
+      "title": "Language",
+      "type": "string"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "full",
+        "compact"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "ai_provider": {
+      "default": "none",
+      "enum": [
+        "cloudflare",
+        "none"
+      ],
+      "title": "Ai Provider",
+      "type": "string"
+    },
+    "ai_status": {
+      "maxLength": 160,
+      "title": "Ai Status",
+      "type": "string"
+    },
+    "estimated_reading_minutes": {
+      "maximum": 20,
+      "minimum": 1,
+      "title": "Estimated Reading Minutes",
+      "type": "integer"
+    },
+    "stories": {
+      "items": {
+        "$ref": "#/$defs/Story"
+      },
+      "maxItems": 10,
+      "minItems": 1,
+      "title": "Stories",
+      "type": "array"
+    },
+    "on_this_day": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/History"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "quiz": {
+      "items": {
+        "$ref": "#/$defs/Question"
+      },
+      "maxItems": 5,
+      "title": "Quiz",
+      "type": "array"
+    },
+    "sample": {
+      "default": false,
+      "title": "Sample",
+      "type": "boolean"
+    },
+    "sample_label": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Sample Label"
+    }
+  },
+  "required": [
+    "edition_id",
+    "edition_date",
+    "generated_at",
+    "mode",
+    "ai_status",
+    "estimated_reading_minutes",
+    "stories",
+    "quiz"
+  ],
+  "title": "Edition",
+  "type": "object"
+}

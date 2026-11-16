@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-11-16",
+  "models": [
+    {"id":"@cf/meta/llama-3.3-70b-instruct-fp8-fast","free_eligible":true,"terms_reviewed":true,"enabled":true,"reference":"https://developers.cloudflare.com/workers-ai/models/llama-3.3-70b-instruct-fp8-fast/"}
+  ],
+  "disabled": [
+    {"id":"@cf/meta/llama-3.1-8b-instruct-fast","reason":"Exact model page redirected to unavailable during integration; no unverified substitution."},
+    {"id":"@cf/meta/llama-3.1-8b-instruct-fp8","reason":"Deprecated variant excluded by specification."}
+  ]
+}

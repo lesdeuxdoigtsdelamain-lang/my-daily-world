@@ -1,0 +1,167 @@
+{
+  "max_stories": 10,
+  "max_age_hours": 36,
+  "max_ai_calls": 2,
+  "max_output_tokens": 1400,
+  "category_weights": {
+    "World": 2,
+    "UK": 2,
+    "Science & Tech": 1,
+    "Environment": 1,
+    "People & Culture": 1,
+    "Money & Business": 1,
+    "Sport": 1,
+    "Muslim World": 2
+  },
+  "feeds": [
+    {
+      "id": "globalvoices",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/feed/",
+      "article_hosts": [
+        "globalvoices.org"
+      ],
+      "category": "World",
+      "reuse": "licensed_excerpt",
+      "ai_allowed": true,
+      "terms_url": "https://globalvoices.org/about/global-voices-attribution-policy/",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "nasa",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/news-release/feed/",
+      "article_hosts": [
+        "www.nasa.gov",
+        "science.nasa.gov"
+      ],
+      "category": "Science & Tech",
+      "reuse": "public_domain",
+      "ai_allowed": true,
+      "terms_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+    },
+    {
+      "id": "govuk",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/search/news-and-communications.atom",
+      "article_hosts": [
+        "www.gov.uk"
+      ],
+      "category": "UK",
+      "reuse": "public_domain",
+      "ai_allowed": true,
+      "terms_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "license": "Open Government Licence v3.0",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    },
+    {
+      "id": "nsf",
+      "publisher": "US National Science Foundation",
+      "url": "https://www.nsf.gov/rss/rss_www_news.xml",
+      "article_hosts": [
+        "www.nsf.gov",
+        "nsf.gov"
+      ],
+      "category": "Science & Tech",
+      "reuse": "public_domain",
+      "ai_allowed": true,
+      "terms_url": "https://www.nsf.gov/policies"
+    },
+    {
+      "id": "nps",
+      "publisher": "US National Park Service",
+      "url": "https://www.nps.gov/feeds/getNewsRSS.htm?id=nps",
+      "article_hosts": [
+        "www.nps.gov"
+      ],
+      "category": "Environment",
+      "reuse": "public_domain",
+      "ai_allowed": true,
+      "terms_url": "https://www.nps.gov/aboutus/disclaimer.htm"
+    },
+    {
+      "id": "bbc-world",
+      "publisher": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "article_hosts": [
+        "www.bbc.co.uk",
+        "www.bbc.com",
+        "bbc.co.uk",
+        "bbc.com"
+      ],
+      "category": "World",
+      "reuse": "headline",
+      "ai_allowed": false,
+      "enabled": false,
+      "terms_url": "https://www.bbc.co.uk/usingthebbc/terms/can-i-use-bbc-content/"
+    },
+    {
+      "id": "bbc-uk",
+      "publisher": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/uk/rss.xml",
+      "article_hosts": [
+        "www.bbc.co.uk",
+        "www.bbc.com"
+      ],
+      "category": "UK",
+      "reuse": "headline",
+      "ai_allowed": false,
+      "enabled": false,
+      "terms_url": "https://www.bbc.co.uk/usingthebbc/terms/can-i-use-bbc-content/"
+    },
+    {
+      "id": "bbc-science",
+      "publisher": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "article_hosts": [
+        "www.bbc.co.uk",
+        "www.bbc.com"
+      ],
+      "category": "Science & Tech",
+      "reuse": "headline",
+      "ai_allowed": false,
+      "enabled": false,
+      "terms_url": "https://www.bbc.co.uk/usingthebbc/terms/can-i-use-bbc-content/"
+    },
+    {
+      "id": "sky-world",
+      "publisher": "Sky News",
+      "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+      "article_hosts": [
+        "news.sky.com"
+      ],
+      "category": "World",
+      "reuse": "headline",
+      "ai_allowed": false,
+      "enabled": false,
+      "terms_url": "https://www.sky.com/help/articles/skycom-terms-and-conditions"
+    },
+    {
+      "id": "sky-technology",
+      "publisher": "Sky News",
+      "url": "https://feeds.skynews.com/feeds/rss/technology.xml",
+      "article_hosts": [
+        "news.sky.com"
+      ],
+      "category": "Science & Tech",
+      "reuse": "headline",
+      "ai_allowed": false,
+      "enabled": false,
+      "terms_url": "https://www.sky.com/help/articles/skycom-terms-and-conditions"
+    },
+    {
+      "id": "aljazeera",
+      "publisher": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "article_hosts": [
+        "www.aljazeera.com"
+      ],
+      "category": "World",
+      "reuse": "headline",
+      "ai_allowed": false,
+      "enabled": false,
+      "terms_url": "https://www.aljazeera.com/terms-and-conditions"
+    }
+  ]
+}

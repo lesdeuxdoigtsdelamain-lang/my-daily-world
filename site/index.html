@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en-GB"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Daily World · publication status</title>
+<style>body{font:18px/1.6 system-ui;background:#f7f8f4;color:#193635;max-width:48rem;margin:5vh auto;padding:2rem}a{color:#006a68}main{background:white;border:1px solid #c8dad3;border-radius:1.5rem;padding:2rem}h1{line-height:1.2}small{display:block}</style>
+<main><p>🌍 A small window on a wide world</p><h1>My Daily World</h1><p id="state">Checking the publication status…</p><p id="edition"></p><p id="health"></p>
+<p>The Android app downloads dated editions for offline reading. This public site contains news data only, with source attribution. It receives no reading progress, quiz answers or child profiles.</p>
+<p><a href="latest.json">Edition manifest</a> · <a href="health.json">Publication health</a></p>
+<small>Prepared before a 17:00 UK reminder. Free service schedules and Android notifications can be delayed.</small>
+<small>Optional AI: Built with Llama. Each edition reports whether AI was used.</small></main>
+<script>
+(async()=>{const state=document.getElementById('state');try{const r=await fetch('latest.json',{cache:'no-store'});if(!r.ok)throw Error();const m=await r.json();const d=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/London',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());state.textContent=m.edition_date===d?"Today's edition is ready.":"Today's edition isn't ready yet. The last published edition is dated below.";const p=document.getElementById('edition');p.textContent='Last edition: '+m.edition_date+' · '+m.mode+' · AI: '+m.ai_provider+'. ';if(/^editions\/\d{4}-\d{2}-\d{2}\.json$/.test(m.url)){const a=document.createElement('a');a.href=m.url;a.textContent='Open sourced edition JSON';p.append(a)}}catch{state.textContent="Today's edition isn't ready yet. A parent can run Publish Daily in GitHub Actions."}try{const h=await(await fetch('health.json',{cache:'no-store'})).json();document.getElementById('health').textContent='Publication status: '+h.state+'. Last success: '+(h.last_successful_publication||'none yet')+'.'}catch{}})();
+</script></html>

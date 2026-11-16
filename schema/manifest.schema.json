@@ -1,0 +1,74 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "edition_id": {
+      "title": "Edition Id",
+      "type": "string"
+    },
+    "edition_date": {
+      "format": "date",
+      "title": "Edition Date",
+      "type": "string"
+    },
+    "published_at": {
+      "format": "date-time",
+      "title": "Published At",
+      "type": "string"
+    },
+    "last_successful_generation": {
+      "format": "date-time",
+      "title": "Last Successful Generation",
+      "type": "string"
+    },
+    "url": {
+      "pattern": "^editions/\\d{4}-\\d{2}-\\d{2}\\.json$",
+      "title": "Url",
+      "type": "string"
+    },
+    "sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Sha256",
+      "type": "string"
+    },
+    "state": {
+      "const": "success",
+      "default": "success",
+      "title": "State",
+      "type": "string"
+    },
+    "ai_provider": {
+      "enum": [
+        "cloudflare",
+        "none"
+      ],
+      "title": "Ai Provider",
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "full",
+        "compact"
+      ],
+      "title": "Mode",
+      "type": "string"
+    }
+  },
+  "required": [
+    "edition_id",
+    "edition_date",
+    "published_at",
+    "last_successful_generation",
+    "url",
+    "sha256",
+    "ai_provider",
+    "mode"
+  ],
+  "title": "Manifest",
+  "type": "object"
+}
