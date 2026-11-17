@@ -300,3 +300,51 @@ def test_cloudflare_structured_response_does_not_log_payload():
         provider.rewrite([])
     assert 'NEVER_LOG_THIS' not in str(err.value)
     assert 'TEST_ONLY_SECRET' not in str(err.value)
+
+
+def test_original_day_one_news_used_as_history():
+    from generator.app.novelty import recent_edition_stories
+    old=recent_edition_stories(
+        ROOT/'site',date(2026,11,17),ROOT/'android/app/src/main/assets/initial-edition.json')
+    assert len(old)==10
+    assert any(s.title=='The Last Ice on Puncak Jaya' for s in old)
+    assert any('Mozambique' in s.title for s in old)
+
+
+def test_previous_day_story_never_recycled_even_if_republished(feed):
+    from dataclasses import replace
+    from generator.app.novelty import fresh_candidates,recent_edition_stories
+    old=recent_edition_stories(
+        ROOT/'site',date(2026,11,17),ROOT/'android/app/src/main/assets/initial-edition.json')
+    nasa=next(s for s in old if s.title=='The Last Ice on Puncak Jaya')
+    today_utc=datetime(2026,11,17,15,30,tzinfo=timezone.utc)
+    candidate=parse_feed(rss(when='Tue, 17 Nov 2026 12:00:00 GMT'),feed,today_utc)[0]
+    candidate=replace(candidate,id=nasa.id,title=nasa.title,url=nasa.source_refs[0].url)
+    assert fresh_candidates([candidate],today_utc,old)==[]
+    # Rewritten URL, slightly different title: still the same story.
+    candidate=replace(candidate,id='new-article-id',url='https://www.nasa.gov/new-path',
+                      title='The Last Ice on Puncak Jaya: new images')
+    assert fresh_candidates([candidate],today_utc,old)==[]
+
+
+def test_old_news_date_rejected_without_history_and_true_new_story_kept(feed):
+    from generator.app.novelty import fresh_candidates
+    now=datetime(2026,11,17,17,0,tzinfo=timezone.utc)
+    yesterday=parse_feed(rss(when='Mon, 16 Nov 2026 13:00:00 GMT'),feed,now)[0]
+    fresh=parse_feed(rss(when='Tue, 17 Nov 2026 13:00:00 GMT',
+                         title='Researchers announce a brand new solar mission'),feed,now)[0]
+    assert fresh_candidates([yesterday,fresh],now,[])==[fresh]
+
+
+def test_older_editions_seven_day_window_and_forced_refresh(tmp_path,edition):
+    from generator.app.novelty import recent_edition_stories
+    from generator.app.storage import DirectoryStore
+    store=DirectoryStore(tmp_path)
+    published=datetime(2026,11,16,17,30,tzinfo=timezone.utc)
+    store.publish(edition,published)
+    tomorrow=recent_edition_stories(tmp_path,date(2026,11,17))
+    assert len(tomorrow)==len(edition.stories)
+    same_day=recent_edition_stories(tmp_path,date(2026,11,16))
+    assert not same_day, 'force-refresh must not treat today as a previous edition'
+    late=recent_edition_stories(tmp_path,date(2026,11,25))
+    assert not late

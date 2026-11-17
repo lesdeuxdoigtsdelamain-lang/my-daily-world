@@ -9,6 +9,7 @@ from .models import Edition
 from .settings import load
 from .network import SafeHttp
 from .feeds import collect,rank
+from .novelty import fresh_candidates,recent_edition_stories
 from .providers import configured,Cloudflare,AiError
 from .editorial import story_from,enrich
 from .article_content import expand_articles
@@ -22,9 +23,12 @@ LONDON=ZoneInfo('Europe/London')
 
 def uk_date(now): return now.astimezone(LONDON).date()
 
-def generate(settings,now,history,http,provider,provider_name,status):
+def generate(settings,now,history,http,provider,provider_name,status,previous_stories=()):
     candidates,feed_status=collect(settings,now,http)
-    chosen=rank(candidates,settings)
+    fresh=fresh_candidates(candidates,now,previous_stories)
+    chosen=rank(fresh,settings)
+    print(f'Fresh UK-day stories: {len(fresh)} eligible of {len(candidates)} RSS candidates; '
+          f'{len(previous_stories)} recent articles excluded from recycling.')
     expand_articles(chosen,http)
     if not chosen: return None,feed_status
     stories=[story_from(c) for c in chosen]
@@ -69,7 +73,10 @@ def main():
     hosts.update(h for f in settings.feeds if f.enabled for h in f.article_hosts)
     hosts.add('commons.wikimedia.org')
     http=SafeHttp(hosts)
-    edition,feeds=generate(settings,now,LocalHistory(ROOT/'data/history/events.json'),http,provider,name,status)
+    previous=recent_edition_stories(
+        store.root,day,ROOT/'android/app/src/main/assets/initial-edition.json')
+    edition,feeds=generate(settings,now,LocalHistory(ROOT/'data/history/events.json'),
+                           http,provider,name,status,previous_stories=previous)
     if not edition:
         print('No publishable current evidence; last edition retained.')
         if not args.dry_run:store.health('unavailable',now,detail='No publishable current evidence',feeds=feeds)
