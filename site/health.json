@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "state": "success",
-  "checked_at": "2026-11-17T14:14:45.313763+00:00",
-  "last_successful_publication": "2026-11-17T14:14:45.313763+00:00",
-  "detail": "Cloudflare returned no text (result fields: choices,response,usage)",
+  "checked_at": "2026-11-17T14:30:54.579311+00:00",
+  "last_successful_publication": "2026-11-17T14:30:54.579311+00:00",
+  "detail": "Validated evidence sentences",
   "feeds": {
     "globalvoices": {
       "state": "ok",
@@ -51,8 +51,21 @@
     }
   },
   "ai_usage": {
-    "requests": 1,
-    "reported": [],
+    "requests": 2,
+    "reported": [
+      {
+        "prompt_tokens": 1705,
+        "completion_tokens": 417,
+        "total_tokens": 2122,
+        "neurons": 130.8721923828125
+      },
+      {
+        "prompt_tokens": 893,
+        "completion_tokens": 209,
+        "total_tokens": 1102,
+        "neurons": 66.61854553222656
+      }
+    ],
     "neuron_estimate": null,
     "maximum_requests": 2,
     "maximum_output_tokens_per_call": 1400

@@ -4,17 +4,17 @@
   "edition_date": "2026-11-17",
   "timezone": "Europe/London",
   "language": "en-GB",
-  "generated_at": "2026-11-17T14:14:13.372720Z",
+  "generated_at": "2026-11-17T14:30:14.952312Z",
   "mode": "compact",
-  "ai_provider": "none",
-  "ai_status": "Cloudflare returned no text (result fields: choices,response,usage)",
-  "estimated_reading_minutes": 5,
+  "ai_provider": "cloudflare",
+  "ai_status": "Validated evidence sentences",
+  "estimated_reading_minutes": 3,
   "stories": [
     {
-      "id": "634b24e032d1079ee65c",
+      "id": "ae6de3042e58bb2bea33",
       "category": "UK",
-      "title": "Commissioner's statement on facial recognition consultation response",
-      "summary": "Statement on the government's consultation response on the use of facial recognition and similar technologies in law enforcement. The Biometrics and Surveillance Camera Commissioner, Professor William Webster, said: I welcome the government’s response to its consultation on facial recognition and similar biometric technologies. It marks an important step towards primary legislation that will provide a clear legal basis for their use, protect the public and build confidence in how these technologies are deployed. Biometric surveillance technologies, including live facial recognition, are intrusive and conflict directly with fundamental human rights, including rights associated with freedom of movement, freedom of expression, the right to peaceful assembly and the right to privacy. The government’s response acknowledges the potential to interfere with these rights, and from my perspective clear legislation and effective safeguards are essential to mitigate these risks.",
+      "title": "Alan Milburn Appointed Chair of the new Youth Opportunities Unit",
+      "summary": "Alan Milburn has been appointed as the Chair of the new Youth Opportunities Unit. The new Unit will sit at the centre of government, reporting directly to the Prime Minister, driving the cross-system changes needed to deliver greater opportunities and support for young people. The appointment follows the publication of the independent Milburn Report into young people and work.",
       "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
       "word_to_know": null,
       "image": null,
@@ -23,10 +23,10 @@
       "source_refs": [
         {
           "publisher": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response",
-          "published_at": "2026-11-17T13:59:03Z",
-          "retrieved_at": "2026-11-17T14:14:13.372720Z",
-          "source_title": "Commissioner's statement on facial recognition consultation response",
+          "url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit",
+          "published_at": "2026-11-17T14:17:26Z",
+          "retrieved_at": "2026-11-17T14:30:14.952312Z",
+          "source_title": "Alan Milburn Appointed Chair of the new Youth Opportunities Unit",
           "event_date": null,
           "author": null,
           "license": "Open Government Licence v3.0",
@@ -34,46 +34,54 @@
         }
       ],
       "supporting_fact_ids": [
-        "f-634b24e032d1079ee65c",
-        "f-634b24e032d1079ee65c-0",
-        "f-634b24e032d1079ee65c-1",
-        "f-634b24e032d1079ee65c-2",
-        "f-634b24e032d1079ee65c-3",
-        "f-634b24e032d1079ee65c-4"
+        "f-ae6de3042e58bb2bea33",
+        "f-ae6de3042e58bb2bea33-1",
+        "f-ae6de3042e58bb2bea33-2",
+        "f-ae6de3042e58bb2bea33-3"
       ],
       "facts": [
         {
-          "id": "f-634b24e032d1079ee65c",
-          "text": "Commissioner's statement on facial recognition consultation response",
-          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
+          "id": "f-ae6de3042e58bb2bea33",
+          "text": "Alan Milburn Appointed Chair of the new Youth Opportunities Unit",
+          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
         },
         {
-          "id": "f-634b24e032d1079ee65c-0",
-          "text": "Statement on the government's consultation response on the use of facial recognition and similar technologies in law enforcement.",
-          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
+          "id": "f-ae6de3042e58bb2bea33-0",
+          "text": "New Unit will drive the cross-system changes needed to deliver greater opportunities and support for young people.",
+          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
         },
         {
-          "id": "f-634b24e032d1079ee65c-1",
-          "text": "The Biometrics and Surveillance Camera Commissioner, Professor William Webster, said: I welcome the government’s response to its consultation on facial recognition and similar biometric technologies.",
-          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
+          "id": "f-ae6de3042e58bb2bea33-1",
+          "text": "Alan Milburn has been appointed as the Chair of the new Youth Opportunities Unit.",
+          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
         },
         {
-          "id": "f-634b24e032d1079ee65c-2",
-          "text": "It marks an important step towards primary legislation that will provide a clear legal basis for their use, protect the public and build confidence in how these technologies are deployed.",
-          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
+          "id": "f-ae6de3042e58bb2bea33-2",
+          "text": "The new Unit will sit at the centre of government, reporting directly to the Prime Minister, driving the cross-system changes needed to deliver greater opportunities and support for young people.",
+          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
         },
         {
-          "id": "f-634b24e032d1079ee65c-3",
-          "text": "Biometric surveillance technologies, including live facial recognition, are intrusive and conflict directly with fundamental human rights, including rights associated with freedom of movement, freedom of expression, the right to peaceful assembly and the right to privacy.",
-          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
+          "id": "f-ae6de3042e58bb2bea33-3",
+          "text": "The appointment follows the publication of the independent Milburn Report into young people and work.",
+          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
         },
         {
-          "id": "f-634b24e032d1079ee65c-4",
-          "text": "The government’s response acknowledges the potential to interfere with these rights, and from my perspective clear legislation and effective safeguards are essential to mitigate these risks.",
-          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
+          "id": "f-ae6de3042e58bb2bea33-4",
+          "text": "The report identified a lack of coordination between government and between central and local government and other partners on the challenges facing young people out of work, education or training.",
+          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
+        },
+        {
+          "id": "f-ae6de3042e58bb2bea33-5",
+          "text": "The Unit will address this, working between government departments and with local government and other partners.",
+          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
+        },
+        {
+          "id": "f-ae6de3042e58bb2bea33-6",
+          "text": "The terms of reference for the Youth Opportunities Unit are published online.",
+          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
         }
       ],
-      "content_kind": "excerpt",
+      "content_kind": "grounded_ai",
       "age_suitability": "10-15",
       "uncertainty_notes": [
         "This report includes a plan or prediction, which may change."
@@ -83,7 +91,7 @@
       "id": "7f3ad460c89ae8b74c70",
       "category": "Muslim World",
       "title": "The Last Ice on Puncak Jaya",
-      "summary": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers. On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice year-round. But near the summit of Puncak Jaya, the ice has dwindled to patches too small to flow like glaciers. Positioned in the tropics beside the largest expanse of warm ocean water on Earth, the range’s glaciers lie near the warmest conditions in which ice can survive year-round. Scientists have described these glaciers as high-altitude “ canaries in the coal mine ,” alongside other tropical ice such as the remnants of Humboldt Glacier in Venezuela, Quelccaya Ice Cap in Peru, and the ice fields of Kilimanjaro in Tanzania.",
+      "summary": "On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice year-round. But near the summit of Puncak Jaya, the ice has dwindled to patches too small to flow like glaciers.",
       "why_it_matters": "Learning about daily life, culture and ideas in many communities can broaden our understanding.",
       "word_to_know": {
         "word": "glacier",
@@ -97,7 +105,7 @@
           "publisher": "NASA",
           "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya",
           "published_at": "2026-11-16T05:00:00Z",
-          "retrieved_at": "2026-11-17T14:14:13.372720Z",
+          "retrieved_at": "2026-11-17T14:30:14.952312Z",
           "source_title": "The Last Ice on Puncak Jaya",
           "event_date": null,
           "author": null,
@@ -107,11 +115,8 @@
       ],
       "supporting_fact_ids": [
         "f-7f3ad460c89ae8b74c70",
-        "f-7f3ad460c89ae8b74c70-0",
         "f-7f3ad460c89ae8b74c70-1",
-        "f-7f3ad460c89ae8b74c70-2",
-        "f-7f3ad460c89ae8b74c70-3",
-        "f-7f3ad460c89ae8b74c70-4"
+        "f-7f3ad460c89ae8b74c70-2"
       ],
       "facts": [
         {
@@ -145,7 +150,7 @@
           "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
         }
       ],
-      "content_kind": "excerpt",
+      "content_kind": "grounded_ai",
       "age_suitability": "10-15",
       "uncertainty_notes": []
     },
@@ -164,7 +169,7 @@
           "publisher": "Global Voices",
           "url": "https://globalvoices.org/2026/11/16/civil-society-questions-decree-that-could-block-access-to-telecommunications-networks-in-mozambique",
           "published_at": "2026-11-16T08:38:21Z",
-          "retrieved_at": "2026-11-17T14:14:13.372720Z",
+          "retrieved_at": "2026-11-17T14:30:14.952312Z",
           "source_title": "Civil society questions decree that could block access to telecommunications networks in Mozambique",
           "event_date": null,
           "author": "Masudul Zarif",
@@ -204,7 +209,7 @@
           "publisher": "US National Park Service",
           "url": "https://www.nps.gov/moja/learn/news/newsrelease.htm",
           "published_at": "2026-11-16T14:35:00Z",
-          "retrieved_at": "2026-11-17T14:14:13.372720Z",
+          "retrieved_at": "2026-11-17T14:30:14.952312Z",
           "source_title": "Mojave National Preserve Breaks Ground on Major Road Rehabilitation Project",
           "event_date": null,
           "author": null,
@@ -228,7 +233,7 @@
           "source_url": "https://www.nps.gov/moja/learn/news/newsrelease.htm"
         }
       ],
-      "content_kind": "excerpt",
+      "content_kind": "grounded_ai",
       "age_suitability": "10-15",
       "uncertainty_notes": []
     },
@@ -236,7 +241,7 @@
       "id": "94e8549f2b747312bab7",
       "category": "Money & Business",
       "title": "Five further Critical Third Parties designated",
-      "summary": "HM Treasury has designated five further third-party suppliers as Critical Third Parties. HM Treasury has designated five further third-party suppliers as Critical Third Parties (CTPs): This brings the total number of designated CTPs to nine and represents the second cohort of a rolling programme. HM Treasury previously designated four major global cloud services and technology providers as Critical Third Parties (CTPs) in July 2026. The designations mean the Bank of England, Prudential Regulation Authority and Financial Conduct Authority will work together to jointly oversee the critical services the CTPs provide to the financial sector, helping reduce the risk of widespread disruption and strengthening collaboration across the financial services ecosystem. Regulatory oversight applies only to specific systemic services provided to the financial sector, for example certain technology platforms and services, not firms’ entire operations. The government expects the overall number of designations to remain small, reflecting the regime’s proportionate approach to identifying only the most systemic third-party services.",
+      "summary": "HM Treasury has designated five further third-party suppliers as Critical Third Parties. HM Treasury has designated five further third-party suppliers as Critical Third Parties (CTPs): This brings the total number of designated CTPs to nine and represents the second cohort of a rolling programme. The designations mean the Bank of England, Prudential Regulation Authority and Financial Conduct Authority will work together to jointly oversee the critical services the CTPs provide to the financial sector, helping reduce the risk of widespread disruption and strengthening collaboration across the financial services ecosystem.",
       "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
       "word_to_know": null,
       "image": null,
@@ -247,7 +252,7 @@
           "publisher": "GOV.UK",
           "url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated",
           "published_at": "2026-11-17T11:37:40Z",
-          "retrieved_at": "2026-11-17T14:14:13.372720Z",
+          "retrieved_at": "2026-11-17T14:30:14.952312Z",
           "source_title": "Five further Critical Third Parties designated",
           "event_date": null,
           "author": null,
@@ -259,10 +264,7 @@
         "f-94e8549f2b747312bab7",
         "f-94e8549f2b747312bab7-0",
         "f-94e8549f2b747312bab7-1",
-        "f-94e8549f2b747312bab7-2",
-        "f-94e8549f2b747312bab7-3",
-        "f-94e8549f2b747312bab7-4",
-        "f-94e8549f2b747312bab7-5"
+        "f-94e8549f2b747312bab7-3"
       ],
       "facts": [
         {
@@ -301,7 +303,7 @@
           "source_url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated"
         }
       ],
-      "content_kind": "excerpt",
+      "content_kind": "grounded_ai",
       "age_suitability": "10-15",
       "uncertainty_notes": [
         "This report includes a plan or prediction, which may change."
@@ -323,24 +325,24 @@
   },
   "quiz": [
     {
-      "id": "q-634b24e032d1079ee65c",
-      "question": "Complete the headline you read: “____'s statement on facial recognition consultation response”",
+      "id": "q-ae6de3042e58bb2bea33",
+      "question": "Complete the headline you read: “Alan Milburn Appointed Chair of the new Youth ____ Unit”",
       "choices": [
+        "Opportunities",
         "Breaks",
-        "Civil",
-        "Commissioner"
+        "Civil"
       ],
-      "correct_index": 2,
-      "explanation": "The story headline says: “Commissioner's statement on facial recognition consultation response”.",
-      "story_id": "634b24e032d1079ee65c",
-      "fact_id": "f-634b24e032d1079ee65c"
+      "correct_index": 0,
+      "explanation": "The story headline says: “Alan Milburn Appointed Chair of the new Youth Opportunities Unit”.",
+      "story_id": "ae6de3042e58bb2bea33",
+      "fact_id": "f-ae6de3042e58bb2bea33"
     },
     {
       "id": "q-7f3ad460c89ae8b74c70",
       "question": "Complete the headline you read: “The Last Ice on ____ Jaya”",
       "choices": [
+        "Appointed",
         "Breaks",
-        "Civil",
         "Puncak"
       ],
       "correct_index": 2,
@@ -352,8 +354,8 @@
       "id": "q-f79d7f807faba0f6d90a",
       "question": "Complete the headline you read: “Civil society questions decree that could block access to ____ networks in Mozambique”",
       "choices": [
-        "Commissioner",
         "Breaks",
+        "Appointed",
         "telecommunications"
       ],
       "correct_index": 2,
@@ -365,8 +367,8 @@
       "id": "q-91a7e7e10f2edc4c20e5",
       "question": "Complete the headline you read: “Mojave National Preserve Breaks Ground on Major Road ____ Project”",
       "choices": [
-        "Commissioner",
-        "Civil",
+        "Chair",
+        "Appointed",
         "Rehabilitation"
       ],
       "correct_index": 2,
@@ -378,8 +380,8 @@
       "id": "q-94e8549f2b747312bab7",
       "question": "Complete the headline you read: “Five further Critical Third Parties ____”",
       "choices": [
+        "Appointed",
         "Breaks",
-        "Civil",
         "designated"
       ],
       "correct_index": 2,
