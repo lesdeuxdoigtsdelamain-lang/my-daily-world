@@ -69,7 +69,8 @@ def enrich(stories, candidates, provider):
             ids=set(o.fact_ids)
             facts=[f for f in s.facts if f.id in ids]
             if (not ids or ids!={f.id for f in facts} or o.title!=s.title or
-                o.why_it_matters!=s.why_it_matters or o.age_suitability!='10-15' or
+                (o.why_it_matters and o.why_it_matters!=s.why_it_matters) or
+                o.age_suitability!='10-15' or
                 o.word_to_know or o.quiz_candidates or o.uncertainty_notes or
                 not grounded_summary(o.summary,[f.text for f in facts])): continue
             accepted[s.id]=s.model_copy(update={'summary':o.summary,'content_kind':'grounded_ai',
