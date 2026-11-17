@@ -274,3 +274,29 @@ def test_cloudflare_smoke_never_requests_json_schema():
     p=Cloudflare('a'*32,'TEST_ONLY_SECRET',
         client=httpx.Client(transport=httpx.MockTransport(respond)))
     p.smoke()
+
+
+@pytest.mark.parametrize('result',[
+    {'response':{'stories':[]}},
+    {'response':None,'choices':[{'message':{'parsed':{'stories':[]},'content':None}}]},
+    {'response':None,'choices':[{'message':{'content':'{"stories":[]}'}}]},
+    {'response':None,'choices':[{'message':{'content':[{'type':'text','text':'{"stories":[]}'}]}}]},
+    {'response':None,'choices':[{'text':'{"stories":[]}'}]},
+])
+def test_cloudflare_rewrite_accepts_structured_response_shapes(result):
+    client=httpx.Client(transport=httpx.MockTransport(
+        lambda req:httpx.Response(200,json={'success':True,'result':result})))
+    provider=Cloudflare('a'*32,'TEST_ONLY_SECRET',client=client)
+    assert provider.rewrite([])==[]
+    assert provider.calls==1
+
+def test_cloudflare_structured_response_does_not_log_payload():
+    client=httpx.Client(transport=httpx.MockTransport(
+        lambda req:httpx.Response(200,json={'success':True,
+            'result':{'response':None,'choices':[{'message':{
+                'content':None,'parsed':None,'sensitive':'NEVER_LOG_THIS'}}]}})))
+    provider=Cloudflare('a'*32,'TEST_ONLY_SECRET',client=client)
+    with pytest.raises(AiError) as err:
+        provider.rewrite([])
+    assert 'NEVER_LOG_THIS' not in str(err.value)
+    assert 'TEST_ONLY_SECRET' not in str(err.value)
