@@ -59,16 +59,42 @@ class Cloudflare:
         if len(r.content)>150_000: raise AiError('Cloudflare response too large')
         try:
             body=r.json()
-            if not body.get('success') or not isinstance(body.get('result'),dict): raise ValueError()
-            result=body['result']; response=result['response']
-            if not isinstance(response,str): raise ValueError()
-            usage=result.get('usage',{})
-            if isinstance(usage,dict):
-                # Whitelist numeric fields. Never persist arbitrary response metadata.
-                self.usage.append({k:v for k,v in usage.items() if k in
-                    ('prompt_tokens','completion_tokens','total_tokens','neurons') and isinstance(v,(int,float))})
-            return response
-        except (KeyError,ValueError,TypeError): raise AiError('Invalid Cloudflare response envelope') from None
+        except (ValueError,TypeError):
+            raise AiError('Cloudflare returned non-JSON data (HTTP 200)') from None
+        if not isinstance(body,dict):
+            raise AiError('Cloudflare response JSON is not an object') from None
+        if body.get('success') is False:
+            # Codes, not messages or raw response bodies, are safe to print to CI logs.
+            errors=body.get('errors')
+            codes=[str(e['code']) for e in errors if isinstance(e,dict) and
+                   isinstance(e.get('code'),int)] if isinstance(errors,list) else []
+            code_note=('; API codes: '+','.join(codes[:3])) if codes else ''
+            raise AiError('Cloudflare rejected inference'+code_note+' (HTTP 200)')
+
+        # Workers AI REST normally returns {"success":true,"result":{"response":"..."}}.
+        # Some compatible endpoints may return a bare response or choices object.
+        result=body.get('result',body)
+        if isinstance(result,list) and len(result)==1:
+            result=result[0]
+        if not isinstance(result,dict):
+            raise AiError('Cloudflare response result has unexpected type: '+type(result).__name__)
+        response=result.get('response')
+        if response is None:
+            choices=result.get('choices')
+            if isinstance(choices,list) and choices and isinstance(choices[0],dict):
+                message=choices[0].get('message')
+                if isinstance(message,dict): response=message.get('content')
+        if not isinstance(response,str) or not response.strip():
+            # Safe diagnostic of JSON structure, never raw generated text or credential values.
+            keys=','.join(sorted(k for k in result if isinstance(k,str) and
+                                 k in ('response','usage','choices','output','messages','errors','success')))
+            raise AiError('Cloudflare returned no text (result fields: '+(keys or 'none')+')')
+        usage=result.get('usage',{})
+        if isinstance(usage,dict):
+            # Whitelist numeric fields. Never persist arbitrary response metadata.
+            self.usage.append({k:v for k,v in usage.items() if k in
+                ('prompt_tokens','completion_tokens','total_tokens','neurons') and isinstance(v,(int,float))})
+        return response
 
     def rewrite(self, packets):
         prompt=Path(__file__).with_name('system_prompt.txt').read_text()
@@ -87,10 +113,12 @@ class Cloudflare:
         except (ValueError,TypeError,KeyError): raise AiError('AI output failed structured validation') from None
 
     def smoke(self):
-        response=self._call(self.model,[{'role':'user','content':'Return exactly {"ok":true} as JSON.'}],32)
-        try:
-            if json.loads(response)!={'ok':True}: raise ValueError()
-        except ValueError: raise AiError('Smoke response did not validate') from None
+        # Connectivity check only. Do not require a precise JSON answer from a
+        # generative model: valid inference can return plain text or fenced JSON.
+        response=self._call(self.model,[{'role':'user','content':'Reply with the word OK.'}],32)
+        if not response.strip():
+            raise AiError('Cloudflare returned empty text during smoke test')
+
 
 def configured(settings):
     requested=os.getenv('AI_PROVIDER','cloudflare')
