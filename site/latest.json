@@ -2,10 +2,10 @@
   "schema_version": 1,
   "edition_id": "2026-11-17-en-GB",
   "edition_date": "2026-11-17",
-  "published_at": "2026-11-17T14:30:54.579311Z",
-  "last_successful_generation": "2026-11-17T14:30:14.952312Z",
+  "published_at": "2026-11-17T15:53:42.425265Z",
+  "last_successful_generation": "2026-11-17T15:53:06.553055Z",
   "url": "editions/2026-11-17.json",
-  "sha256": "8a1c185d14ab97c9936bbffd4e6580bcc39123b68b48d438a94df7ba74bf966b",
+  "sha256": "c71e53552cf3cc046d8dc3c828a79c36d85a85af7fdc42ad2920a77d0e58470e",
   "state": "success",
   "ai_provider": "cloudflare",
   "mode": "compact"

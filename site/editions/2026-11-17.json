@@ -4,17 +4,17 @@
   "edition_date": "2026-11-17",
   "timezone": "Europe/London",
   "language": "en-GB",
-  "generated_at": "2026-11-17T14:30:14.952312Z",
+  "generated_at": "2026-11-17T15:53:06.553055Z",
   "mode": "compact",
   "ai_provider": "cloudflare",
   "ai_status": "Validated evidence sentences",
-  "estimated_reading_minutes": 3,
+  "estimated_reading_minutes": 4,
   "stories": [
     {
-      "id": "ae6de3042e58bb2bea33",
+      "id": "8c89bc3922123fdbd545",
       "category": "UK",
-      "title": "Alan Milburn Appointed Chair of the new Youth Opportunities Unit",
-      "summary": "Alan Milburn has been appointed as the Chair of the new Youth Opportunities Unit. The new Unit will sit at the centre of government, reporting directly to the Prime Minister, driving the cross-system changes needed to deliver greater opportunities and support for young people. The appointment follows the publication of the independent Milburn Report into young people and work.",
+      "title": "Local government reorganisation: committee system letter to Worcestershire leaders",
+      "summary": "On 9 November 2026, the Minister for Local Government, Devolution and Regional Growth issued a letter to Malvern Hills District Council and a letter to Worcester City Council regarding the transition of that council from the existing Committee system to Cabinet model as part of the local government reorganisation process. Letter to leader of Malvern Hills District Council and the leader of Worcester City Council about changing to a cabinet system model as part of the local government reorganisation process.",
       "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
       "word_to_know": null,
       "image": null,
@@ -23,10 +23,10 @@
       "source_refs": [
         {
           "publisher": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit",
-          "published_at": "2026-11-17T14:17:26Z",
-          "retrieved_at": "2026-11-17T14:30:14.952312Z",
-          "source_title": "Alan Milburn Appointed Chair of the new Youth Opportunities Unit",
+          "url": "https://www.gov.uk/government/publications/local-government-reorganisation-committee-system-letter-to-worcestershire-leaders",
+          "published_at": "2026-11-17T15:34:57Z",
+          "retrieved_at": "2026-11-17T15:53:06.553055Z",
+          "source_title": "Local government reorganisation: committee system letter to Worcestershire leaders",
           "event_date": null,
           "author": null,
           "license": "Open Government Licence v3.0",
@@ -34,51 +34,35 @@
         }
       ],
       "supporting_fact_ids": [
-        "f-ae6de3042e58bb2bea33",
-        "f-ae6de3042e58bb2bea33-1",
-        "f-ae6de3042e58bb2bea33-2",
-        "f-ae6de3042e58bb2bea33-3"
+        "f-8c89bc3922123fdbd545",
+        "f-8c89bc3922123fdbd545-0",
+        "f-8c89bc3922123fdbd545-3"
       ],
       "facts": [
         {
-          "id": "f-ae6de3042e58bb2bea33",
-          "text": "Alan Milburn Appointed Chair of the new Youth Opportunities Unit",
-          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
+          "id": "f-8c89bc3922123fdbd545",
+          "text": "Local government reorganisation: committee system letter to Worcestershire leaders",
+          "source_url": "https://www.gov.uk/government/publications/local-government-reorganisation-committee-system-letter-to-worcestershire-leaders"
         },
         {
-          "id": "f-ae6de3042e58bb2bea33-0",
-          "text": "New Unit will drive the cross-system changes needed to deliver greater opportunities and support for young people.",
-          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
+          "id": "f-8c89bc3922123fdbd545-0",
+          "text": "Letter to leader of Malvern Hills District Council and the leader of Worcester City Council about changing to a cabinet system model as part of the local government reorganisation process.",
+          "source_url": "https://www.gov.uk/government/publications/local-government-reorganisation-committee-system-letter-to-worcestershire-leaders"
         },
         {
-          "id": "f-ae6de3042e58bb2bea33-1",
-          "text": "Alan Milburn has been appointed as the Chair of the new Youth Opportunities Unit.",
-          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
+          "id": "f-8c89bc3922123fdbd545-1",
+          "text": "This file may not be suitable for users of assistive technology.",
+          "source_url": "https://www.gov.uk/government/publications/local-government-reorganisation-committee-system-letter-to-worcestershire-leaders"
         },
         {
-          "id": "f-ae6de3042e58bb2bea33-2",
-          "text": "The new Unit will sit at the centre of government, reporting directly to the Prime Minister, driving the cross-system changes needed to deliver greater opportunities and support for young people.",
-          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
+          "id": "f-8c89bc3922123fdbd545-2",
+          "text": "This file may not be suitable for users of assistive technology.",
+          "source_url": "https://www.gov.uk/government/publications/local-government-reorganisation-committee-system-letter-to-worcestershire-leaders"
         },
         {
-          "id": "f-ae6de3042e58bb2bea33-3",
-          "text": "The appointment follows the publication of the independent Milburn Report into young people and work.",
-          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
-        },
-        {
-          "id": "f-ae6de3042e58bb2bea33-4",
-          "text": "The report identified a lack of coordination between government and between central and local government and other partners on the challenges facing young people out of work, education or training.",
-          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
-        },
-        {
-          "id": "f-ae6de3042e58bb2bea33-5",
-          "text": "The Unit will address this, working between government departments and with local government and other partners.",
-          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
-        },
-        {
-          "id": "f-ae6de3042e58bb2bea33-6",
-          "text": "The terms of reference for the Youth Opportunities Unit are published online.",
-          "source_url": "https://www.gov.uk/government/news/alan-milburn-appointed-chair-of-the-new-youth-opportunities-unit"
+          "id": "f-8c89bc3922123fdbd545-3",
+          "text": "On 9 November 2026, the Minister for Local Government, Devolution and Regional Growth issued a letter to Malvern Hills District Council and a letter to Worcester City Council regarding the transition of that council from the existing Committee system to Cabinet model as part of the local government reorganisation process.",
+          "source_url": "https://www.gov.uk/government/publications/local-government-reorganisation-committee-system-letter-to-worcestershire-leaders"
         }
       ],
       "content_kind": "grounded_ai",
@@ -88,66 +72,74 @@
       ]
     },
     {
-      "id": "7f3ad460c89ae8b74c70",
-      "category": "Muslim World",
-      "title": "The Last Ice on Puncak Jaya",
-      "summary": "On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice year-round. But near the summit of Puncak Jaya, the ice has dwindled to patches too small to flow like glaciers.",
-      "why_it_matters": "Learning about daily life, culture and ideas in many communities can broaden our understanding.",
-      "word_to_know": {
-        "word": "glacier",
-        "definition": "A large mass of ice that moves slowly."
-      },
+      "id": "35d8477d84e8ad359327",
+      "category": "World",
+      "title": "Street medicine vendors are dangerously filling Haiti’s healthcare gaps",
+      "summary": "Haiti is a country with very few health facilities and a dearth of healthcare workers to meet people’s needs. Public hospitals lack basic medical equipment, demand far exceeds staff capacity, and administrative problems are rife. Other health centres, usually run by non-profit organisations, help some of the most vulnerable people, while private hospitals are few and far between, given that most Haitians cannot afford to pay for treatment there.",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": null,
       "image": null,
       "sensitivity": "low",
       "country": null,
       "source_refs": [
         {
-          "publisher": "NASA",
-          "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya",
-          "published_at": "2026-11-16T05:00:00Z",
-          "retrieved_at": "2026-11-17T14:30:14.952312Z",
-          "source_title": "The Last Ice on Puncak Jaya",
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps",
+          "published_at": "2026-11-17T15:19:06Z",
+          "retrieved_at": "2026-11-17T15:53:06.553055Z",
+          "source_title": "Street medicine vendors are dangerously filling Haiti’s healthcare gaps",
           "event_date": null,
-          "author": null,
-          "license": null,
-          "license_url": null
+          "author": "Jude Pierre Louis",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
         }
       ],
       "supporting_fact_ids": [
-        "f-7f3ad460c89ae8b74c70",
-        "f-7f3ad460c89ae8b74c70-1",
-        "f-7f3ad460c89ae8b74c70-2"
+        "f-35d8477d84e8ad359327",
+        "f-35d8477d84e8ad359327-1",
+        "f-35d8477d84e8ad359327-2",
+        "f-35d8477d84e8ad359327-3"
       ],
       "facts": [
         {
-          "id": "f-7f3ad460c89ae8b74c70",
-          "text": "The Last Ice on Puncak Jaya",
-          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+          "id": "f-35d8477d84e8ad359327",
+          "text": "Street medicine vendors are dangerously filling Haiti’s healthcare gaps",
+          "source_url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps"
         },
         {
-          "id": "f-7f3ad460c89ae8b74c70-0",
-          "text": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
-          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+          "id": "f-35d8477d84e8ad359327-0",
+          "text": "Image by Global Voices, created using Canva elements.",
+          "source_url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps"
         },
         {
-          "id": "f-7f3ad460c89ae8b74c70-1",
-          "text": "On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice year-round.",
-          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+          "id": "f-35d8477d84e8ad359327-1",
+          "text": "Haiti is a country with very few health facilities and a dearth of healthcare workers to meet people’s needs.",
+          "source_url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps"
         },
         {
-          "id": "f-7f3ad460c89ae8b74c70-2",
-          "text": "But near the summit of Puncak Jaya, the ice has dwindled to patches too small to flow like glaciers.",
-          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+          "id": "f-35d8477d84e8ad359327-2",
+          "text": "Public hospitals lack basic medical equipment, demand far exceeds staff capacity, and administrative problems are rife.",
+          "source_url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps"
         },
         {
-          "id": "f-7f3ad460c89ae8b74c70-3",
-          "text": "Positioned in the tropics beside the largest expanse of warm ocean water on Earth, the range’s glaciers lie near the warmest conditions in which ice can survive year-round.",
-          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+          "id": "f-35d8477d84e8ad359327-3",
+          "text": "Other health centres, usually run by non-profit organisations, help some of the most vulnerable people, while private hospitals are few and far between, given that most Haitians cannot afford to pay for treatment there.",
+          "source_url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps"
         },
         {
-          "id": "f-7f3ad460c89ae8b74c70-4",
-          "text": "Scientists have described these glaciers as high-altitude “ canaries in the coal mine ,” alongside other tropical ice such as the remnants of Humboldt Glacier in Venezuela, Quelccaya Ice Cap in Peru, and the ice fields of Kilimanjaro in Tanzania.",
-          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya"
+          "id": "f-35d8477d84e8ad359327-4",
+          "text": "Even the wealthy are often forced to go abroad for treatment when faced with critical health issues.",
+          "source_url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps"
+        },
+        {
+          "id": "f-35d8477d84e8ad359327-5",
+          "text": "This already dire situation became worse when gangs from the Viv Ansanm criminal coalition began targeting both public and private health facilities, looting many of them, stealing equipment, and even setting fire to some of the properties.",
+          "source_url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps"
+        },
+        {
+          "id": "f-35d8477d84e8ad359327-6",
+          "text": "Health centres located in gang-controlled areas are often forced to close temporarily because of fights that break out between rival gangs.",
+          "source_url": "https://globalvoices.org/2026/11/17/street-medicine-vendors-are-dangerously-filling-haitis-healthcare-gaps"
         }
       ],
       "content_kind": "grounded_ai",
@@ -155,50 +147,10 @@
       "uncertainty_notes": []
     },
     {
-      "id": "f79d7f807faba0f6d90a",
-      "category": "World",
-      "title": "Civil society questions decree that could block access to telecommunications networks in Mozambique",
-      "summary": "",
-      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
-      "word_to_know": null,
-      "image": null,
-      "sensitivity": "gentle",
-      "country": null,
-      "source_refs": [
-        {
-          "publisher": "Global Voices",
-          "url": "https://globalvoices.org/2026/11/16/civil-society-questions-decree-that-could-block-access-to-telecommunications-networks-in-mozambique",
-          "published_at": "2026-11-16T08:38:21Z",
-          "retrieved_at": "2026-11-17T14:30:14.952312Z",
-          "source_title": "Civil society questions decree that could block access to telecommunications networks in Mozambique",
-          "event_date": null,
-          "author": "Masudul Zarif",
-          "license": "CC BY 3.0",
-          "license_url": "https://creativecommons.org/licenses/by/3.0/"
-        }
-      ],
-      "supporting_fact_ids": [
-        "f-f79d7f807faba0f6d90a"
-      ],
-      "facts": [
-        {
-          "id": "f-f79d7f807faba0f6d90a",
-          "text": "Civil society questions decree that could block access to telecommunications networks in Mozambique",
-          "source_url": "https://globalvoices.org/2026/11/16/civil-society-questions-decree-that-could-block-access-to-telecommunications-networks-in-mozambique"
-        }
-      ],
-      "content_kind": "headline",
-      "age_suitability": "10-15",
-      "uncertainty_notes": [
-        "This headline reports the named publisher’s account. Read the original for context.",
-        "This report includes a plan or prediction, which may change."
-      ]
-    },
-    {
-      "id": "91a7e7e10f2edc4c20e5",
+      "id": "16da0d1e40239689a35f",
       "category": "Environment",
-      "title": "Mojave National Preserve Breaks Ground on Major Road Rehabilitation Project",
-      "summary": "Ground-breaking ceremony for the new road rehabilitation project.",
+      "title": "Everglades National Park Announces Winter Programs and Special Events",
+      "summary": "Everglades National Park has announced its 2026-27 winter season schedule, with expanded visitor center hours and ranger-led programs across all four park districts. Offerings include wildlife watching, wet walks, paddling, stargazing and special events.",
       "why_it_matters": "Environmental news can help us learn about the world we share.",
       "word_to_know": null,
       "image": null,
@@ -207,10 +159,10 @@
       "source_refs": [
         {
           "publisher": "US National Park Service",
-          "url": "https://www.nps.gov/moja/learn/news/newsrelease.htm",
-          "published_at": "2026-11-16T14:35:00Z",
-          "retrieved_at": "2026-11-17T14:30:14.952312Z",
-          "source_title": "Mojave National Preserve Breaks Ground on Major Road Rehabilitation Project",
+          "url": "https://www.nps.gov/ever/learn/news/everglades-national-park-announces-winter-programs-and-special-events.htm",
+          "published_at": "2026-11-17T10:21:00Z",
+          "retrieved_at": "2026-11-17T15:53:06.553055Z",
+          "source_title": "Everglades National Park Announces Winter Programs and Special Events",
           "event_date": null,
           "author": null,
           "license": null,
@@ -218,19 +170,30 @@
         }
       ],
       "supporting_fact_ids": [
-        "f-91a7e7e10f2edc4c20e5",
-        "f-91a7e7e10f2edc4c20e5-0"
+        "f-16da0d1e40239689a35f",
+        "f-16da0d1e40239689a35f-0",
+        "f-16da0d1e40239689a35f-1"
       ],
       "facts": [
         {
-          "id": "f-91a7e7e10f2edc4c20e5",
-          "text": "Mojave National Preserve Breaks Ground on Major Road Rehabilitation Project",
-          "source_url": "https://www.nps.gov/moja/learn/news/newsrelease.htm"
+          "id": "f-16da0d1e40239689a35f",
+          "text": "Everglades National Park Announces Winter Programs and Special Events",
+          "source_url": "https://www.nps.gov/ever/learn/news/everglades-national-park-announces-winter-programs-and-special-events.htm"
         },
         {
-          "id": "f-91a7e7e10f2edc4c20e5-0",
-          "text": "Ground-breaking ceremony for the new road rehabilitation project.",
-          "source_url": "https://www.nps.gov/moja/learn/news/newsrelease.htm"
+          "id": "f-16da0d1e40239689a35f-0",
+          "text": "Everglades National Park has announced its 2026-27 winter season schedule, with expanded visitor center hours and ranger-led programs across all four park districts.",
+          "source_url": "https://www.nps.gov/ever/learn/news/everglades-national-park-announces-winter-programs-and-special-events.htm"
+        },
+        {
+          "id": "f-16da0d1e40239689a35f-1",
+          "text": "Offerings include wildlife watching, wet walks, paddling, stargazing and special events.",
+          "source_url": "https://www.nps.gov/ever/learn/news/everglades-national-park-announces-winter-programs-and-special-events.htm"
+        },
+        {
+          "id": "f-16da0d1e40239689a35f-2",
+          "text": "Some seasonal programs are already underway and the full winter schedule begins Dec.",
+          "source_url": "https://www.nps.gov/ever/learn/news/everglades-national-park-announces-winter-programs-and-special-events.htm"
         }
       ],
       "content_kind": "grounded_ai",
@@ -238,11 +201,48 @@
       "uncertainty_notes": []
     },
     {
-      "id": "94e8549f2b747312bab7",
-      "category": "Money & Business",
-      "title": "Five further Critical Third Parties designated",
-      "summary": "HM Treasury has designated five further third-party suppliers as Critical Third Parties. HM Treasury has designated five further third-party suppliers as Critical Third Parties (CTPs): This brings the total number of designated CTPs to nine and represents the second cohort of a rolling programme. The designations mean the Bank of England, Prudential Regulation Authority and Financial Conduct Authority will work together to jointly oversee the critical services the CTPs provide to the financial sector, helping reduce the risk of widespread disruption and strengthening collaboration across the financial services ecosystem.",
-      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "id": "5cf4301583bea7d8db6f",
+      "category": "Science & Tech",
+      "title": "APOD: 2026 November 17 – Milky Way versus Aurora",
+      "summary": "",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "image": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora",
+          "published_at": "2026-11-17T05:05:00Z",
+          "retrieved_at": "2026-11-17T15:53:06.553055Z",
+          "source_title": "APOD: 2026 November 17 – Milky Way versus Aurora",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-5cf4301583bea7d8db6f"
+      ],
+      "facts": [
+        {
+          "id": "f-5cf4301583bea7d8db6f",
+          "text": "APOD: 2026 November 17 – Milky Way versus Aurora",
+          "source_url": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora"
+        }
+      ],
+      "content_kind": "headline",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "7f42c8fa23f68cbbdaf7",
+      "category": "UK",
+      "title": "Work and Pensions Secretary statement on the Milburn review into young people and work",
+      "summary": "The Rt Hon Pat McFadden MP, Secretary of State for Work and Pensions, responded to the publication of the independent Milburn review into young people and work. This morning, Alan Milburn published a landmark report, setting out a radical blueprint for a new settlement with young people. Because one million young people not in education, employment or training creates a human cost that no country should ask its young people to bear. It robs them of the thing that is most important to their lives – the prospect of a good future.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
       "word_to_know": null,
       "image": null,
       "sensitivity": "low",
@@ -250,10 +250,10 @@
       "source_refs": [
         {
           "publisher": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated",
-          "published_at": "2026-11-17T11:37:40Z",
-          "retrieved_at": "2026-11-17T14:30:14.952312Z",
-          "source_title": "Five further Critical Third Parties designated",
+          "url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work",
+          "published_at": "2026-11-17T15:34:51Z",
+          "retrieved_at": "2026-11-17T15:53:06.553055Z",
+          "source_title": "Work and Pensions Secretary statement on the Milburn review into young people and work",
           "event_date": null,
           "author": null,
           "license": "Open Government Licence v3.0",
@@ -261,53 +261,57 @@
         }
       ],
       "supporting_fact_ids": [
-        "f-94e8549f2b747312bab7",
-        "f-94e8549f2b747312bab7-0",
-        "f-94e8549f2b747312bab7-1",
-        "f-94e8549f2b747312bab7-3"
+        "f-7f42c8fa23f68cbbdaf7",
+        "f-7f42c8fa23f68cbbdaf7-0",
+        "f-7f42c8fa23f68cbbdaf7-2",
+        "f-7f42c8fa23f68cbbdaf7-5",
+        "f-7f42c8fa23f68cbbdaf7-6"
       ],
       "facts": [
         {
-          "id": "f-94e8549f2b747312bab7",
-          "text": "Five further Critical Third Parties designated",
-          "source_url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated"
+          "id": "f-7f42c8fa23f68cbbdaf7",
+          "text": "Work and Pensions Secretary statement on the Milburn review into young people and work",
+          "source_url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work"
         },
         {
-          "id": "f-94e8549f2b747312bab7-0",
-          "text": "HM Treasury has designated five further third-party suppliers as Critical Third Parties.",
-          "source_url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated"
+          "id": "f-7f42c8fa23f68cbbdaf7-0",
+          "text": "The Rt Hon Pat McFadden MP, Secretary of State for Work and Pensions, responded to the publication of the independent Milburn review into young people and work.",
+          "source_url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work"
         },
         {
-          "id": "f-94e8549f2b747312bab7-1",
-          "text": "HM Treasury has designated five further third-party suppliers as Critical Third Parties (CTPs): This brings the total number of designated CTPs to nine and represents the second cohort of a rolling programme.",
-          "source_url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated"
+          "id": "f-7f42c8fa23f68cbbdaf7-1",
+          "text": "With your permission, Mr Speaker, I would like to make a statement on the Milburn review into young people and work.",
+          "source_url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work"
         },
         {
-          "id": "f-94e8549f2b747312bab7-2",
-          "text": "HM Treasury previously designated four major global cloud services and technology providers as Critical Third Parties (CTPs) in July 2026.",
-          "source_url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated"
+          "id": "f-7f42c8fa23f68cbbdaf7-2",
+          "text": "This morning, Alan Milburn published a landmark report, setting out a radical blueprint for a new settlement with young people.",
+          "source_url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work"
         },
         {
-          "id": "f-94e8549f2b747312bab7-3",
-          "text": "The designations mean the Bank of England, Prudential Regulation Authority and Financial Conduct Authority will work together to jointly oversee the critical services the CTPs provide to the financial sector, helping reduce the risk of widespread disruption and strengthening collaboration across the financial services ecosystem.",
-          "source_url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated"
+          "id": "f-7f42c8fa23f68cbbdaf7-3",
+          "text": "I want to thank Mr Milburn and his team for their outstanding work.",
+          "source_url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work"
         },
         {
-          "id": "f-94e8549f2b747312bab7-4",
-          "text": "Regulatory oversight applies only to specific systemic services provided to the financial sector, for example certain technology platforms and services, not firms’ entire operations.",
-          "source_url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated"
+          "id": "f-7f42c8fa23f68cbbdaf7-4",
+          "text": "Sometimes a review deals with an issue so fundamental that it alters what we see as the contract between Government and society.",
+          "source_url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work"
         },
         {
-          "id": "f-94e8549f2b747312bab7-5",
-          "text": "The government expects the overall number of designations to remain small, reflecting the regime’s proportionate approach to identifying only the most systemic third-party services.",
-          "source_url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated"
+          "id": "f-7f42c8fa23f68cbbdaf7-5",
+          "text": "Because one million young people not in education, employment or training creates a human cost that no country should ask its young people to bear.",
+          "source_url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work"
+        },
+        {
+          "id": "f-7f42c8fa23f68cbbdaf7-6",
+          "text": "It robs them of the thing that is most important to their lives – the prospect of a good future.",
+          "source_url": "https://www.gov.uk/government/speeches/work-and-pensions-secretary-statement-on-the-milburn-review-into-young-people-and-work"
         }
       ],
       "content_kind": "grounded_ai",
       "age_suitability": "10-15",
-      "uncertainty_notes": [
-        "This report includes a plan or prediction, which may change."
-      ]
+      "uncertainty_notes": []
     }
   ],
   "on_this_day": {
@@ -325,69 +329,69 @@
   },
   "quiz": [
     {
-      "id": "q-ae6de3042e58bb2bea33",
-      "question": "Complete the headline you read: “Alan Milburn Appointed Chair of the new Youth ____ Unit”",
+      "id": "q-8c89bc3922123fdbd545",
+      "question": "Complete the headline you read: “Local government ____: committee system letter to Worcestershire leaders”",
       "choices": [
-        "Opportunities",
-        "Breaks",
-        "Civil"
+        "Announces",
+        "Aurora",
+        "reorganisation"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “Local government reorganisation: committee system letter to Worcestershire leaders”.",
+      "story_id": "8c89bc3922123fdbd545",
+      "fact_id": "f-8c89bc3922123fdbd545"
+    },
+    {
+      "id": "q-35d8477d84e8ad359327",
+      "question": "Complete the headline you read: “Street medicine vendors are ____ filling Haiti’s healthcare gaps”",
+      "choices": [
+        "Aurora",
+        "dangerously",
+        "Announces"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Street medicine vendors are dangerously filling Haiti’s healthcare gaps”.",
+      "story_id": "35d8477d84e8ad359327",
+      "fact_id": "f-35d8477d84e8ad359327"
+    },
+    {
+      "id": "q-16da0d1e40239689a35f",
+      "question": "Complete the headline you read: “____ National Park Announces Winter Programs and Special Events”",
+      "choices": [
+        "Haiti",
+        "Everglades",
+        "Aurora"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Everglades National Park Announces Winter Programs and Special Events”.",
+      "story_id": "16da0d1e40239689a35f",
+      "fact_id": "f-16da0d1e40239689a35f"
+    },
+    {
+      "id": "q-5cf4301583bea7d8db6f",
+      "question": "Complete the headline you read: “APOD: 2026 ____ 17 – Milky Way versus Aurora”",
+      "choices": [
+        "November",
+        "Events",
+        "Announces"
       ],
       "correct_index": 0,
-      "explanation": "The story headline says: “Alan Milburn Appointed Chair of the new Youth Opportunities Unit”.",
-      "story_id": "ae6de3042e58bb2bea33",
-      "fact_id": "f-ae6de3042e58bb2bea33"
+      "explanation": "The story headline says: “APOD: 2026 November 17 – Milky Way versus Aurora”.",
+      "story_id": "5cf4301583bea7d8db6f",
+      "fact_id": "f-5cf4301583bea7d8db6f"
     },
     {
-      "id": "q-7f3ad460c89ae8b74c70",
-      "question": "Complete the headline you read: “The Last Ice on ____ Jaya”",
+      "id": "q-7f42c8fa23f68cbbdaf7",
+      "question": "Complete the headline you read: “Work and Pensions ____ statement on the Milburn review into young people and work”",
       "choices": [
-        "Appointed",
-        "Breaks",
-        "Puncak"
+        "Aurora",
+        "Secretary",
+        "Announces"
       ],
-      "correct_index": 2,
-      "explanation": "The story headline says: “The Last Ice on Puncak Jaya”.",
-      "story_id": "7f3ad460c89ae8b74c70",
-      "fact_id": "f-7f3ad460c89ae8b74c70"
-    },
-    {
-      "id": "q-f79d7f807faba0f6d90a",
-      "question": "Complete the headline you read: “Civil society questions decree that could block access to ____ networks in Mozambique”",
-      "choices": [
-        "Breaks",
-        "Appointed",
-        "telecommunications"
-      ],
-      "correct_index": 2,
-      "explanation": "The story headline says: “Civil society questions decree that could block access to telecommunications networks in Mozambique”.",
-      "story_id": "f79d7f807faba0f6d90a",
-      "fact_id": "f-f79d7f807faba0f6d90a"
-    },
-    {
-      "id": "q-91a7e7e10f2edc4c20e5",
-      "question": "Complete the headline you read: “Mojave National Preserve Breaks Ground on Major Road ____ Project”",
-      "choices": [
-        "Chair",
-        "Appointed",
-        "Rehabilitation"
-      ],
-      "correct_index": 2,
-      "explanation": "The story headline says: “Mojave National Preserve Breaks Ground on Major Road Rehabilitation Project”.",
-      "story_id": "91a7e7e10f2edc4c20e5",
-      "fact_id": "f-91a7e7e10f2edc4c20e5"
-    },
-    {
-      "id": "q-94e8549f2b747312bab7",
-      "question": "Complete the headline you read: “Five further Critical Third Parties ____”",
-      "choices": [
-        "Appointed",
-        "Breaks",
-        "designated"
-      ],
-      "correct_index": 2,
-      "explanation": "The story headline says: “Five further Critical Third Parties designated”.",
-      "story_id": "94e8549f2b747312bab7",
-      "fact_id": "f-94e8549f2b747312bab7"
+      "correct_index": 1,
+      "explanation": "The story headline says: “Work and Pensions Secretary statement on the Milburn review into young people and work”.",
+      "story_id": "7f42c8fa23f68cbbdaf7",
+      "fact_id": "f-7f42c8fa23f68cbbdaf7"
     }
   ],
   "sample": false,
