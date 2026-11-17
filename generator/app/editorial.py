@@ -32,6 +32,7 @@ def story_from(c: Candidate) -> Story:
             if re.search(r'(?:RSS|Archive Submissions|Originally published|Photo (?:by|taken)|Today’s APOD|copyright|Creative Commons)',s,re.I): continue
             if len((' '.join(kept)+' '+s).split())>160: break
             if excluded(s): continue
+            if len(kept)>=9: break
             kept.append(s)
         summary=' '.join(kept)
         for i,s in enumerate(kept): facts.append(Fact(id=f'f-{c.id}-{i}',text=s,source_url=c.url))
