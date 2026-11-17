@@ -291,6 +291,17 @@
           ],
           "default": null
         },
+        "image": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ImageAsset"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
         "sensitivity": {
           "default": "low",
           "enum": [
@@ -394,6 +405,51 @@
         "definition"
       ],
       "title": "Word",
+      "type": "object"
+    },
+    "ImageAsset": {
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "alt": {
+          "maxLength": 200,
+          "minLength": 8,
+          "title": "Alt",
+          "type": "string"
+        },
+        "credit": {
+          "maxLength": 120,
+          "minLength": 2,
+          "title": "Credit",
+          "type": "string"
+        },
+        "license": {
+          "maxLength": 80,
+          "minLength": 3,
+          "title": "License",
+          "type": "string"
+        },
+        "license_url": {
+          "title": "License Url",
+          "type": "string"
+        },
+        "source_page": {
+          "title": "Source Page",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "alt",
+        "credit",
+        "license",
+        "license_url",
+        "source_page"
+      ],
+      "title": "ImageAsset",
       "type": "object"
     }
   },

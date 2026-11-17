@@ -22,15 +22,17 @@ def story_from(c: Candidate) -> Story:
     facts=[fact];summary=''
     # Only public-domain / explicitly reusable snippets may become stored evidence.
     boilerplate=bool(re.search(r'Archive Submissions|Today’s APOD|APOD Science APOD|Astronomy Picture of the Day',c.excerpt,re.I))
-    if c.feed.reuse in ('public_domain','licensed_excerpt') and c.excerpt and not c.attributed and not boilerplate:
+    material=c.article_text or c.excerpt
+    if c.feed.reuse in ('public_domain','licensed_excerpt') and material and not c.attributed and not boilerplate:
         # Complete short sentences only; never store full RSS article bodies.
-        sentences=split_sentences(c.excerpt)
+        sentences=split_sentences(material)
         kept=[]
         for s in sentences:
             if not re.search(r'[.!?]$',s) or len(s.split())>55 or len(s)<20: continue
             if re.search(r'(?:RSS|Archive Submissions|Originally published|Photo (?:by|taken)|Today’s APOD|copyright|Creative Commons)',s,re.I): continue
-            if len((' '.join(kept)+' '+s).split())>110: break
+            if len((' '.join(kept)+' '+s).split())>160: break
             if excluded(s): continue
+            if len(kept)>=9: break
             kept.append(s)
         summary=' '.join(kept)
         for i,s in enumerate(kept): facts.append(Fact(id=f'f-{c.id}-{i}',text=s,source_url=c.url))

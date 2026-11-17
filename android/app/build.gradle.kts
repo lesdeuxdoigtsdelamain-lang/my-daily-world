@@ -13,8 +13,8 @@ android {
         applicationId = "uk.family.mydailyworld"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "PAGES_URL", "\"https://lesdeuxdoigtsdelamain-lang.github.io/my-daily-world/\"")
         buildConfigField("String", "WORKFLOW_URL", "\"https://github.com/lesdeuxdoigtsdelamain-lang/my-daily-world/actions/workflows/publish-daily.yml\"")
@@ -71,6 +71,8 @@ dependencies {
     implementation("androidx.datastore:datastore-preferences:1.2.0")
     implementation("androidx.work:work-runtime-ktx:2.11.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("io.coil-kt.coil3:coil-compose:3.4.0")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.4.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
     implementation("androidx.core:core-ktx:1.17.0")
     testImplementation("junit:junit:4.13.2")

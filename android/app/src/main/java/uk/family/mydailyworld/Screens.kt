@@ -12,6 +12,9 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.draw.clip
+import coil3.compose.AsyncImage
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -88,7 +91,7 @@ fun displayTime(value:String):String = runCatching {OffsetDateTime.parse(value).
                                     items(listOf("All")+categories){c->FilterChip(selected=filter==c,onClick={filter=c},label={Text(c)})}
                                 }
                             }
-                            val stories=edition.stories.filter {s-> if(page=="Categories")filter=="All" || s.category==filter else s.category !in p.hidden}
+                            val stories=edition.stories.filter {s-> if(page=="Categories")filter=="All" || s.category==filter else s.category !in p.hidden}.take(5)
                             key(edition.id,page,filter) {
                                 EditionScreen(edition,stories,current?.second?.scrollIndex ?: 0,reads.filter {it.editionId==edition.id && edition.stories.any {s->s.id==it.storyId}}.map {it.storyId}.toSet(),
                                     checking,p.readingLevel,link,{vm.sync()},{s,r->vm.mark(edition.id,s,r)},
@@ -123,8 +126,8 @@ fun displayTime(value:String):String = runCatching {OffsetDateTime.parse(value).
             Text(if(e.sample)"Sample edition" else if(e.date==today().toString())"Today's edition" else "Last downloaded edition",style=MaterialTheme.typography.headlineMedium)
             Text(displayDate(e.date),style=MaterialTheme.typography.titleMedium)
             if(e.date!=today().toString() && !e.sample)Notice("Today's edition isn't ready yet. You are reading an older edition.")
-            Text("About ${e.minutes} min · ${read.size} of ${e.stories.size} stories read",modifier=Modifier.padding(vertical=8.dp))
-            LinearProgressIndicator(progress={read.size.toFloat()/e.stories.size},modifier=Modifier.fillMaxWidth())
+            Text("About ${e.minutes} min · ${read.count { it in stories.map { story -> story.id } }} of ${stories.size} stories read",modifier=Modifier.padding(vertical=8.dp))
+            LinearProgressIndicator(progress={if(stories.isEmpty()) 0f else read.count { it in stories.map { story -> story.id } }.toFloat()/stories.size},modifier=Modifier.fillMaxWidth())
             if(e.mode=="compact") Notice("Compact edition — a shorter read with the sources available today.")
             OutlinedButton(onClick=refresh,enabled=!checking){Icon(Icons.Default.Refresh,null);Spacer(Modifier.width(8.dp));Text("Check for new edition")}
             if(stories.isEmpty())Text("No stories in this section today. Try another section.")
@@ -139,6 +142,38 @@ fun displayTime(value:String):String = runCatching {OffsetDateTime.parse(value).
                     s.sources.filter {it.author!=null && it.license!=null}.forEach {credit->
                         Text("Originally published on ${credit.publisher} by ${credit.author}",style=MaterialTheme.typography.bodySmall)
                         TextButton(onClick={link(credit.url)}){Text("Original story and author")}
+                    }
+                    s.image?.let { img ->
+                        AsyncImage(
+                            model=img.url,
+                            contentDescription=img.alt,
+                            contentScale=ContentScale.Crop,
+                            modifier=Modifier.fillMaxWidth().height(185.dp).clip(MaterialTheme.shapes.medium)
+                        )
+                        Text("Illustrative image, not necessarily a photo of this event.",
+                            style=MaterialTheme.typography.bodySmall)
+                        TextButton(onClick={link(img.sourcePage)}) {
+                            Text("Image: "+img.credit+" · "+img.license+" (Wikimedia Commons)")
+                        }
+                    } ?: Surface(
+                        color=MaterialTheme.colorScheme.secondaryContainer,
+                        shape=MaterialTheme.shapes.medium,
+                        modifier=Modifier.fillMaxWidth().height(120.dp)
+                    ) {
+                        Box(contentAlignment=Alignment.Center) {
+                            Icon(
+                                when(s.category) {
+                                    "Science & Tech" -> Icons.Default.Science
+                                    "Environment" -> Icons.Default.Eco
+                                    "Sport" -> Icons.Default.SportsSoccer
+                                    "Muslim World" -> Icons.Default.TravelExplore
+                                    else -> Icons.Default.Public
+                                },
+                                contentDescription="Illustration for "+s.category,
+                                tint=MaterialTheme.colorScheme.primary,
+                                modifier=Modifier.size(64.dp)
+                            )
+                        }
                     }
                     Text(s.title,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.SemiBold)
                     s.country?.let {Text(it)}

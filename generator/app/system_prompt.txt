@@ -6,7 +6,7 @@ Return ONLY a JSON object with key "stories", containing at most one object per 
 Each object: story_id, title, summary, why_it_matters, fact_ids, age_suitability,
 uncertainty_notes, word_to_know, quiz_candidates.
 Use only the given fact_ids. Keep title exactly as provided. Summary must consist of
-complete evidence sentences, unchanged, in a helpful order. Aim for 80–115 words only
+complete evidence sentences, unchanged, in a helpful order. Aim for 110–160 words only
 when there is enough evidence; otherwise keep it short. Free-form factual rewrites
 cannot pass this version's independent validator and will be rejected. Set
 why_it_matters exactly to the supplied safe_context. age_suitability is "10-15".

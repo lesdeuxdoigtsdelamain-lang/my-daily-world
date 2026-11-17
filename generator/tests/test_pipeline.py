@@ -167,3 +167,43 @@ def test_unavailable_retains_last(tmp_path,edition,now):
     old=(tmp_path/'latest.json').read_bytes();store.health('unavailable',now,detail='No source evidence')
     assert (tmp_path/'latest.json').read_bytes()==old
     assert json.loads((tmp_path/'health.json').read_text())['last_successful_publication']
+
+
+def test_five_stories_config():
+    from generator.app.settings import load
+    settings=load(ROOT/'settings.example.json')
+    assert settings.max_stories==5
+
+def test_reusable_article_paragraph_extraction():
+    from generator.app.article_content import ArticleParagraphs
+    p=ArticleParagraphs()
+    p.feed('<html><nav><p>Navigation should be ignored.</p></nav><main><article>'
+           '<p>Researchers observed a new pattern over several months. Their results will help scientists compare the data.</p>'
+           '<p>The project used a series of detailed measurements during the study period. Experts said more work is needed.</p>'
+           '</article></main><footer><p>Copyright and menus should be ignored.</p></footer></html>')
+    assert len(p.parts)==2 and all('ignored' not in item for item in p.parts)
+
+def test_verified_commons_image_attribution(feed,now):
+    from generator.app.images import find_image
+    story=story_from(parse_feed(rss(),feed,now)[0])
+    data={'query':{'pages':[{'title':'File:Observatory.jpg','imageinfo':[{
+        'mime':'image/jpeg',
+        'thumburl':'https://upload.wikimedia.org/wikipedia/commons/thumb/example.jpg',
+        'extmetadata':{'Artist':{'value':'Space Photographer'},
+            'LicenseShortName':{'value':'CC BY-SA 4.0'},
+            'LicenseUrl':{'value':'https://creativecommons.org/licenses/by-sa/4.0/'}}}]}]}}
+    client=httpx.Client(transport=httpx.MockTransport(lambda req:httpx.Response(200,json=data)))
+    asset=find_image(story,SafeHttp({'commons.wikimedia.org'},client))
+    assert asset is not None and asset.credit=='Space Photographer'
+    assert asset.source_page.startswith('https://commons.wikimedia.org/wiki/File:')
+    assert asset.license=='CC BY-SA 4.0'
+
+def test_reject_unlicensed_commons_image(feed,now):
+    from generator.app.images import find_image
+    story=story_from(parse_feed(rss(),feed,now)[0])
+    data={'query':{'pages':[{'title':'File:NotAllowed.jpg','imageinfo':[{
+        'mime':'image/jpeg','url':'https://upload.wikimedia.org/notallowed.jpg',
+        'extmetadata':{'Artist':{'value':'Unknown'},'LicenseShortName':{'value':'All rights reserved'},
+            'LicenseUrl':{'value':'https://example.net/licence'}}}]}]}}
+    client=httpx.Client(transport=httpx.MockTransport(lambda req:httpx.Response(200,json=data)))
+    assert find_image(story,SafeHttp({'commons.wikimedia.org'},client)) is None

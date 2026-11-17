@@ -11,6 +11,8 @@ from .network import SafeHttp
 from .feeds import collect,rank
 from .providers import configured,Cloudflare,AiError
 from .editorial import story_from,enrich
+from .article_content import expand_articles
+from .images import attach_licensed_images
 from .history import LocalHistory
 from .quiz import build_quiz
 from .storage import DirectoryStore
@@ -23,16 +25,18 @@ def uk_date(now): return now.astimezone(LONDON).date()
 def generate(settings,now,history,http,provider,provider_name,status):
     candidates,feed_status=collect(settings,now,http)
     chosen=rank(candidates,settings)
+    expand_articles(chosen,http)
     if not chosen: return None,feed_status
     stories=[story_from(c) for c in chosen]
     accepted=0
     if provider_name=='cloudflare': stories,accepted,status=enrich(stories,chosen,provider)
+    stories=attach_licensed_images(stories,http)
     effective='cloudflare' if accepted else 'none'
     quiz=build_quiz(stories)
     day=uk_date(now);highlight=history.for_date(day)
     words=sum(len((s.title+' '+s.summary+' '+s.why_it_matters).split()) for s in stories)
     if highlight:words+=len(highlight.summary.split())
-    full=(len(stories)>=7 and len(quiz)==5 and all(80<=len(s.summary.split())<=115 for s in stories))
+    full=(len(stories)>=5 and len(quiz)==5 and all(80<=len(s.summary.split())<=170 for s in stories))
     e=Edition(edition_id=f'{day}-en-GB',edition_date=day,generated_at=now,mode='full' if full else 'compact',
         estimated_reading_minutes=max(1,math.ceil(words/150)),stories=stories,quiz=quiz,on_this_day=highlight,
         ai_provider=effective,ai_status=status)
@@ -62,6 +66,8 @@ def main():
         print("Today's edition already exists")
         return 0
     hosts={__import__('urllib.parse',fromlist=['urlsplit']).urlsplit(f.url).hostname for f in settings.feeds}
+    hosts.update(h for f in settings.feeds if f.enabled for h in f.article_hosts)
+    hosts.add('commons.wikimedia.org')
     http=SafeHttp(hosts)
     edition,feeds=generate(settings,now,LocalHistory(ROOT/'data/history/events.json'),http,provider,name,status)
     if not edition:

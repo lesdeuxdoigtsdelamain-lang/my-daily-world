@@ -27,7 +27,7 @@ class Feed(Wire):
 
 class Settings(Wire):
     feeds: list[Feed]
-    max_stories: int = Field(default=10, ge=1, le=10)
+    max_stories: int = Field(default=5, ge=1, le=5)
     max_age_hours: int = Field(default=36, ge=1, le=48)
     category_weights: dict[Category,int] = Field(default_factory=dict)
     max_ai_calls: int = Field(default=2, ge=0, le=2)

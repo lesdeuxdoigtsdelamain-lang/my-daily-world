@@ -64,6 +64,23 @@ class Word(Wire):
     word: str = Field(max_length=40)
     definition: str = Field(max_length=180)
 
+class ImageAsset(Wire):
+    url: str
+    alt: str = Field(min_length=8, max_length=200)
+    credit: str = Field(min_length=2, max_length=120)
+    license: str = Field(min_length=3, max_length=80)
+    license_url: str
+    source_page: str
+    _urls = field_validator('url','license_url','source_page')(https_url)
+
+    @model_validator(mode='after')
+    def verified_host(self):
+        if urlsplit(self.url).hostname != 'upload.wikimedia.org':
+            raise ValueError('Use only verified Commons thumbnail domains')
+        if urlsplit(self.source_page).hostname != 'commons.wikimedia.org':
+            raise ValueError('Link to the Commons attribution page')
+        return self
+
 class Story(Wire):
     id: str = Field(min_length=8, max_length=80)
     category: Category
@@ -71,6 +88,7 @@ class Story(Wire):
     summary: str = Field(max_length=1800)
     why_it_matters: str = Field(max_length=400)
     word_to_know: Word | None = None
+    image: ImageAsset | None = None
     sensitivity: Literal['low', 'gentle'] = 'low'
     country: str | None = None
     source_refs: list[Source] = Field(min_length=1, max_length=4)
@@ -161,8 +179,8 @@ class Edition(Wire):
             fact = next(f for f in story.facts if f.id == q.fact_id)
             if q.choices[q.correct_index] not in fact.text:
                 raise ValueError('Answer not present in evidence')
-        if self.mode == 'full' and (len(self.stories) < 7 or len(self.quiz) != 5 or
-                any(not 80 <= len(s.summary.split()) <= 115 for s in self.stories)):
+        if self.mode == 'full' and (len(self.stories) < 5 or len(self.quiz) != 5 or
+                any(not 80 <= len(s.summary.split()) <= 170 for s in self.stories)):
             raise ValueError('Full edition requires sufficient evidence and reading length')
         return self
 
