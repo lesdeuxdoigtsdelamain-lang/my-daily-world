@@ -161,8 +161,8 @@ class Edition(Wire):
             fact = next(f for f in story.facts if f.id == q.fact_id)
             if q.choices[q.correct_index] not in fact.text:
                 raise ValueError('Answer not present in evidence')
-        if self.mode == 'full' and (len(self.stories) < 7 or len(self.quiz) != 5 or
-                any(not 80 <= len(s.summary.split()) <= 115 for s in self.stories)):
+        if self.mode == 'full' and (len(self.stories) < 5 or len(self.quiz) != 5 or
+                any(not 80 <= len(s.summary.split()) <= 170 for s in self.stories)):
             raise ValueError('Full edition requires sufficient evidence and reading length')
         return self
 
