@@ -66,6 +66,8 @@ def main():
         print("Today's edition already exists")
         return 0
     hosts={__import__('urllib.parse',fromlist=['urlsplit']).urlsplit(f.url).hostname for f in settings.feeds}
+    hosts.update(h for f in settings.feeds if f.enabled for h in f.article_hosts)
+    hosts.add('commons.wikimedia.org')
     http=SafeHttp(hosts)
     edition,feeds=generate(settings,now,LocalHistory(ROOT/'data/history/events.json'),http,provider,name,status)
     if not edition:
