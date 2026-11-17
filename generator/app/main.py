@@ -12,7 +12,7 @@ from .feeds import collect,rank
 from .novelty import fresh_candidates,recent_edition_stories
 from .providers import configured,Cloudflare,AiError
 from .editorial import story_from,enrich
-from .article_content import expand_articles
+from .article_content import expand_article
 from .images import attach_licensed_images
 from .history import LocalHistory
 from .quiz import build_quiz
@@ -26,12 +26,25 @@ def uk_date(now): return now.astimezone(LONDON).date()
 def generate(settings,now,history,http,provider,provider_name,status,previous_stories=()):
     candidates,feed_status=collect(settings,now,http)
     fresh=fresh_candidates(candidates,now,previous_stories)
-    chosen=rank(fresh,settings)
+    ranked=rank(fresh,settings,limit=24)
+    chosen=[];stories=[]
+    weak=0
+    for candidate in ranked:
+        expand_article(candidate,http)
+        story=story_from(candidate)
+        # Do not turn headlines, APOD captions or brief park announcements
+        # into 'news articles'. Search the next candidate instead.
+        if story.content_kind=='headline' or len(story.summary.split())<80:
+            weak+=1
+            continue
+        chosen.append(candidate)
+        stories.append(story)
+        if len(chosen)==settings.max_stories: break
+    print(f'Editorial screening: {len(chosen)} full stories from {len(ranked)} candidates; '
+          f'{weak} skipped for insufficient verified content.')
     print(f'Fresh UK-day stories: {len(fresh)} eligible of {len(candidates)} RSS candidates; '
           f'{len(previous_stories)} recent articles excluded from recycling.')
-    expand_articles(chosen,http)
     if not chosen: return None,feed_status
-    stories=[story_from(c) for c in chosen]
     accepted=0
     if provider_name=='cloudflare': stories,accepted,status=enrich(stories,chosen,provider)
     stories=attach_licensed_images(stories,http)

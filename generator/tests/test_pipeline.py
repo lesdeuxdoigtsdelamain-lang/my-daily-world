@@ -108,10 +108,11 @@ def test_attributed_contested_no_expansion(feed,now):
     assert s.sensitivity=='gentle' and not s.summary and s.uncertainty_notes
 
 def test_no_ai_generator_real_feed_fixture(settings,feed,now):
+    """A two-line article is rejected, even when the source is reputable."""
     client=httpx.Client(transport=httpx.MockTransport(lambda r:httpx.Response(200,content=rss())))
     e,_=generate(settings,now,LocalHistory(ROOT/'data/history/events.json'),SafeHttp({'www.nasa.gov'},client),NoAi(),'none','No AI')
-    assert e.edition_date==date(2026,11,16) and e.ai_provider=='none' and e.mode=='compact'
-    assert e.stories[0].source_refs[0].publisher=='NASA'
+    assert e is None
+
 
 @pytest.mark.parametrize('status',[401,403,404,410,429,500])
 def test_cloudflare_status_fallback(status,settings,feed,now):
@@ -348,3 +349,63 @@ def test_older_editions_seven_day_window_and_forced_refresh(tmp_path,edition):
     assert not same_day, 'force-refresh must not treat today as a previous edition'
     late=recent_edition_stories(tmp_path,date(2026,11,25))
     assert not late
+
+
+def test_detailed_article_extraction_with_article_body():
+    from generator.app.article_content import ArticleParagraphs
+    parser=ArticleParagraphs()
+    body=('Researchers collected observations from several regions and recorded the results carefully. '
+          'They compared their measurements with earlier records and looked for reliable patterns. '
+          'The team explained which findings were confirmed and which still require further study. '
+          'Scientists said the new observations could help them plan further experiments more carefully. ')
+    parser.feed('<header><p>Menu and subscription offer should not be copied.</p></header>'
+                '<main><div class="article-body"><p>'+body+'</p><p>'+body.replace('Scientists said','The researchers added')+'</p>'
+                '</div></main><footer><p>Website footer is irrelevant.</p></footer>')
+    paragraphs=parser.paragraphs()
+    assert len(paragraphs)==2
+    assert sum(len(p.split()) for p in paragraphs)>=80
+    assert 'subscription offer' not in ' '.join(paragraphs)
+
+
+def test_generator_skips_apod_and_checks_next_good_source(feed, settings, now):
+    from .conftest import rss
+    from urllib.parse import urlsplit
+    from generator.app.main import generate
+    from generator.app.history import LocalHistory
+    from generator.app.providers import NoAi
+    rich=('Researchers visited the site and recorded the results of the monitoring programme. '
+          'The project recorded several measurements over the course of the study. '
+          'Teams compared the newer measurements with observations collected in previous years. '
+          'They published the main results in a report for readers and local organisations. '
+          'Experts explained the methods used and described the limits of the available evidence. '
+          'The report also lists the next steps for collecting information from the site. ')
+    from xml.sax.saxutils import escape
+    feed_data=('<rss version="2.0"><channel>'
+       '<item><title>APOD: a brief picture today</title><link>https://www.nasa.gov/apod/</link>'
+       '<description>Bright stars.</description><pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate></item>'
+       '<item><title>Researchers share results from the coastal programme</title>'
+       '<link>https://www.nasa.gov/long-story/</link><description>'+escape(rich)+'</description>'
+       '<pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate></item></channel></rss>').encode()
+    def respond(req):
+        path=urlsplit(str(req.url)).path.rstrip('/')
+        if path=='/feed':return httpx.Response(200,content=feed_data)
+        if path=='/apod':return httpx.Response(200,text='<article><p>A single short line.</p></article>')
+        if path=='/long-story':return httpx.Response(200,text='<main><article><p>'+rich+'</p><p>'+rich.replace('Teams','Specialists')+'</p></article></main>')
+        return httpx.Response(404)
+    http=SafeHttp({'www.nasa.gov','commons.wikimedia.org'},httpx.Client(transport=httpx.MockTransport(respond)))
+    edition,_=generate(settings,now,LocalHistory(ROOT/'data/history/events.json'),http,NoAi(),'none','No AI')
+    assert edition is not None
+    assert len(edition.stories)==1
+    assert 'coastal programme' in edition.stories[0].title
+    assert len(edition.stories[0].summary.split())>=80
+
+
+def test_commons_licenses_and_fallback_assets():
+    from generator.app.images import acceptable_license
+    for label in ('CC BY-SA 4.0','CC BY 3.0','CC0 1.0','Public domain','PD-US'):
+        assert acceptable_license(label),label
+    for label in ('All rights reserved','Copyrighted','No known copyright restrictions','Editorial use only','CC BY-ND 4.0','CC BY-NC 4.0'):
+        assert not acceptable_license(label),label
+    images=ROOT/'android/app/src/main/res/drawable-nodpi'
+    for category in ('world','uk','science','environment','culture','business','sport','muslim'):
+        assert (images/f'story_{category}.png').stat().st_size>5_000

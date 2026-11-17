@@ -68,12 +68,12 @@ def parse_feed(raw: bytes, feed: Feed, now: datetime, max_age=36) -> list[Candid
         text=title+' '+excerpt
         # Explicit editorial topic rules, never inferred from a child's identity.
         category=feed.category
-        if re.search(r'\b(?:Pakistan|Indonesia|Indonesian|Malaysia|Malaysian|Bangladesh|Morocco|Tunisia|Egypt|Jordan|Saudi Arabia|United Arab Emirates|UAE|Türkiye|Turkey|Turkish|Muslim)\b',text,re.I): category='Muslim World'
-        elif re.search(r'\b(?:climate|glacier|flood|wildlife|forest|emissions|saltmarsh|restoration|biodiversity|marine)\b',text,re.I): category='Environment'
+        if re.search(r'\b(?:climate|glacier|flood|wildlife|forest|emissions|saltmarsh|restoration|biodiversity|marine)\b',text,re.I): category='Environment'
         elif re.search(r'\b(?:sport|football|cricket|Olympic|athlet)\w*',text,re.I): category='Sport'
         elif re.search(r'\b(?:museum|music|artist|theatre|heritage|library|cultural)\w*',text,re.I): category='People & Culture'
         elif re.search(r'\b(?:economy|inflation|business|trade|treasury|loan|bank)\w*',text,re.I): category='Money & Business'
         elif feed.category=='UK' and re.search(r'\b(?:UN|Ukraine|DPRK|China|Africa|international|Nordic|Baltic)\b',text): category='World'
+        elif re.search(r'\b(?:Pakistan|Indonesia|Indonesian|Malaysia|Malaysian|Bangladesh|Morocco|Tunisia|Egypt|Jordan|Saudi Arabia|United Arab Emirates|UAE|Türkiye|Turkey|Turkish|Muslim)\b',text,re.I): category='Muslim World'
         assigned=feed.model_copy(update={'category':category})
         out.append(Candidate(sha256(url.encode()).hexdigest()[:20],title,excerpt,url,dt,now,assigned,contested(text),author))
     return out
@@ -90,11 +90,11 @@ def collect(settings: Settings, now: datetime, http: SafeHttp) -> tuple[list[Can
         except FetchError as e: status[feed.id]={'state':'unavailable','reason':str(e)}
     return candidates,status
 
-def rank(candidates: list[Candidate], settings: Settings) -> list[Candidate]:
+def rank(candidates: list[Candidate], settings: Settings, limit: int | None = None) -> list[Candidate]:
     """Greedy diversity plus event clustering. Conservative: at most one similar title."""
     selected=[]; seen=set(); cats={}; publishers={}
     candidates=sorted(candidates,key=lambda x:x.published_at,reverse=True)
-    while candidates and len(selected)<settings.max_stories:
+    while candidates and len(selected)<(limit if limit is not None else settings.max_stories):
         def score(c):
             return (settings.category_weights.get(c.feed.category,1)*3 - cats.get(c.feed.category,0)*4
                     -publishers.get(c.feed.publisher,0)*2 + (0 if c.attributed else 1))

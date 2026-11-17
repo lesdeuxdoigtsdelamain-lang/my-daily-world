@@ -26,13 +26,14 @@ def story_from(c: Candidate) -> Story:
     if c.feed.reuse in ('public_domain','licensed_excerpt') and material and not c.attributed and not boilerplate:
         # Complete short sentences only; never store full RSS article bodies.
         sentences=split_sentences(material)
-        kept=[]
+        kept=[];seen=set()
         for s in sentences:
             if not re.search(r'[.!?]$',s) or len(s.split())>55 or len(s)<20: continue
             if re.search(r'(?:RSS|Archive Submissions|Originally published|Photo (?:by|taken)|Today’s APOD|copyright|Creative Commons)',s,re.I): continue
             if len((' '.join(kept)+' '+s).split())>160: break
-            if excluded(s): continue
+            if excluded(s) or s.casefold() in seen: continue
             if len(kept)>=9: break
+            seen.add(s.casefold())
             kept.append(s)
         summary=' '.join(kept)
         for i,s in enumerate(kept): facts.append(Fact(id=f'f-{c.id}-{i}',text=s,source_url=c.url))
@@ -72,6 +73,7 @@ def enrich(stories, candidates, provider):
                 (o.why_it_matters and o.why_it_matters!=s.why_it_matters) or
                 o.age_suitability!='10-15' or
                 o.word_to_know or o.quiz_candidates or o.uncertainty_notes or
+                (len(s.summary.split())>=80 and not 80<=len(o.summary.split())<=160) or
                 not grounded_summary(o.summary,[f.text for f in facts])): continue
             accepted[s.id]=s.model_copy(update={'summary':o.summary,'content_kind':'grounded_ai',
                                                'supporting_fact_ids':list(dict.fromkeys([s.facts[0].id]+o.fact_ids))})
