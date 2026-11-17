@@ -4,17 +4,17 @@
   "edition_date": "2026-11-17",
   "timezone": "Europe/London",
   "language": "en-GB",
-  "generated_at": "2026-11-17T13:40:40.920864Z",
+  "generated_at": "2026-11-17T14:14:13.372720Z",
   "mode": "compact",
   "ai_provider": "none",
-  "ai_status": "AI output failed structured validation",
+  "ai_status": "Cloudflare returned no text (result fields: choices,response,usage)",
   "estimated_reading_minutes": 5,
   "stories": [
     {
-      "id": "d7c72ef41a18bdaa62bd",
+      "id": "634b24e032d1079ee65c",
       "category": "UK",
-      "title": "Stable sales support long-term decline in animal antibiotic use",
-      "summary": "New figures show antibiotic sales for animals remain 56% below 2014 levels, helping protect animal and human health Antibiotic sales for animals remain 50% down on a decade ago showing continued progress is being made in reducing the unnecessary use of antibiotics, a new report published today shows. There was further progress in several farming sectors last year. Antibiotic use in poultry reared for meat recorded its lowest use to date, while usage in pigs fell by 11% compared with last year, to its second lowest level on record. The report also provides encouraging findings on antibiotic resistance in livestock, with resistance remaining substantially below historic levels. Antimicrobial resistance happens when bacteria develop the ability to survive medicines designed to kill them, making infections harder to treat. It is a growing global health concern, affecting people, pets and farm animals . Responsible antibiotic use is essential to keeping lifesaving medicines effective.",
+      "title": "Commissioner's statement on facial recognition consultation response",
+      "summary": "Statement on the government's consultation response on the use of facial recognition and similar technologies in law enforcement. The Biometrics and Surveillance Camera Commissioner, Professor William Webster, said: I welcome the government’s response to its consultation on facial recognition and similar biometric technologies. It marks an important step towards primary legislation that will provide a clear legal basis for their use, protect the public and build confidence in how these technologies are deployed. Biometric surveillance technologies, including live facial recognition, are intrusive and conflict directly with fundamental human rights, including rights associated with freedom of movement, freedom of expression, the right to peaceful assembly and the right to privacy. The government’s response acknowledges the potential to interfere with these rights, and from my perspective clear legislation and effective safeguards are essential to mitigate these risks.",
       "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
       "word_to_know": null,
       "image": null,
@@ -23,10 +23,10 @@
       "source_refs": [
         {
           "publisher": "GOV.UK",
-          "url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use",
-          "published_at": "2026-11-17T13:38:11Z",
-          "retrieved_at": "2026-11-17T13:40:40.920864Z",
-          "source_title": "Stable sales support long-term decline in animal antibiotic use",
+          "url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response",
+          "published_at": "2026-11-17T13:59:03Z",
+          "retrieved_at": "2026-11-17T14:14:13.372720Z",
+          "source_title": "Commissioner's statement on facial recognition consultation response",
           "event_date": null,
           "author": null,
           "license": "Open Government Licence v3.0",
@@ -34,60 +34,50 @@
         }
       ],
       "supporting_fact_ids": [
-        "f-d7c72ef41a18bdaa62bd",
-        "f-d7c72ef41a18bdaa62bd-0",
-        "f-d7c72ef41a18bdaa62bd-1",
-        "f-d7c72ef41a18bdaa62bd-2",
-        "f-d7c72ef41a18bdaa62bd-3",
-        "f-d7c72ef41a18bdaa62bd-4",
-        "f-d7c72ef41a18bdaa62bd-5",
-        "f-d7c72ef41a18bdaa62bd-6"
+        "f-634b24e032d1079ee65c",
+        "f-634b24e032d1079ee65c-0",
+        "f-634b24e032d1079ee65c-1",
+        "f-634b24e032d1079ee65c-2",
+        "f-634b24e032d1079ee65c-3",
+        "f-634b24e032d1079ee65c-4"
       ],
       "facts": [
         {
-          "id": "f-d7c72ef41a18bdaa62bd",
-          "text": "Stable sales support long-term decline in animal antibiotic use",
-          "source_url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use"
+          "id": "f-634b24e032d1079ee65c",
+          "text": "Commissioner's statement on facial recognition consultation response",
+          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
         },
         {
-          "id": "f-d7c72ef41a18bdaa62bd-0",
-          "text": "New figures show antibiotic sales for animals remain 56% below 2014 levels, helping protect animal and human health Antibiotic sales for animals remain 50% down on a decade ago showing continued progress is being made in reducing the unnecessary use of antibiotics, a new report published today shows.",
-          "source_url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use"
+          "id": "f-634b24e032d1079ee65c-0",
+          "text": "Statement on the government's consultation response on the use of facial recognition and similar technologies in law enforcement.",
+          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
         },
         {
-          "id": "f-d7c72ef41a18bdaa62bd-1",
-          "text": "There was further progress in several farming sectors last year.",
-          "source_url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use"
+          "id": "f-634b24e032d1079ee65c-1",
+          "text": "The Biometrics and Surveillance Camera Commissioner, Professor William Webster, said: I welcome the government’s response to its consultation on facial recognition and similar biometric technologies.",
+          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
         },
         {
-          "id": "f-d7c72ef41a18bdaa62bd-2",
-          "text": "Antibiotic use in poultry reared for meat recorded its lowest use to date, while usage in pigs fell by 11% compared with last year, to its second lowest level on record.",
-          "source_url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use"
+          "id": "f-634b24e032d1079ee65c-2",
+          "text": "It marks an important step towards primary legislation that will provide a clear legal basis for their use, protect the public and build confidence in how these technologies are deployed.",
+          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
         },
         {
-          "id": "f-d7c72ef41a18bdaa62bd-3",
-          "text": "The report also provides encouraging findings on antibiotic resistance in livestock, with resistance remaining substantially below historic levels.",
-          "source_url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use"
+          "id": "f-634b24e032d1079ee65c-3",
+          "text": "Biometric surveillance technologies, including live facial recognition, are intrusive and conflict directly with fundamental human rights, including rights associated with freedom of movement, freedom of expression, the right to peaceful assembly and the right to privacy.",
+          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
         },
         {
-          "id": "f-d7c72ef41a18bdaa62bd-4",
-          "text": "Antimicrobial resistance happens when bacteria develop the ability to survive medicines designed to kill them, making infections harder to treat.",
-          "source_url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use"
-        },
-        {
-          "id": "f-d7c72ef41a18bdaa62bd-5",
-          "text": "It is a growing global health concern, affecting people, pets and farm animals .",
-          "source_url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use"
-        },
-        {
-          "id": "f-d7c72ef41a18bdaa62bd-6",
-          "text": "Responsible antibiotic use is essential to keeping lifesaving medicines effective.",
-          "source_url": "https://www.gov.uk/government/news/stable-sales-support-long-term-decline-in-animal-antibiotic-use"
+          "id": "f-634b24e032d1079ee65c-4",
+          "text": "The government’s response acknowledges the potential to interfere with these rights, and from my perspective clear legislation and effective safeguards are essential to mitigate these risks.",
+          "source_url": "https://www.gov.uk/government/news/commissioners-statement-on-facial-recognition-consultation-response"
         }
       ],
       "content_kind": "excerpt",
       "age_suitability": "10-15",
-      "uncertainty_notes": []
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
     },
     {
       "id": "7f3ad460c89ae8b74c70",
@@ -107,7 +97,7 @@
           "publisher": "NASA",
           "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya",
           "published_at": "2026-11-16T05:00:00Z",
-          "retrieved_at": "2026-11-17T13:40:40.920864Z",
+          "retrieved_at": "2026-11-17T14:14:13.372720Z",
           "source_title": "The Last Ice on Puncak Jaya",
           "event_date": null,
           "author": null,
@@ -174,7 +164,7 @@
           "publisher": "Global Voices",
           "url": "https://globalvoices.org/2026/11/16/civil-society-questions-decree-that-could-block-access-to-telecommunications-networks-in-mozambique",
           "published_at": "2026-11-16T08:38:21Z",
-          "retrieved_at": "2026-11-17T13:40:40.920864Z",
+          "retrieved_at": "2026-11-17T14:14:13.372720Z",
           "source_title": "Civil society questions decree that could block access to telecommunications networks in Mozambique",
           "event_date": null,
           "author": "Masudul Zarif",
@@ -214,7 +204,7 @@
           "publisher": "US National Park Service",
           "url": "https://www.nps.gov/moja/learn/news/newsrelease.htm",
           "published_at": "2026-11-16T14:35:00Z",
-          "retrieved_at": "2026-11-17T13:40:40.920864Z",
+          "retrieved_at": "2026-11-17T14:14:13.372720Z",
           "source_title": "Mojave National Preserve Breaks Ground on Major Road Rehabilitation Project",
           "event_date": null,
           "author": null,
@@ -257,7 +247,7 @@
           "publisher": "GOV.UK",
           "url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated",
           "published_at": "2026-11-17T11:37:40Z",
-          "retrieved_at": "2026-11-17T13:40:40.920864Z",
+          "retrieved_at": "2026-11-17T14:14:13.372720Z",
           "source_title": "Five further Critical Third Parties designated",
           "event_date": null,
           "author": null,
@@ -333,17 +323,17 @@
   },
   "quiz": [
     {
-      "id": "q-d7c72ef41a18bdaa62bd",
-      "question": "Complete the headline you read: “Stable sales support long-term decline in animal ____ use”",
+      "id": "q-634b24e032d1079ee65c",
+      "question": "Complete the headline you read: “____'s statement on facial recognition consultation response”",
       "choices": [
         "Breaks",
         "Civil",
-        "antibiotic"
+        "Commissioner"
       ],
       "correct_index": 2,
-      "explanation": "The story headline says: “Stable sales support long-term decline in animal antibiotic use”.",
-      "story_id": "d7c72ef41a18bdaa62bd",
-      "fact_id": "f-d7c72ef41a18bdaa62bd"
+      "explanation": "The story headline says: “Commissioner's statement on facial recognition consultation response”.",
+      "story_id": "634b24e032d1079ee65c",
+      "fact_id": "f-634b24e032d1079ee65c"
     },
     {
       "id": "q-7f3ad460c89ae8b74c70",
@@ -362,7 +352,7 @@
       "id": "q-f79d7f807faba0f6d90a",
       "question": "Complete the headline you read: “Civil society questions decree that could block access to ____ networks in Mozambique”",
       "choices": [
-        "Critical",
+        "Commissioner",
         "Breaks",
         "telecommunications"
       ],
@@ -375,7 +365,7 @@
       "id": "q-91a7e7e10f2edc4c20e5",
       "question": "Complete the headline you read: “Mojave National Preserve Breaks Ground on Major Road ____ Project”",
       "choices": [
-        "Critical",
+        "Commissioner",
         "Civil",
         "Rehabilitation"
       ],

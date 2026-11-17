@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "state": "success",
-  "checked_at": "2026-11-17T13:40:57.224020+00:00",
-  "last_successful_publication": "2026-11-17T13:40:57.224020+00:00",
-  "detail": "AI output failed structured validation",
+  "checked_at": "2026-11-17T14:14:45.313763+00:00",
+  "last_successful_publication": "2026-11-17T14:14:45.313763+00:00",
+  "detail": "Cloudflare returned no text (result fields: choices,response,usage)",
   "feeds": {
     "globalvoices": {
       "state": "ok",
@@ -23,7 +23,7 @@
     },
     "nps": {
       "state": "ok",
-      "eligible": 7
+      "eligible": 6
     },
     "bbc-world": {
       "state": "disabled",
@@ -52,14 +52,7 @@
   },
   "ai_usage": {
     "requests": 1,
-    "reported": [
-      {
-        "prompt_tokens": 1736,
-        "completion_tokens": 310,
-        "total_tokens": 2046,
-        "neurons": 109.78472900390625
-      }
-    ],
+    "reported": [],
     "neuron_estimate": null,
     "maximum_requests": 2,
     "maximum_output_tokens_per_call": 1400
