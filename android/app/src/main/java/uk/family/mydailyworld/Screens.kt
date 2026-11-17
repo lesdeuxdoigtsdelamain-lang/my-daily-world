@@ -15,6 +15,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.draw.clip
 import coil3.compose.AsyncImage
+import androidx.compose.foundation.Image
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -143,37 +145,38 @@ fun displayTime(value:String):String = runCatching {OffsetDateTime.parse(value).
                         Text("Originally published on ${credit.publisher} by ${credit.author}",style=MaterialTheme.typography.bodySmall)
                         TextButton(onClick={link(credit.url)}){Text("Original story and author")}
                     }
-                    s.image?.let { img ->
+                    val illustration=when(s.category) {
+                        "World" -> R.drawable.story_world
+                        "UK" -> R.drawable.story_uk
+                        "Science & Tech" -> R.drawable.story_science
+                        "Environment" -> R.drawable.story_environment
+                        "People & Culture" -> R.drawable.story_culture
+                        "Money & Business" -> R.drawable.story_business
+                        "Sport" -> R.drawable.story_sport
+                        "Muslim World" -> R.drawable.story_muslim
+                        else -> R.drawable.story_world
+                    }
+                    if(s.image!=null) {
                         AsyncImage(
-                            model=img.url,
-                            contentDescription=img.alt,
+                            model=s.image.url,
+                            contentDescription=s.image.alt,
+                            placeholder=painterResource(illustration),
+                            error=painterResource(illustration),
                             contentScale=ContentScale.Crop,
-                            modifier=Modifier.fillMaxWidth().height(185.dp).clip(MaterialTheme.shapes.medium)
+                            modifier=Modifier.fillMaxWidth().height(190.dp).clip(MaterialTheme.shapes.medium)
                         )
-                        Text("Illustrative image, not necessarily a photo of this event.",
+                        Text("Illustrative photo; not necessarily of this particular event.",
                             style=MaterialTheme.typography.bodySmall)
-                        TextButton(onClick={link(img.sourcePage)}) {
-                            Text("Image: "+img.credit+" · "+img.license+" (Wikimedia Commons)")
+                        TextButton(onClick={link(s.image.sourcePage)}) {
+                            Text("Image: "+s.image.credit+" · "+s.image.license+" (Wikimedia Commons)")
                         }
-                    } ?: Surface(
-                        color=MaterialTheme.colorScheme.secondaryContainer,
-                        shape=MaterialTheme.shapes.medium,
-                        modifier=Modifier.fillMaxWidth().height(120.dp)
-                    ) {
-                        Box(contentAlignment=Alignment.Center) {
-                            Icon(
-                                when(s.category) {
-                                    "Science & Tech" -> Icons.Default.Science
-                                    "Environment" -> Icons.Default.Eco
-                                    "Sport" -> Icons.Default.SportsSoccer
-                                    "Muslim World" -> Icons.Default.TravelExplore
-                                    else -> Icons.Default.Public
-                                },
-                                contentDescription="Illustration for "+s.category,
-                                tint=MaterialTheme.colorScheme.primary,
-                                modifier=Modifier.size(64.dp)
-                            )
-                        }
+                    } else {
+                        Image(painter=painterResource(illustration),
+                            contentDescription="Illustration of "+s.category,
+                            contentScale=ContentScale.Crop,
+                            modifier=Modifier.fillMaxWidth().height(190.dp).clip(MaterialTheme.shapes.medium))
+                        Text("Original category illustration (not a photograph of the event).",
+                            style=MaterialTheme.typography.bodySmall)
                     }
                     Text(s.title,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.SemiBold)
                     s.country?.let {Text(it)}

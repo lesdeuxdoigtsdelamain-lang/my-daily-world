@@ -13,8 +13,8 @@ android {
         applicationId = "uk.family.mydailyworld"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.1.0"
+        versionCode = 3
+        versionName = "1.2.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "PAGES_URL", "\"https://lesdeuxdoigtsdelamain-lang.github.io/my-daily-world/\"")
         buildConfigField("String", "WORKFLOW_URL", "\"https://github.com/lesdeuxdoigtsdelamain-lang/my-daily-world/actions/workflows/publish-daily.yml\"")
