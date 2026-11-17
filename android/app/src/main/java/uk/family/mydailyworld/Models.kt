@@ -91,8 +91,8 @@ fun validate(e: Edition, allowSample: Boolean = false): Edition {
         require(h.sources.isNotEmpty() && h.sources.all { publicHttps(it.url) })
         require(plain(h.title) && plain(h.summary)); LocalDate.parse(h.verifiedOn)
     }
-    if (e.mode == "full") require(e.stories.size >= 7 && e.quiz.size == 5 &&
-        e.stories.all { it.summary.split(Regex("\\s+")).size in 80..115 })
+    if (e.mode == "full") require(e.stories.size >= 5 && e.quiz.size == 5 &&
+        e.stories.all { it.summary.split(Regex("\\s+")).size in 80..170 })
     return e
 }
 fun contentHash(bytes: ByteArray): String = MessageDigest.getInstance("SHA-256").digest(bytes).joinToString("") { "%02x".format(it) }
