@@ -1,11 +1,6 @@
 name: Build APK
 on:
   workflow_dispatch:
-    inputs:
-      signed_release:
-        type: boolean
-        default: false
-        description: 'Build a parent-signed release only if signing secrets were explicitly configured'
   push:
     branches: [main]
     paths: ['android/**', 'generator/**', 'schema/**', 'data/**', '.github/workflows/build-apk.yml']
@@ -28,41 +23,51 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-      - name: Check Gradle distribution and build debug APK
+      - name: Run Android checks (debug APK is not distributed)
         working-directory: android
         run: |
           chmod +x gradlew
           ./gradlew --no-daemon testDebugUnitTest lintDebug assembleDebug
-      - name: Prepare downloadable APK
-        run: |
-          mkdir -p artifacts
-          cp android/app/build/outputs/apk/debug/app-debug.apk artifacts/My-Daily-World-debug.apk
-          (cd artifacts && sha256sum My-Daily-World-debug.apk > SHA256SUMS.txt)
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: My-Daily-World-debug
-          path: artifacts/
-          if-no-files-found: error
-          retention-days: 14
-      - name: Build optional parent-signed release
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.signed_release }}
+      - name: Restore permanent signing key from encrypted Actions secrets
+        if: ${{ github.event_name != 'pull_request' }}
         env:
           MDW_KEYSTORE_BASE64: ${{ secrets.MDW_KEYSTORE_BASE64 }}
           MDW_STORE_PASSWORD: ${{ secrets.MDW_STORE_PASSWORD }}
           MDW_KEY_ALIAS: ${{ secrets.MDW_KEY_ALIAS }}
           MDW_KEY_PASSWORD: ${{ secrets.MDW_KEY_PASSWORD }}
-        working-directory: android
         run: |
           set -euo pipefail
-          : "${MDW_KEYSTORE_BASE64:?Configure the parent keystore secret first}"
-          export MDW_KEYSTORE_PATH="$RUNNER_TEMP/my-daily-world-parent.jks"
-          trap 'rm -f "$MDW_KEYSTORE_PATH"' EXIT
-          printf '%s' "$MDW_KEYSTORE_BASE64" | base64 --decode > "$MDW_KEYSTORE_PATH"
-          chmod 600 "$MDW_KEYSTORE_PATH"
+          if [ -z "$MDW_KEYSTORE_BASE64" ] || [ -z "$MDW_STORE_PASSWORD" ] || [ -z "$MDW_KEY_ALIAS" ] || [ -z "$MDW_KEY_PASSWORD" ]; then
+            echo 'ERROR: Missing signing secret. Configure all four MDW_* GitHub Actions repository secrets. No unsigned APK will be published.' >&2
+            exit 1
+          fi
+          keypath="$RUNNER_TEMP/my-daily-world-permanent.p12"
+          printf '%s' "$MDW_KEYSTORE_BASE64" | base64 --decode > "$keypath"
+          chmod 600 "$keypath"
+          echo "MDW_KEYSTORE_PATH=$keypath" >> "$GITHUB_ENV"
+          keytool -list -keystore "$keypath" -storepass "$MDW_STORE_PASSWORD" -alias "$MDW_KEY_ALIAS" > /dev/null
+      - name: Build permanently signed release APK
+        if: ${{ github.event_name != 'pull_request' }}
+        working-directory: android
+        env:
+          MDW_STORE_PASSWORD: ${{ secrets.MDW_STORE_PASSWORD }}
+          MDW_KEY_ALIAS: ${{ secrets.MDW_KEY_ALIAS }}
+          MDW_KEY_PASSWORD: ${{ secrets.MDW_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
           ./gradlew --no-daemon assembleRelease
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.signed_release }}
+          test -s app/build/outputs/apk/release/app-release.apk
+          mkdir -p ../artifacts
+          cp app/build/outputs/apk/release/app-release.apk ../artifacts/My-Daily-World.apk
+          (cd ../artifacts && sha256sum My-Daily-World.apk > SHA256SUMS.txt)
+      - name: Upload signed app (no temporary debug builds)
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
-          name: my-daily-world-parent-signed-release
-          path: android/app/build/outputs/apk/release/app-release.apk
+          name: My-Daily-World-SIGNED
+          path: artifacts/
           if-no-files-found: error
+          retention-days: 30
+      - name: Remove signing key from runner
+        if: ${{ always() && github.event_name != 'pull_request' }}
+        run: rm -f "$RUNNER_TEMP/my-daily-world-permanent.p12"
