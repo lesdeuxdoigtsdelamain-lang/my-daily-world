@@ -126,12 +126,14 @@ class Cloudflare:
                     if isinstance(message,dict):
                         response=output_json_text(message.get('parsed'))
                         if response is None:
-                            response=output_json_text(message.get('content'))
-                            if response is None and isinstance(message.get('content'),list):
-                                parts=[part.get('text','') for part in message['content']
+                            content=message.get('content')
+                            if isinstance(content,list):
+                                parts=[part.get('text','') for part in content
                                        if isinstance(part,dict) and part.get('type')=='text'
                                        and isinstance(part.get('text'),str)]
                                 response=''.join(parts) or None
+                            else:
+                                response=output_json_text(content)
                     if response is None:
                         response=output_json_text(choice.get('text'))
         if response is None:
