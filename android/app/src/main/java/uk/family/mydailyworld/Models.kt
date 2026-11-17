@@ -21,9 +21,12 @@ fun today(clock: Clock = Clock.systemUTC()): LocalDate = LocalDate.now(clock.wit
     @SerialName("license_url") val licenseUrl: String? = null)
 @Serializable data class Fact(val id: String, val text: String, @SerialName("source_url") val sourceUrl: String)
 @Serializable data class Word(val word: String, val definition: String)
+@Serializable data class StoryImage(val url: String, val alt: String, val credit: String, val license: String,
+    @SerialName("license_url") val licenseUrl: String, @SerialName("source_page") val sourcePage: String)
 @Serializable data class Story(val id: String, val category: String, val title: String, val summary: String,
     @SerialName("why_it_matters") val why: String,
     @SerialName("word_to_know") val word: Word? = null,
+    val image: StoryImage? = null,
     val sensitivity: String = "low", val country: String? = null,
     @SerialName("source_refs") val sources: List<SourceRef>,
     @SerialName("supporting_fact_ids") val factIds: List<String>, val facts: List<Fact>,
@@ -72,6 +75,12 @@ fun validate(e: Edition, allowSample: Boolean = false): Edition {
     e.stories.forEach { s ->
         require(s.category in categories && s.id.length in 8..80 && s.title.length in 5..250)
         require(s.summary.length <= 1800 && s.why.length <= 400 && s.age == "10-15")
+        s.image?.let { img ->
+            require(publicHttps(img.url) && URI(img.url).host == "upload.wikimedia.org")
+            require(publicHttps(img.licenseUrl) && publicHttps(img.sourcePage))
+            require(URI(img.sourcePage).host == "commons.wikimedia.org")
+            require(listOf(img.alt,img.credit,img.license).all(::plain))
+        }
         require(listOf(s.title, s.summary, s.why).all(::plain))
         require(s.sensitivity in listOf("low", "gentle") && s.kind in listOf("headline", "excerpt", "grounded_ai"))
         require(s.sources.isNotEmpty() && s.sources.size <= 4 && s.facts.isNotEmpty())
