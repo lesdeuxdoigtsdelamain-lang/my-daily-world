@@ -91,7 +91,7 @@ fun displayTime(value:String):String = runCatching {OffsetDateTime.parse(value).
                                     items(listOf("All")+categories){c->FilterChip(selected=filter==c,onClick={filter=c},label={Text(c)})}
                                 }
                             }
-                            val stories=edition.stories.filter {s-> if(page=="Categories")filter=="All" || s.category==filter else s.category !in p.hidden}
+                            val stories=edition.stories.filter {s-> if(page=="Categories")filter=="All" || s.category==filter else s.category !in p.hidden}.take(5)
                             key(edition.id,page,filter) {
                                 EditionScreen(edition,stories,current?.second?.scrollIndex ?: 0,reads.filter {it.editionId==edition.id && edition.stories.any {s->s.id==it.storyId}}.map {it.storyId}.toSet(),
                                     checking,p.readingLevel,link,{vm.sync()},{s,r->vm.mark(edition.id,s,r)},
@@ -126,8 +126,8 @@ fun displayTime(value:String):String = runCatching {OffsetDateTime.parse(value).
             Text(if(e.sample)"Sample edition" else if(e.date==today().toString())"Today's edition" else "Last downloaded edition",style=MaterialTheme.typography.headlineMedium)
             Text(displayDate(e.date),style=MaterialTheme.typography.titleMedium)
             if(e.date!=today().toString() && !e.sample)Notice("Today's edition isn't ready yet. You are reading an older edition.")
-            Text("About ${e.minutes} min · ${read.size} of ${e.stories.size} stories read",modifier=Modifier.padding(vertical=8.dp))
-            LinearProgressIndicator(progress={read.size.toFloat()/e.stories.size},modifier=Modifier.fillMaxWidth())
+            Text("About ${e.minutes} min · ${read.count { it in stories.map { story -> story.id } }} of ${stories.size} stories read",modifier=Modifier.padding(vertical=8.dp))
+            LinearProgressIndicator(progress={if(stories.isEmpty()) 0f else read.count { it in stories.map { story -> story.id } }.toFloat()/stories.size},modifier=Modifier.fillMaxWidth())
             if(e.mode=="compact") Notice("Compact edition — a shorter read with the sources available today.")
             OutlinedButton(onClick=refresh,enabled=!checking){Icon(Icons.Default.Refresh,null);Spacer(Modifier.width(8.dp));Text("Check for new edition")}
             if(stories.isEmpty())Text("No stories in this section today. Try another section.")
