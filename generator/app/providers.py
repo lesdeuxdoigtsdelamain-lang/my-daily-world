@@ -137,8 +137,6 @@ class Cloudflare:
                     if response is None:
                         response=output_json_text(choice.get('text'))
         if response is None:
-            response=output_json_text(result.get('output'))
-        if response is None:
             keys=','.join(sorted(k for k in result if isinstance(k,str) and
                                  k in ('response','usage','choices','output','messages','errors','success')))
             choices=result.get('choices')
