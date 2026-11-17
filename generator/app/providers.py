@@ -106,17 +106,46 @@ class Cloudflare:
             result=result[0]
         if not isinstance(result,dict):
             raise AiError('Cloudflare response result has unexpected type: '+type(result).__name__)
-        response=result.get('response')
+        # JSON-mode models may return a structured object directly, or a
+        # choices[0].message.parsed object with content omitted/null.
+        # Never emit response contents or provider metadata into CI logs.
+        def output_json_text(value):
+            if isinstance(value,str):
+                return value if value.strip() else None
+            if isinstance(value,(dict,list)):
+                return json.dumps(value,ensure_ascii=False)
+            return None
+
+        response=output_json_text(result.get('response'))
         if response is None:
             choices=result.get('choices')
-            if isinstance(choices,list) and choices and isinstance(choices[0],dict):
-                message=choices[0].get('message')
-                if isinstance(message,dict): response=message.get('content')
-        if not isinstance(response,str) or not response.strip():
-            # Safe diagnostic of JSON structure, never raw generated text or credential values.
+            if isinstance(choices,list) and choices:
+                choice=choices[0]
+                if isinstance(choice,dict):
+                    message=choice.get('message')
+                    if isinstance(message,dict):
+                        response=output_json_text(message.get('parsed'))
+                        if response is None:
+                            content=message.get('content')
+                            if isinstance(content,list):
+                                parts=[part.get('text','') for part in content
+                                       if isinstance(part,dict) and part.get('type')=='text'
+                                       and isinstance(part.get('text'),str)]
+                                response=''.join(parts) or None
+                            else:
+                                response=output_json_text(content)
+                    if response is None:
+                        response=output_json_text(choice.get('text'))
+        if response is None:
             keys=','.join(sorted(k for k in result if isinstance(k,str) and
                                  k in ('response','usage','choices','output','messages','errors','success')))
-            raise AiError('Cloudflare returned no text (result fields: '+(keys or 'none')+')')
+            choices=result.get('choices')
+            choice=choices[0] if isinstance(choices,list) and choices else None
+            msg=choice.get('message') if isinstance(choice,dict) else None
+            message_types=','.join(k+':'+type(msg[k]).__name__ for k in ('parsed','content')
+                                   if isinstance(msg,dict) and k in msg)
+            raise AiError('Cloudflare returned no usable text (result fields: '+
+                          (keys or 'none')+'; message types: '+(message_types or 'none')+')')
         usage=result.get('usage',{})
         if isinstance(usage,dict):
             # Whitelist numeric fields. Never persist arbitrary response metadata.
