@@ -207,3 +207,38 @@ def test_reject_unlicensed_commons_image(feed,now):
             'LicenseUrl':{'value':'https://example.net/licence'}}}]}]}}
     client=httpx.Client(transport=httpx.MockTransport(lambda req:httpx.Response(200,json=data)))
     assert find_image(story,SafeHttp({'commons.wikimedia.org'},client)) is None
+
+
+def test_cloudflare_smoke_accepts_plain_text():
+    client=httpx.Client(transport=httpx.MockTransport(lambda r:httpx.Response(
+        200,json={'success':True,'result':{'response':'OK','usage':{'total_tokens':4}}})))
+    provider=Cloudflare('a'*32,'TEST_ONLY_SECRET',client=client)
+    provider.smoke()
+    assert provider.calls==1
+
+
+def test_cloudflare_api_error_reports_only_code():
+    client=httpx.Client(transport=httpx.MockTransport(lambda r:httpx.Response(
+        200,json={'success':False,'errors':[{'code':5004,'message':'SENSITIVE_SECRET'}],
+                  'result':None})))
+    provider=Cloudflare('a'*32,'TEST_ONLY_SECRET',client=client)
+    with pytest.raises(AiError) as e: provider.smoke()
+    assert '5004' in str(e.value)
+    assert 'SENSITIVE_SECRET' not in str(e.value)
+
+
+def test_cloudflare_no_text_reports_shape_not_payload():
+    client=httpx.Client(transport=httpx.MockTransport(lambda r:httpx.Response(
+        200,json={'success':True,'result':{'usage':{'total_tokens':2},
+                   'output':{'private':'DO_NOT_LOG'}}})))
+    provider=Cloudflare('a'*32,'TEST_ONLY_SECRET',client=client)
+    with pytest.raises(AiError) as e: provider.smoke()
+    assert 'result fields' in str(e.value)
+    assert 'DO_NOT_LOG' not in str(e.value)
+
+
+def test_cloudflare_openai_style_response():
+    client=httpx.Client(transport=httpx.MockTransport(lambda r:httpx.Response(
+        200,json={'choices':[{'message':{'content':'OK'}}]})))
+    provider=Cloudflare('a'*32,'TEST_ONLY_SECRET',client=client)
+    provider.smoke()
