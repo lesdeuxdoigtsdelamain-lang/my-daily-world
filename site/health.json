@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "state": "success",
-  "checked_at": "2026-11-17T15:53:42.425265+00:00",
-  "last_successful_publication": "2026-11-17T15:53:42.425265+00:00",
+  "checked_at": "2026-11-17T17:13:35.475254+00:00",
+  "last_successful_publication": "2026-11-17T17:13:35.475254+00:00",
   "detail": "Validated evidence sentences",
   "feeds": {
     "globalvoices": {
@@ -11,7 +11,7 @@
     },
     "nasa": {
       "state": "ok",
-      "eligible": 9
+      "eligible": 8
     },
     "govuk": {
       "state": "ok",
@@ -54,16 +54,16 @@
     "requests": 2,
     "reported": [
       {
-        "prompt_tokens": 1862,
-        "completion_tokens": 510,
-        "total_tokens": 2372,
-        "neurons": 154.10592651367188
+        "prompt_tokens": 2189,
+        "completion_tokens": 539,
+        "total_tokens": 2728,
+        "neurons": 168.76560974121094
       },
       {
-        "prompt_tokens": 1064,
-        "completion_tokens": 247,
-        "total_tokens": 1311,
-        "neurons": 78.96131896972656
+        "prompt_tokens": 1840,
+        "completion_tokens": 446,
+        "total_tokens": 2286,
+        "neurons": 140.41168212890625
       }
     ],
     "neuron_estimate": null,
