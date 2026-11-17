@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "state": "success",
+  "checked_at": "2026-11-17T13:40:57.224020+00:00",
+  "last_successful_publication": "2026-11-17T13:40:57.224020+00:00",
+  "detail": "AI output failed structured validation",
+  "feeds": {
+    "globalvoices": {
+      "state": "ok",
+      "eligible": 1
+    },
+    "nasa": {
+      "state": "ok",
+      "eligible": 9
+    },
+    "govuk": {
+      "state": "ok",
+      "eligible": 20
+    },
+    "nsf": {
+      "state": "ok",
+      "eligible": 0
+    },
+    "nps": {
+      "state": "ok",
+      "eligible": 7
+    },
+    "bbc-world": {
+      "state": "disabled",
+      "reason": "Reuse permission not established"
+    },
+    "bbc-uk": {
+      "state": "disabled",
+      "reason": "Reuse permission not established"
+    },
+    "bbc-science": {
+      "state": "disabled",
+      "reason": "Reuse permission not established"
+    },
+    "sky-world": {
+      "state": "disabled",
+      "reason": "Reuse permission not established"
+    },
+    "sky-technology": {
+      "state": "disabled",
+      "reason": "Reuse permission not established"
+    },
+    "aljazeera": {
+      "state": "disabled",
+      "reason": "Reuse permission not established"
+    }
+  },
+  "ai_usage": {
+    "requests": 1,
+    "reported": [
+      {
+        "prompt_tokens": 1736,
+        "completion_tokens": 310,
+        "total_tokens": 2046,
+        "neurons": 109.78472900390625
+      }
+    ],
+    "neuron_estimate": null,
+    "maximum_requests": 2,
+    "maximum_output_tokens_per_call": 1400
+  }
+}

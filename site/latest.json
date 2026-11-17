@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-17-en-GB",
+  "edition_date": "2026-11-17",
+  "published_at": "2026-11-17T13:40:57.224020Z",
+  "last_successful_generation": "2026-11-17T13:40:40.920864Z",
+  "url": "editions/2026-11-17.json",
+  "sha256": "41c68beb79c68552c7de2fe9f99b7ce4715fc4b20277a7948f1b4321f0dae86d",
+  "state": "success",
+  "ai_provider": "none",
+  "mode": "compact"
+}
