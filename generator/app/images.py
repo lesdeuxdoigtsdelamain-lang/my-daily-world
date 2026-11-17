@@ -24,48 +24,56 @@ GENERIC={
 }
 BLOCKED=re.compile(r'\b(?:war|death|dead|killed|injured|bomb|shoot|attack|flood|crash|victim|conflict|violence|blood)\b',re.I)
 
-def find_image(story,http):
+def find_image(story,http,used=None):
     # Avoid sensational or inaccurate photographs for sensitive news.
     terms=GENERIC.get(story.category,'planet Earth')
     if story.sensitivity=='low' and not BLOCKED.search(story.title):
         words=re.findall(r'[A-Za-z]{4,}', story.title)
         if len(words)>=2:
             terms=' '.join(words[:4])
-    params={
-        'action':'query','format':'json','formatversion':'2',
-        'generator':'search','gsrsearch':terms,'gsrnamespace':'6','gsrlimit':'7',
-        'prop':'imageinfo','iiprop':'url|mime|extmetadata','iiurlwidth':'720'
-    }
-    try:
-        raw=http.get(COMMONS_API+'?'+urlencode(params),limit=220_000)
-        pages=json.loads(raw).get('query',{}).get('pages',[])
-    except (FetchError,ValueError,KeyError,TypeError):
-        return None
-    for page in pages:
+    used=used or set()
+    queries=[terms]
+    fallback=GENERIC.get(story.category,'planet Earth')
+    if fallback != terms:
+        queries.append(fallback)
+    for search_terms in queries:
+        params={
+            'action':'query','format':'json','formatversion':'2',
+            'generator':'search','gsrsearch':search_terms,'gsrnamespace':'6','gsrlimit':'7',
+            'prop':'imageinfo','iiprop':'url|mime|extmetadata','iiurlwidth':'720'
+        }
         try:
-            title=page['title']; info=page['imageinfo'][0]
-            if info.get('mime') not in ('image/jpeg','image/png','image/webp'): continue
-            url=info.get('thumburl') or info.get('url')
-            if urlsplit(url).hostname != 'upload.wikimedia.org' or not url.startswith('https://'):
-                continue
-            meta=info['extmetadata']
-            licence=clean(meta['LicenseShortName']['value'],80)
-            license_url=meta['LicenseUrl']['value']
-            if not licence.lower().startswith(SAFE_LICENSE_PREFIXES): continue
-            if not license_url.startswith('https://'): continue
-            credit=clean(meta.get('Artist',{}).get('value',''),100)
-            if not credit: continue
-            page_url='https://commons.wikimedia.org/wiki/'+quote(title.replace(' ','_'),safe=':_()-')
-            return ImageAsset(url=url,alt='Illustrative photo for '+story.category,
-                credit=credit,license=licence,license_url=license_url,
-                source_page=page_url)
-        except (KeyError,TypeError,ValueError):
+            raw=http.get(COMMONS_API+'?'+urlencode(params),limit=220_000)
+            pages=json.loads(raw).get('query',{}).get('pages',[])
+        except (FetchError,ValueError,KeyError,TypeError):
             continue
+        for page in pages:
+            try:
+                title=page['title']; info=page['imageinfo'][0]
+                if info.get('mime') not in ('image/jpeg','image/png','image/webp'): continue
+                url=info.get('thumburl') or info.get('url')
+                if url in used or urlsplit(url).hostname != 'upload.wikimedia.org' or not url.startswith('https://'):
+                    continue
+                meta=info['extmetadata']
+                licence=clean(meta['LicenseShortName']['value'],80)
+                license_url=meta['LicenseUrl']['value']
+                if not licence.lower().startswith(SAFE_LICENSE_PREFIXES): continue
+                if not license_url.startswith('https://'): continue
+                credit=clean(meta.get('Artist',{}).get('value',''),100)
+                if not credit: continue
+                page_url='https://commons.wikimedia.org/wiki/'+quote(title.replace(' ','_'),safe=':_()-')
+                return ImageAsset(url=url,alt='Illustrative photo for '+story.category,
+                    credit=credit,license=licence,license_url=license_url,
+                    source_page=page_url)
+            except (KeyError,TypeError,ValueError):
+                continue
     return None
 
 def attach_licensed_images(stories,http):
     result=[]
+    used=set()
     for story in stories:
-        image=find_image(story,http)
+        image=find_image(story,http,used)
+        if image: used.add(image.url)
         result.append(story.model_copy(update={'image':image}) if image else story)
     return result
