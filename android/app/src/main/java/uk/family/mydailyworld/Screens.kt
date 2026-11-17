@@ -12,6 +12,9 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.draw.clip
+import coil3.compose.AsyncImage
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -139,6 +142,38 @@ fun displayTime(value:String):String = runCatching {OffsetDateTime.parse(value).
                     s.sources.filter {it.author!=null && it.license!=null}.forEach {credit->
                         Text("Originally published on ${credit.publisher} by ${credit.author}",style=MaterialTheme.typography.bodySmall)
                         TextButton(onClick={link(credit.url)}){Text("Original story and author")}
+                    }
+                    s.image?.let { img ->
+                        AsyncImage(
+                            model=img.url,
+                            contentDescription=img.alt,
+                            contentScale=ContentScale.Crop,
+                            modifier=Modifier.fillMaxWidth().height(185.dp).clip(MaterialTheme.shapes.medium)
+                        )
+                        Text("Illustrative image, not necessarily a photo of this event.",
+                            style=MaterialTheme.typography.bodySmall)
+                        TextButton(onClick={link(img.sourcePage)}) {
+                            Text("Image: "+img.credit+" · "+img.license+" (Wikimedia Commons)")
+                        }
+                    } ?: Surface(
+                        color=MaterialTheme.colorScheme.secondaryContainer,
+                        shape=MaterialTheme.shapes.medium,
+                        modifier=Modifier.fillMaxWidth().height(120.dp)
+                    ) {
+                        Box(contentAlignment=Alignment.Center) {
+                            Icon(
+                                when(s.category) {
+                                    "Science & Tech" -> Icons.Default.Science
+                                    "Environment" -> Icons.Default.Eco
+                                    "Sport" -> Icons.Default.SportsSoccer
+                                    "Muslim World" -> Icons.Default.TravelExplore
+                                    else -> Icons.Default.Public
+                                },
+                                contentDescription="Illustration for "+s.category,
+                                tint=MaterialTheme.colorScheme.primary,
+                                modifier=Modifier.size(64.dp)
+                            )
+                        }
                     }
                     Text(s.title,style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.SemiBold)
                     s.country?.let {Text(it)}
