@@ -242,3 +242,35 @@ def test_cloudflare_openai_style_response():
         200,json={'choices':[{'message':{'content':'OK'}}]})))
     provider=Cloudflare('a'*32,'TEST_ONLY_SECRET',client=client)
     provider.smoke()
+
+
+def test_cloudflare_rewrite_json_mode_requires_evidence_only():
+    from generator.app.providers import REWRITE_SCHEMA
+    def respond(req):
+        body=json.loads(req.content)
+        assert body['response_format']=={'type':'json_schema','json_schema':REWRITE_SCHEMA}
+        assert body['max_tokens']<=1600
+        return httpx.Response(200,json={'success':True,'result':{
+            'response':json.dumps({'stories':[{
+                'story_id':'article-001','title':'Scientists observe a new pattern',
+                'summary':'Scientists measured sunlight.',
+                'fact_ids':['fact-1'],'age_suitability':'10-15'
+            }]}),
+            'usage':{'total_tokens':40}
+        }})
+    p=Cloudflare('a'*32,'TEST_ONLY_SECRET',
+        client=httpx.Client(transport=httpx.MockTransport(respond)))
+    output=p.rewrite([{'story_id':'article-001'}])
+    assert len(output)==1
+    assert output[0].summary=='Scientists measured sunlight.'
+    assert output[0].why_it_matters==''
+    assert p.calls==1
+
+def test_cloudflare_smoke_never_requests_json_schema():
+    def respond(req):
+        body=json.loads(req.content)
+        assert 'response_format' not in body
+        return httpx.Response(200,json={'success':True,'result':{'response':'OK'}})
+    p=Cloudflare('a'*32,'TEST_ONLY_SECRET',
+        client=httpx.Client(transport=httpx.MockTransport(respond)))
+    p.smoke()
