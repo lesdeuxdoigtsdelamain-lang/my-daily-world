@@ -21,6 +21,7 @@ class Candidate:
     feed: Feed
     attributed: bool
     author: str | None = None
+    article_text: str = ''
 
 def canonical(url: str, hosts: list[str]) -> str | None:
     if len(url)>2048 or any(c.isspace() for c in url): return None
