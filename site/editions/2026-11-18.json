@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-18-en-GB",
+  "edition_date": "2026-11-18",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-18T16:13:30.434065Z",
+  "mode": "full",
+  "ai_provider": "none",
+  "ai_status": "Cloudflare HTTP 429; compact fallback",
+  "estimated_reading_minutes": 6,
+  "stories": [
+    {
+      "id": "357be53427b45c107a84",
+      "category": "UK",
+      "title": "Home Secretary's speech to NPCC/APCC Summit 2026",
+      "summary": "The Home Secretary announced around 200 new Local Police Commands will be created across England and Wales in a speech at the annual APCC/NPCC summit. It is a pleasure to join you all today, and it is an honour to pay tribute to the work that you and your forces do. Every day, your officers are responsible for acts of heroism, too often unremarked and overlooked. Just a few months ago, I joined a number of officers at 10 Downing Street. All were nominees for the Police Bravery Awards. I will never forget speaking to PC Yasmin Mechem-Whitfield, who was there with her mother. Two years earlier, she had pursued an armed killer through the streets of Hainault, equipped with little more than a taser and PAVA spray. When she caught up with him, he attacked her with a knife, inflicting life-changing injuries.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026",
+          "published_at": "2026-11-18T15:16:21Z",
+          "retrieved_at": "2026-11-18T16:13:30.434065Z",
+          "source_title": "Home Secretary's speech to NPCC/APCC Summit 2026",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-357be53427b45c107a84",
+        "f-357be53427b45c107a84-0",
+        "f-357be53427b45c107a84-1",
+        "f-357be53427b45c107a84-2",
+        "f-357be53427b45c107a84-3",
+        "f-357be53427b45c107a84-4",
+        "f-357be53427b45c107a84-5",
+        "f-357be53427b45c107a84-6",
+        "f-357be53427b45c107a84-7"
+      ],
+      "facts": [
+        {
+          "id": "f-357be53427b45c107a84",
+          "text": "Home Secretary's speech to NPCC/APCC Summit 2026",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        },
+        {
+          "id": "f-357be53427b45c107a84-0",
+          "text": "The Home Secretary announced around 200 new Local Police Commands will be created across England and Wales in a speech at the annual APCC/NPCC summit.",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        },
+        {
+          "id": "f-357be53427b45c107a84-1",
+          "text": "It is a pleasure to join you all today, and it is an honour to pay tribute to the work that you and your forces do.",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        },
+        {
+          "id": "f-357be53427b45c107a84-2",
+          "text": "Every day, your officers are responsible for acts of heroism, too often unremarked and overlooked.",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        },
+        {
+          "id": "f-357be53427b45c107a84-3",
+          "text": "Just a few months ago, I joined a number of officers at 10 Downing Street.",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        },
+        {
+          "id": "f-357be53427b45c107a84-4",
+          "text": "All were nominees for the Police Bravery Awards.",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        },
+        {
+          "id": "f-357be53427b45c107a84-5",
+          "text": "I will never forget speaking to PC Yasmin Mechem-Whitfield, who was there with her mother.",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        },
+        {
+          "id": "f-357be53427b45c107a84-6",
+          "text": "Two years earlier, she had pursued an armed killer through the streets of Hainault, equipped with little more than a taser and PAVA spray.",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        },
+        {
+          "id": "f-357be53427b45c107a84-7",
+          "text": "When she caught up with him, he attacked her with a knife, inflicting life-changing injuries.",
+          "source_url": "https://www.gov.uk/government/speeches/home-secretarys-speech-to-npccapcc-summit-2026"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "2cd18aabd24d163624ec",
+      "category": "World",
+      "title": "‘Who will respond?’: Jailed Hong Kong pro-democracy activist Joshua Wong fears being forgotten amid 10-year sentence",
+      "summary": "Joshua Wong released from Lai Chi Kok Reception Centre on June 17, 2019. The following version is edited and republished on Global Voices under a content partnership agreement. It is also part of Global Voices’ November 2026 Spotlight series, “ Justice as infrastructure .” You can support this coverage by donating here . In a letter from a Hong Kong prison earlier this year, jailed activist Joshua Wong expressed dread over the looming sentence in his foreign collusion case. “Fretting about whether it’s 2032 or 2037, my mental state is hardly all right,” he wrote in Chinese, weighing when he might regain his freedom. The agony inevitably stems from this: What if it’s 2037? Well, it’s easy [for people] to sympathise in the moment, but it’s difficult to be consistent, and it will only get harder.",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": {
+        "word": "infrastructure",
+        "definition": "The basic systems and structures that a community uses."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for World",
+        "credit": "Sam Hood",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence",
+          "published_at": "2026-11-18T11:48:15Z",
+          "retrieved_at": "2026-11-18T16:13:30.434065Z",
+          "source_title": "‘Who will respond?’: Jailed Hong Kong pro-democracy activist Joshua Wong fears being forgotten amid 10-year sentence",
+          "event_date": null,
+          "author": "Hong Kong Free Press",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-2cd18aabd24d163624ec",
+        "f-2cd18aabd24d163624ec-0",
+        "f-2cd18aabd24d163624ec-1",
+        "f-2cd18aabd24d163624ec-2",
+        "f-2cd18aabd24d163624ec-3",
+        "f-2cd18aabd24d163624ec-4",
+        "f-2cd18aabd24d163624ec-5",
+        "f-2cd18aabd24d163624ec-6"
+      ],
+      "facts": [
+        {
+          "id": "f-2cd18aabd24d163624ec",
+          "text": "‘Who will respond?’: Jailed Hong Kong pro-democracy activist Joshua Wong fears being forgotten amid 10-year sentence",
+          "source_url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence"
+        },
+        {
+          "id": "f-2cd18aabd24d163624ec-0",
+          "text": "Joshua Wong released from Lai Chi Kok Reception Centre on June 17, 2019.",
+          "source_url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence"
+        },
+        {
+          "id": "f-2cd18aabd24d163624ec-1",
+          "text": "The following version is edited and republished on Global Voices under a content partnership agreement.",
+          "source_url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence"
+        },
+        {
+          "id": "f-2cd18aabd24d163624ec-2",
+          "text": "It is also part of Global Voices’ November 2026 Spotlight series, “ Justice as infrastructure .” You can support this coverage by donating here .",
+          "source_url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence"
+        },
+        {
+          "id": "f-2cd18aabd24d163624ec-3",
+          "text": "In a letter from a Hong Kong prison earlier this year, jailed activist Joshua Wong expressed dread over the looming sentence in his foreign collusion case.",
+          "source_url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence"
+        },
+        {
+          "id": "f-2cd18aabd24d163624ec-4",
+          "text": "“Fretting about whether it’s 2032 or 2037, my mental state is hardly all right,” he wrote in Chinese, weighing when he might regain his freedom.",
+          "source_url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence"
+        },
+        {
+          "id": "f-2cd18aabd24d163624ec-5",
+          "text": "The agony inevitably stems from this: What if it’s 2037?",
+          "source_url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence"
+        },
+        {
+          "id": "f-2cd18aabd24d163624ec-6",
+          "text": "Well, it’s easy [for people] to sympathise in the moment, but it’s difficult to be consistent, and it will only get harder.",
+          "source_url": "https://globalvoices.org/2026/11/18/who-will-respond-jailed-hong-kong-pro-democracy-activist-joshua-wong-fears-being-forgotten-amid-10-year-sentence"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "dae7f3a1c27d5e38d691",
+      "category": "Money & Business",
+      "title": "TRA investigates imported robot lawn mowers",
+      "summary": "The Trade Remedies Authority has initiated a dumping investigation of robot lawn mower imports from China. TRA launches robot lawn mower dumping investigation Today (18 November), the Trade Remedies Authority (TRA) is beginning an investigation into whether imports of robot lawn mowers from China are being dumped in the UK market. Robot lawn mowers are battery-powered, autonomous devices that may use cameras or sensors to guide them while cutting grass in gardens, parks and fields. They are an increasingly popular piece of equipment for British gardeners. The TRA has launched this investigation following an application by Husqvarna, a company based in Newton Aycliffe, County Durham that makes and sells robot lawn mowers and other garden tools. They allege that dumped imports of robot lawn mowers are causing injury to UK industry. Dumping occurs when goods are imported into a country at a price that is below their normal value.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Money & Business",
+        "credit": "Robin Webster",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers",
+          "published_at": "2026-11-18T15:44:07Z",
+          "retrieved_at": "2026-11-18T16:13:30.434065Z",
+          "source_title": "TRA investigates imported robot lawn mowers",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-dae7f3a1c27d5e38d691",
+        "f-dae7f3a1c27d5e38d691-0",
+        "f-dae7f3a1c27d5e38d691-1",
+        "f-dae7f3a1c27d5e38d691-2",
+        "f-dae7f3a1c27d5e38d691-3",
+        "f-dae7f3a1c27d5e38d691-4",
+        "f-dae7f3a1c27d5e38d691-5",
+        "f-dae7f3a1c27d5e38d691-6"
+      ],
+      "facts": [
+        {
+          "id": "f-dae7f3a1c27d5e38d691",
+          "text": "TRA investigates imported robot lawn mowers",
+          "source_url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers"
+        },
+        {
+          "id": "f-dae7f3a1c27d5e38d691-0",
+          "text": "The Trade Remedies Authority has initiated a dumping investigation of robot lawn mower imports from China.",
+          "source_url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers"
+        },
+        {
+          "id": "f-dae7f3a1c27d5e38d691-1",
+          "text": "TRA launches robot lawn mower dumping investigation Today (18 November), the Trade Remedies Authority (TRA) is beginning an investigation into whether imports of robot lawn mowers from China are being dumped in the UK market.",
+          "source_url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers"
+        },
+        {
+          "id": "f-dae7f3a1c27d5e38d691-2",
+          "text": "Robot lawn mowers are battery-powered, autonomous devices that may use cameras or sensors to guide them while cutting grass in gardens, parks and fields.",
+          "source_url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers"
+        },
+        {
+          "id": "f-dae7f3a1c27d5e38d691-3",
+          "text": "They are an increasingly popular piece of equipment for British gardeners.",
+          "source_url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers"
+        },
+        {
+          "id": "f-dae7f3a1c27d5e38d691-4",
+          "text": "The TRA has launched this investigation following an application by Husqvarna, a company based in Newton Aycliffe, County Durham that makes and sells robot lawn mowers and other garden tools.",
+          "source_url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers"
+        },
+        {
+          "id": "f-dae7f3a1c27d5e38d691-5",
+          "text": "They allege that dumped imports of robot lawn mowers are causing injury to UK industry.",
+          "source_url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers"
+        },
+        {
+          "id": "f-dae7f3a1c27d5e38d691-6",
+          "text": "Dumping occurs when goods are imported into a country at a price that is below their normal value.",
+          "source_url": "https://www.gov.uk/government/news/tra-investigates-imported-robot-lawn-mowers"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "244903a24c6b99980db4",
+      "category": "World",
+      "title": "Diversifying funding was supposed to protect civil society: It did not",
+      "summary": "Activists hold a candlelight vigil to commemorate those who lost their lives in post-election violence in Tanzania in Nairobi, Kenya, on November 20, 2025. Image by Anadolu Lucas-Mukasa courtesy of FORUS. By Clarisse Sih , Bibbi Abruzzini , and Jake Wieczorek “Every one of our grants is annual and project-tied. We have no reserves and no core funding, which means that stability, where it exists, is only ever twelve months deep.” That is how one civil society organization in Algeria described its finances to us in a recent survey . It is a sentence many donors would recognize from their own grant files, and it captures a reality familiar to many organizations: years of navigating short-term grants, restricted budgets and uncertain renewals, with little room to plan beyond the next funding cycle. For years, civil society organizations have been encouraged to diversify their income, develop new partnerships and build financial and capacity resilience.",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": null,
+      "image": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/18/diversifying-funding-was-supposed-to-protect-civil-society-it-did-not",
+          "published_at": "2026-11-18T02:40:58Z",
+          "retrieved_at": "2026-11-18T16:13:30.434065Z",
+          "source_title": "Diversifying funding was supposed to protect civil society: It did not",
+          "event_date": null,
+          "author": "Forus",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-244903a24c6b99980db4",
+        "f-244903a24c6b99980db4-0",
+        "f-244903a24c6b99980db4-1",
+        "f-244903a24c6b99980db4-2",
+        "f-244903a24c6b99980db4-3",
+        "f-244903a24c6b99980db4-4",
+        "f-244903a24c6b99980db4-5"
+      ],
+      "facts": [
+        {
+          "id": "f-244903a24c6b99980db4",
+          "text": "Diversifying funding was supposed to protect civil society: It did not",
+          "source_url": "https://globalvoices.org/2026/11/18/diversifying-funding-was-supposed-to-protect-civil-society-it-did-not"
+        },
+        {
+          "id": "f-244903a24c6b99980db4-0",
+          "text": "Activists hold a candlelight vigil to commemorate those who lost their lives in post-election violence in Tanzania in Nairobi, Kenya, on November 20, 2025.",
+          "source_url": "https://globalvoices.org/2026/11/18/diversifying-funding-was-supposed-to-protect-civil-society-it-did-not"
+        },
+        {
+          "id": "f-244903a24c6b99980db4-1",
+          "text": "Image by Anadolu Lucas-Mukasa courtesy of FORUS.",
+          "source_url": "https://globalvoices.org/2026/11/18/diversifying-funding-was-supposed-to-protect-civil-society-it-did-not"
+        },
+        {
+          "id": "f-244903a24c6b99980db4-2",
+          "text": "By Clarisse Sih , Bibbi Abruzzini , and Jake Wieczorek “Every one of our grants is annual and project-tied.",
+          "source_url": "https://globalvoices.org/2026/11/18/diversifying-funding-was-supposed-to-protect-civil-society-it-did-not"
+        },
+        {
+          "id": "f-244903a24c6b99980db4-3",
+          "text": "We have no reserves and no core funding, which means that stability, where it exists, is only ever twelve months deep.” That is how one civil society organization in Algeria described its finances to us in a recent survey .",
+          "source_url": "https://globalvoices.org/2026/11/18/diversifying-funding-was-supposed-to-protect-civil-society-it-did-not"
+        },
+        {
+          "id": "f-244903a24c6b99980db4-4",
+          "text": "It is a sentence many donors would recognize from their own grant files, and it captures a reality familiar to many organizations: years of navigating short-term grants, restricted budgets and uncertain renewals, with little room to plan beyond the next funding cycle.",
+          "source_url": "https://globalvoices.org/2026/11/18/diversifying-funding-was-supposed-to-protect-civil-society-it-did-not"
+        },
+        {
+          "id": "f-244903a24c6b99980db4-5",
+          "text": "For years, civil society organizations have been encouraged to diversify their income, develop new partnerships and build financial and capacity resilience.",
+          "source_url": "https://globalvoices.org/2026/11/18/diversifying-funding-was-supposed-to-protect-civil-society-it-did-not"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "31570f0915c82cd91e07",
+      "category": "UK",
+      "title": "Local Police Commands created to tackle everyday crime",
+      "summary": "The Home Secretary announced around 200 new Local Police Commands will be created across England and Wales at the annual APCC/NPCC summit. The biggest reforms to policing in two centuries will see the creation of around 200 Local Police Commands (LPCs) to tackle the everyday crime blighting communities. Since the government unveiled plans in January to fundamentally restructure the policing model, much focus has been on reducing the number of forces at a regional level. However, delivering a keynote speech to police leaders today, Shabana Mahmood announced she will build a structure from the bottom up with a larger number of smaller Commands that will focus solely on the needs of their local area. LPCs will be the foundation of the new policing model, focused on keeping neighbourhoods safe and tackling crimes like burglary, vehicle theft, phone theft and antisocial behaviour.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Countryside_-_geograph.org.uk_-_205780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Paul McIlroy",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_-_geograph.org.uk_-_205780.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime",
+          "published_at": "2026-11-18T15:08:16Z",
+          "retrieved_at": "2026-11-18T16:13:30.434065Z",
+          "source_title": "Local Police Commands created to tackle everyday crime",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-31570f0915c82cd91e07",
+        "f-31570f0915c82cd91e07-0",
+        "f-31570f0915c82cd91e07-1",
+        "f-31570f0915c82cd91e07-2",
+        "f-31570f0915c82cd91e07-3",
+        "f-31570f0915c82cd91e07-4"
+      ],
+      "facts": [
+        {
+          "id": "f-31570f0915c82cd91e07",
+          "text": "Local Police Commands created to tackle everyday crime",
+          "source_url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime"
+        },
+        {
+          "id": "f-31570f0915c82cd91e07-0",
+          "text": "The Home Secretary announced around 200 new Local Police Commands will be created across England and Wales at the annual APCC/NPCC summit.",
+          "source_url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime"
+        },
+        {
+          "id": "f-31570f0915c82cd91e07-1",
+          "text": "The biggest reforms to policing in two centuries will see the creation of around 200 Local Police Commands (LPCs) to tackle the everyday crime blighting communities.",
+          "source_url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime"
+        },
+        {
+          "id": "f-31570f0915c82cd91e07-2",
+          "text": "Since the government unveiled plans in January to fundamentally restructure the policing model, much focus has been on reducing the number of forces at a regional level.",
+          "source_url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime"
+        },
+        {
+          "id": "f-31570f0915c82cd91e07-3",
+          "text": "However, delivering a keynote speech to police leaders today, Shabana Mahmood announced she will build a structure from the bottom up with a larger number of smaller Commands that will focus solely on the needs of their local area.",
+          "source_url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime"
+        },
+        {
+          "id": "f-31570f0915c82cd91e07-4",
+          "text": "LPCs will be the foundation of the new policing model, focused on keeping neighbourhoods safe and tackling crimes like burglary, vehicle theft, phone theft and antisocial behaviour.",
+          "source_url": "https://www.gov.uk/government/news/local-police-commands-created-to-tackle-everyday-crime"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-357be53427b45c107a84",
+      "question": "Complete the headline you read: “Home ____'s speech to NPCC/APCC Summit 2026”",
+      "choices": [
+        "Commands",
+        "Diversifying",
+        "Secretary"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “Home Secretary's speech to NPCC/APCC Summit 2026”.",
+      "story_id": "357be53427b45c107a84",
+      "fact_id": "f-357be53427b45c107a84"
+    },
+    {
+      "id": "q-2cd18aabd24d163624ec",
+      "question": "Complete the headline you read: “‘Who will respond?’: Jailed Hong Kong pro-____ activist Joshua Wong fears being forgotten amid 10-year sentence”",
+      "choices": [
+        "Diversifying",
+        "democracy",
+        "Commands"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “‘Who will respond?’: Jailed Hong Kong pro-democracy activist Joshua Wong fears being forgotten amid 10-year sentence”.",
+      "story_id": "2cd18aabd24d163624ec",
+      "fact_id": "f-2cd18aabd24d163624ec"
+    },
+    {
+      "id": "q-dae7f3a1c27d5e38d691",
+      "question": "Complete the headline you read: “TRA ____ imported robot lawn mowers”",
+      "choices": [
+        "investigates",
+        "Commands",
+        "Diversifying"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “TRA investigates imported robot lawn mowers”.",
+      "story_id": "dae7f3a1c27d5e38d691",
+      "fact_id": "f-dae7f3a1c27d5e38d691"
+    },
+    {
+      "id": "q-244903a24c6b99980db4",
+      "question": "Complete the headline you read: “____ funding was supposed to protect civil society: It did not”",
+      "choices": [
+        "Diversifying",
+        "Jailed",
+        "Commands"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Diversifying funding was supposed to protect civil society: It did not”.",
+      "story_id": "244903a24c6b99980db4",
+      "fact_id": "f-244903a24c6b99980db4"
+    },
+    {
+      "id": "q-31570f0915c82cd91e07",
+      "question": "Complete the headline you read: “Local Police ____ created to tackle everyday crime”",
+      "choices": [
+        "Diversifying",
+        "Commands",
+        "Jailed"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Local Police Commands created to tackle everyday crime”.",
+      "story_id": "31570f0915c82cd91e07",
+      "fact_id": "f-31570f0915c82cd91e07"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}

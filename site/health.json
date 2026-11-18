@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "state": "success",
-  "checked_at": "2026-11-17T17:13:35.475254+00:00",
-  "last_successful_publication": "2026-11-17T17:13:35.475254+00:00",
-  "detail": "Validated evidence sentences",
+  "checked_at": "2026-11-18T16:13:40.934852+00:00",
+  "last_successful_publication": "2026-11-18T16:13:40.934852+00:00",
+  "detail": "Cloudflare HTTP 429; compact fallback",
   "feeds": {
     "globalvoices": {
       "state": "ok",
-      "eligible": 2
+      "eligible": 3
     },
     "nasa": {
       "state": "ok",
-      "eligible": 8
+      "eligible": 10
     },
     "govuk": {
       "state": "ok",
@@ -23,7 +23,7 @@
     },
     "nps": {
       "state": "ok",
-      "eligible": 7
+      "eligible": 2
     },
     "bbc-world": {
       "state": "disabled",
@@ -51,21 +51,8 @@
     }
   },
   "ai_usage": {
-    "requests": 2,
-    "reported": [
-      {
-        "prompt_tokens": 2189,
-        "completion_tokens": 539,
-        "total_tokens": 2728,
-        "neurons": 168.76560974121094
-      },
-      {
-        "prompt_tokens": 1840,
-        "completion_tokens": 446,
-        "total_tokens": 2286,
-        "neurons": 140.41168212890625
-      }
-    ],
+    "requests": 1,
+    "reported": [],
     "neuron_estimate": null,
     "maximum_requests": 2,
     "maximum_output_tokens_per_call": 1400
