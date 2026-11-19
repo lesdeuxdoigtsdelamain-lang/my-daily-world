@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-19-en-GB",
+  "edition_date": "2026-11-19",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-19T16:14:52.599876Z",
+  "mode": "full",
+  "ai_provider": "cloudflare",
+  "ai_status": "Validated evidence sentences",
+  "estimated_reading_minutes": 5,
+  "stories": [
+    {
+      "id": "25ad6c680a5ee39cf94f",
+      "category": "UK",
+      "title": "Attorney General's introductory remarks to the International Tribunal for the Law of the Sea",
+      "summary": "Full oral submissions of the United Kingdom of Great Britain and Northern Ireland for the following case: Hydrocarbon exploitation in the South-West Atlantic Ocean (Argentina v. United Kingdom), Provisional Measures. Delivered on 10 November 2026. Mr. President, distinguished members of the Tribunal. As His Majesty’s Attorney General, I have the honour to appear before you on behalf of the United Kingdom. I take this opportunity to congratulate you, Mr. President, on your recent election, as well as to congratulate the other members of the Tribunal who have recently been elected to their posts. The United Kingdom has a steadfast commitment to international law and an unwavering belief that institutions, such as this Tribunal, play an indispensable role in safeguarding the international legal order. Reflecting that commitment, on 22 October the United Kingdom acted expeditiously in appointing a member of the Annex VII tribunal in these proceedings.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea",
+          "published_at": "2026-11-19T15:52:32Z",
+          "retrieved_at": "2026-11-19T16:14:52.599876Z",
+          "source_title": "Attorney General's introductory remarks to the International Tribunal for the Law of the Sea",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-25ad6c680a5ee39cf94f",
+        "f-25ad6c680a5ee39cf94f-0",
+        "f-25ad6c680a5ee39cf94f-1",
+        "f-25ad6c680a5ee39cf94f-2",
+        "f-25ad6c680a5ee39cf94f-3",
+        "f-25ad6c680a5ee39cf94f-4",
+        "f-25ad6c680a5ee39cf94f-5",
+        "f-25ad6c680a5ee39cf94f-6",
+        "f-25ad6c680a5ee39cf94f-7"
+      ],
+      "facts": [
+        {
+          "id": "f-25ad6c680a5ee39cf94f",
+          "text": "Attorney General's introductory remarks to the International Tribunal for the Law of the Sea",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        },
+        {
+          "id": "f-25ad6c680a5ee39cf94f-0",
+          "text": "Full oral submissions of the United Kingdom of Great Britain and Northern Ireland for the following case: Hydrocarbon exploitation in the South-West Atlantic Ocean (Argentina v.",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        },
+        {
+          "id": "f-25ad6c680a5ee39cf94f-1",
+          "text": "United Kingdom), Provisional Measures.",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        },
+        {
+          "id": "f-25ad6c680a5ee39cf94f-2",
+          "text": "Delivered on 10 November 2026.",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        },
+        {
+          "id": "f-25ad6c680a5ee39cf94f-3",
+          "text": "Mr. President, distinguished members of the Tribunal.",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        },
+        {
+          "id": "f-25ad6c680a5ee39cf94f-4",
+          "text": "As His Majesty’s Attorney General, I have the honour to appear before you on behalf of the United Kingdom.",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        },
+        {
+          "id": "f-25ad6c680a5ee39cf94f-5",
+          "text": "I take this opportunity to congratulate you, Mr. President, on your recent election, as well as to congratulate the other members of the Tribunal who have recently been elected to their posts.",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        },
+        {
+          "id": "f-25ad6c680a5ee39cf94f-6",
+          "text": "The United Kingdom has a steadfast commitment to international law and an unwavering belief that institutions, such as this Tribunal, play an indispensable role in safeguarding the international legal order.",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        },
+        {
+          "id": "f-25ad6c680a5ee39cf94f-7",
+          "text": "Reflecting that commitment, on 22 October the United Kingdom acted expeditiously in appointing a member of the Annex VII tribunal in these proceedings.",
+          "source_url": "https://www.gov.uk/government/news/attorney-generals-introductory-remarks-to-the-international-tribunal-for-the-law-of-the-sea"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "c2d2f44e8713626909e4",
+      "category": "World",
+      "title": "Family stories keep alive Georgia’s democratic past and the memory of Soviet repression",
+      "summary": "Guria is a region in Georgia , situated in the southwestern part of the country. It has a coastline on the Black Sea to the west, which is about 22 kilometers (13 miles) long, and the region is bordered by the Samegrelo-Zemo Svaneti region to the north, Imereti to the east, and the Autonomous Republic of Adjara to the south. It has a rich history and a historical tradition of democracy. In 1904, locals organized protests against imperial (Russian, at the time) institutions, formed institutions of self-governance, and proclaimed the Gurian Republic , an early experiment in participatory democracy.",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for World",
+        "credit": "Sam Hood",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression",
+          "published_at": "2026-11-19T08:00:05Z",
+          "retrieved_at": "2026-11-19T16:14:52.599876Z",
+          "source_title": "Family stories keep alive Georgia’s democratic past and the memory of Soviet repression",
+          "event_date": null,
+          "author": "Daria Dergacheva",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-c2d2f44e8713626909e4",
+        "f-c2d2f44e8713626909e4-2",
+        "f-c2d2f44e8713626909e4-3",
+        "f-c2d2f44e8713626909e4-4",
+        "f-c2d2f44e8713626909e4-7"
+      ],
+      "facts": [
+        {
+          "id": "f-c2d2f44e8713626909e4",
+          "text": "Family stories keep alive Georgia’s democratic past and the memory of Soviet repression",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        },
+        {
+          "id": "f-c2d2f44e8713626909e4-0",
+          "text": "Resort in the Guria region of Georgia.",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        },
+        {
+          "id": "f-c2d2f44e8713626909e4-1",
+          "text": "It is being published on Global Voices as part of a content-sharing agreement.",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        },
+        {
+          "id": "f-c2d2f44e8713626909e4-2",
+          "text": "Guria is a region in Georgia , situated in the southwestern part of the country.",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        },
+        {
+          "id": "f-c2d2f44e8713626909e4-3",
+          "text": "It has a coastline on the Black Sea to the west, which is about 22 kilometers (13 miles) long, and the region is bordered by the Samegrelo-Zemo Svaneti region to the north, Imereti to the east, and the Autonomous Republic of Adjara to the south.",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        },
+        {
+          "id": "f-c2d2f44e8713626909e4-4",
+          "text": "It has a rich history and a historical tradition of democracy.",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        },
+        {
+          "id": "f-c2d2f44e8713626909e4-5",
+          "text": "Today, in the region, independent media access is limited and digital literacy remains low.",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        },
+        {
+          "id": "f-c2d2f44e8713626909e4-6",
+          "text": "However, Guria has a civic tradition that most of its own residents do not know about in detail.",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        },
+        {
+          "id": "f-c2d2f44e8713626909e4-7",
+          "text": "In 1904, locals organized protests against imperial (Russian, at the time) institutions, formed institutions of self-governance, and proclaimed the Gurian Republic , an early experiment in participatory democracy.",
+          "source_url": "https://globalvoices.org/2026/11/19/sharing-family-histories-about-a-region-in-georgias-democratic-past-and-soviet-repression"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "4ccd1aa0a4d5150142d9",
+      "category": "Science & Tech",
+      "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+      "summary": "Communications Lead for the Office of the Chief Science Data Officer An international team of scientists has developed a method that can find pulsars in publicly available NASA data about a million times faster than before. This opens the door to discovering many more of these rapidly spinning objects. A paper describing the results published Thursday in the Physical Review Letters. By comparison, the previous best method failed to find the pulsar, despite using enough computing power that a standard processor would take 600 years to perform the calculation. A pulsar is a rapidly spinning neutron star that sweeps beams of radiation toward Earth, much like a lighthouse. Finding pulsars in gamma-ray data is extraordinarily difficult because Fermi detects only a tiny number of photons from a given pulsar, mixed in with background noise from other gamma-ray-emitting sources and the broader universe.",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/John_A._Powers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Science & Tech",
+        "credit": "NASA",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:John_A._Powers.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:John_A._Powers.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery",
+          "published_at": "2026-11-19T15:33:55Z",
+          "retrieved_at": "2026-11-19T16:14:52.599876Z",
+          "source_title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-4ccd1aa0a4d5150142d9",
+        "f-4ccd1aa0a4d5150142d9-0",
+        "f-4ccd1aa0a4d5150142d9-1",
+        "f-4ccd1aa0a4d5150142d9-2",
+        "f-4ccd1aa0a4d5150142d9-3",
+        "f-4ccd1aa0a4d5150142d9-4",
+        "f-4ccd1aa0a4d5150142d9-5"
+      ],
+      "facts": [
+        {
+          "id": "f-4ccd1aa0a4d5150142d9",
+          "text": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+          "source_url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery"
+        },
+        {
+          "id": "f-4ccd1aa0a4d5150142d9-0",
+          "text": "Communications Lead for the Office of the Chief Science Data Officer An international team of scientists has developed a method that can find pulsars in publicly available NASA data about a million times faster than before.",
+          "source_url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery"
+        },
+        {
+          "id": "f-4ccd1aa0a4d5150142d9-1",
+          "text": "This opens the door to discovering many more of these rapidly spinning objects.",
+          "source_url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery"
+        },
+        {
+          "id": "f-4ccd1aa0a4d5150142d9-2",
+          "text": "A paper describing the results published Thursday in the Physical Review Letters.",
+          "source_url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery"
+        },
+        {
+          "id": "f-4ccd1aa0a4d5150142d9-3",
+          "text": "By comparison, the previous best method failed to find the pulsar, despite using enough computing power that a standard processor would take 600 years to perform the calculation.",
+          "source_url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery"
+        },
+        {
+          "id": "f-4ccd1aa0a4d5150142d9-4",
+          "text": "A pulsar is a rapidly spinning neutron star that sweeps beams of radiation toward Earth, much like a lighthouse.",
+          "source_url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery"
+        },
+        {
+          "id": "f-4ccd1aa0a4d5150142d9-5",
+          "text": "Finding pulsars in gamma-ray data is extraordinarily difficult because Fermi detects only a tiny number of photons from a given pulsar, mixed in with background noise from other gamma-ray-emitting sources and the broader universe.",
+          "source_url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "5e8e4a4c8ff8ec88e3a0",
+      "category": "Money & Business",
+      "title": "Tech boost to keep UK legal sector at the cutting edge",
+      "summary": "Britain’s legal sector is set for a £3.62m tech boost to drive innovation, grow businesses and keep UK legal services at the cutting edge of the global race. Announced today (Thursday 19 November), the multi-million-pound Government investment will support the next phase of legal technology, helping turn British innovation into growing businesses, more jobs and new opportunities across legal services. This investment will help lawtech firms grow and encourage new technology across legal services, ensuring Britain remains at the forefront of legal innovation.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Money & Business",
+        "credit": "Robin Webster",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/tech-boost-to-keep-uk-legal-sector-at-the-cutting-edge",
+          "published_at": "2026-11-19T15:42:07Z",
+          "retrieved_at": "2026-11-19T16:14:52.599876Z",
+          "source_title": "Tech boost to keep UK legal sector at the cutting edge",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-5e8e4a4c8ff8ec88e3a0",
+        "f-5e8e4a4c8ff8ec88e3a0-0",
+        "f-5e8e4a4c8ff8ec88e3a0-1",
+        "f-5e8e4a4c8ff8ec88e3a0-3"
+      ],
+      "facts": [
+        {
+          "id": "f-5e8e4a4c8ff8ec88e3a0",
+          "text": "Tech boost to keep UK legal sector at the cutting edge",
+          "source_url": "https://www.gov.uk/government/news/tech-boost-to-keep-uk-legal-sector-at-the-cutting-edge"
+        },
+        {
+          "id": "f-5e8e4a4c8ff8ec88e3a0-0",
+          "text": "Britain’s legal sector is set for a £3.62m tech boost to drive innovation, grow businesses and keep UK legal services at the cutting edge of the global race.",
+          "source_url": "https://www.gov.uk/government/news/tech-boost-to-keep-uk-legal-sector-at-the-cutting-edge"
+        },
+        {
+          "id": "f-5e8e4a4c8ff8ec88e3a0-1",
+          "text": "Announced today (Thursday 19 November), the multi-million-pound Government investment will support the next phase of legal technology, helping turn British innovation into growing businesses, more jobs and new opportunities across legal services.",
+          "source_url": "https://www.gov.uk/government/news/tech-boost-to-keep-uk-legal-sector-at-the-cutting-edge"
+        },
+        {
+          "id": "f-5e8e4a4c8ff8ec88e3a0-2",
+          "text": "Bringing together leaders from technology, business and law, the investment fund will help innovative lawtech firms develop, grow and bring cutting-edge technology to market, while accelerating growth in every part of the UK.",
+          "source_url": "https://www.gov.uk/government/news/tech-boost-to-keep-uk-legal-sector-at-the-cutting-edge"
+        },
+        {
+          "id": "f-5e8e4a4c8ff8ec88e3a0-3",
+          "text": "This investment will help lawtech firms grow and encourage new technology across legal services, ensuring Britain remains at the forefront of legal innovation.",
+          "source_url": "https://www.gov.uk/government/news/tech-boost-to-keep-uk-legal-sector-at-the-cutting-edge"
+        },
+        {
+          "id": "f-5e8e4a4c8ff8ec88e3a0-4",
+          "text": "This programme will also support smaller law firms to embrace new technology while encouraging the lawtech sector to develop the innovative services that make legal services more affordable and accessible, helping more people get the legal support they need.",
+          "source_url": "https://www.gov.uk/government/news/tech-boost-to-keep-uk-legal-sector-at-the-cutting-edge"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "6300e09d51bf6b3495a6",
+      "category": "World",
+      "title": "Support Global Voices’ December Spotlight: Digital Communities",
+      "summary": "Digital communications sparked new ways of forming communities: communities that spanned vast distances; that offered asynchronous interaction, innovative forms of constructing identities, and potentially enormous reach. These communities have provided connection for people who are isolated or marginalized, built powerful groups around both professional interests and unusual hobbies, and facilitated astonishing feats of knowledge-sharing and organizing, from Wikipedia to academic sub-field networks to hobby groups and fandoms. But digital communities bring new challenges as well, from questions of moderation to questions of ownership. Almost all of them are built on the backbone of infrastructure owned by Big Tech — hardware at a minimum, usually several layers of software as well. This is a risky place to put trust. Witness the sudden devastation when a platform is bought and sold , and what was accessible and inclusive becomes hostile; or the sudden change-to-terms-of-service maneuver , when a company leverages the trust of its users to exploit them for their sellable data.",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": {
+        "word": "infrastructure",
+        "definition": "The basic systems and structures that a community uses."
+      },
+      "image": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/19/support-global-voices-december-spotlight-digital-communities",
+          "published_at": "2026-11-19T00:00:00Z",
+          "retrieved_at": "2026-11-19T16:14:52.599876Z",
+          "source_title": "Support Global Voices’ December Spotlight: Digital Communities",
+          "event_date": null,
+          "author": "Global Voices Announcements",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-6300e09d51bf6b3495a6",
+        "f-6300e09d51bf6b3495a6-0",
+        "f-6300e09d51bf6b3495a6-1",
+        "f-6300e09d51bf6b3495a6-2",
+        "f-6300e09d51bf6b3495a6-3",
+        "f-6300e09d51bf6b3495a6-4",
+        "f-6300e09d51bf6b3495a6-5"
+      ],
+      "facts": [
+        {
+          "id": "f-6300e09d51bf6b3495a6",
+          "text": "Support Global Voices’ December Spotlight: Digital Communities",
+          "source_url": "https://globalvoices.org/2026/11/19/support-global-voices-december-spotlight-digital-communities"
+        },
+        {
+          "id": "f-6300e09d51bf6b3495a6-0",
+          "text": "Digital communications sparked new ways of forming communities: communities that spanned vast distances; that offered asynchronous interaction, innovative forms of constructing identities, and potentially enormous reach.",
+          "source_url": "https://globalvoices.org/2026/11/19/support-global-voices-december-spotlight-digital-communities"
+        },
+        {
+          "id": "f-6300e09d51bf6b3495a6-1",
+          "text": "These communities have provided connection for people who are isolated or marginalized, built powerful groups around both professional interests and unusual hobbies, and facilitated astonishing feats of knowledge-sharing and organizing, from Wikipedia to academic sub-field networks to hobby groups and fandoms.",
+          "source_url": "https://globalvoices.org/2026/11/19/support-global-voices-december-spotlight-digital-communities"
+        },
+        {
+          "id": "f-6300e09d51bf6b3495a6-2",
+          "text": "But digital communities bring new challenges as well, from questions of moderation to questions of ownership.",
+          "source_url": "https://globalvoices.org/2026/11/19/support-global-voices-december-spotlight-digital-communities"
+        },
+        {
+          "id": "f-6300e09d51bf6b3495a6-3",
+          "text": "Almost all of them are built on the backbone of infrastructure owned by Big Tech — hardware at a minimum, usually several layers of software as well.",
+          "source_url": "https://globalvoices.org/2026/11/19/support-global-voices-december-spotlight-digital-communities"
+        },
+        {
+          "id": "f-6300e09d51bf6b3495a6-4",
+          "text": "This is a risky place to put trust.",
+          "source_url": "https://globalvoices.org/2026/11/19/support-global-voices-december-spotlight-digital-communities"
+        },
+        {
+          "id": "f-6300e09d51bf6b3495a6-5",
+          "text": "Witness the sudden devastation when a platform is bought and sold , and what was accessible and inclusive becomes hostile; or the sudden change-to-terms-of-service maneuver , when a company leverages the trust of its users to exploit them for their sellable data.",
+          "source_url": "https://globalvoices.org/2026/11/19/support-global-voices-december-spotlight-digital-communities"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-25ad6c680a5ee39cf94f",
+      "question": "Complete the headline you read: “Attorney General's introductory remarks to the ____ Tribunal for the Law of the Sea”",
+      "choices": [
+        "International",
+        "Communities",
+        "December"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Attorney General's introductory remarks to the International Tribunal for the Law of the Sea”.",
+      "story_id": "25ad6c680a5ee39cf94f",
+      "fact_id": "f-25ad6c680a5ee39cf94f"
+    },
+    {
+      "id": "q-c2d2f44e8713626909e4",
+      "question": "Complete the headline you read: “Family stories keep alive Georgia’s ____ past and the memory of Soviet repression”",
+      "choices": [
+        "Communities",
+        "Attorney",
+        "democratic"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “Family stories keep alive Georgia’s democratic past and the memory of Soviet repression”.",
+      "story_id": "c2d2f44e8713626909e4",
+      "fact_id": "f-c2d2f44e8713626909e4"
+    },
+    {
+      "id": "q-4ccd1aa0a4d5150142d9",
+      "question": "Complete the headline you read: “NASA Science Data Powers New Method to ____ Hard-to-Find Pulsars”",
+      "choices": [
+        "Discover",
+        "Communities",
+        "Attorney"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars”.",
+      "story_id": "4ccd1aa0a4d5150142d9",
+      "fact_id": "f-4ccd1aa0a4d5150142d9"
+    },
+    {
+      "id": "q-5e8e4a4c8ff8ec88e3a0",
+      "question": "Complete the headline you read: “Tech boost to keep UK legal sector at the ____ edge”",
+      "choices": [
+        "Attorney",
+        "cutting",
+        "Communities"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Tech boost to keep UK legal sector at the cutting edge”.",
+      "story_id": "5e8e4a4c8ff8ec88e3a0",
+      "fact_id": "f-5e8e4a4c8ff8ec88e3a0"
+    },
+    {
+      "id": "q-6300e09d51bf6b3495a6",
+      "question": "Complete the headline you read: “Support Global Voices’ December Spotlight: Digital ____”",
+      "choices": [
+        "Communities",
+        "Attorney",
+        "Discover"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Support Global Voices’ December Spotlight: Digital Communities”.",
+      "story_id": "6300e09d51bf6b3495a6",
+      "fact_id": "f-6300e09d51bf6b3495a6"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}
