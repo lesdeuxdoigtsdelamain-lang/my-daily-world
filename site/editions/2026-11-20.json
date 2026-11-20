@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-20-en-GB",
+  "edition_date": "2026-11-20",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-20T16:08:37.940681Z",
+  "mode": "full",
+  "ai_provider": "none",
+  "ai_status": "Unverified AI wording rejected; compact fallback",
+  "estimated_reading_minutes": 6,
+  "stories": [
+    {
+      "id": "8803f00c1a6ae6d639d9",
+      "category": "UK",
+      "title": "Whitchallenger preliminary assessment update",
+      "summary": "We use some essential cookies to make this website work. We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services. We also use cookies set by other sites to help us deliver content from their services. You have accepted additional cookies. You can change your cookie settings at any time. You have rejected additional cookies. To help us improve GOV.UK, we’d like to know more about your visit today. Please fill in this survey (opens in a new tab ) .",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update",
+          "published_at": "2026-11-20T14:42:00Z",
+          "retrieved_at": "2026-11-20T16:08:37.940681Z",
+          "source_title": "Whitchallenger preliminary assessment update",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-8803f00c1a6ae6d639d9",
+        "f-8803f00c1a6ae6d639d9-0",
+        "f-8803f00c1a6ae6d639d9-1",
+        "f-8803f00c1a6ae6d639d9-2",
+        "f-8803f00c1a6ae6d639d9-3",
+        "f-8803f00c1a6ae6d639d9-4",
+        "f-8803f00c1a6ae6d639d9-5",
+        "f-8803f00c1a6ae6d639d9-6",
+        "f-8803f00c1a6ae6d639d9-7"
+      ],
+      "facts": [
+        {
+          "id": "f-8803f00c1a6ae6d639d9",
+          "text": "Whitchallenger preliminary assessment update",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        },
+        {
+          "id": "f-8803f00c1a6ae6d639d9-0",
+          "text": "We use some essential cookies to make this website work.",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        },
+        {
+          "id": "f-8803f00c1a6ae6d639d9-1",
+          "text": "We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        },
+        {
+          "id": "f-8803f00c1a6ae6d639d9-2",
+          "text": "We also use cookies set by other sites to help us deliver content from their services.",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        },
+        {
+          "id": "f-8803f00c1a6ae6d639d9-3",
+          "text": "You have accepted additional cookies.",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        },
+        {
+          "id": "f-8803f00c1a6ae6d639d9-4",
+          "text": "You can change your cookie settings at any time.",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        },
+        {
+          "id": "f-8803f00c1a6ae6d639d9-5",
+          "text": "You have rejected additional cookies.",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        },
+        {
+          "id": "f-8803f00c1a6ae6d639d9-6",
+          "text": "To help us improve GOV.UK, we’d like to know more about your visit today.",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        },
+        {
+          "id": "f-8803f00c1a6ae6d639d9-7",
+          "text": "Please fill in this survey (opens in a new tab ) .",
+          "source_url": "https://www.gov.uk/government/news/whitchallenger-preliminary-assessment-update"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "52c4c6a2f615693921a8",
+      "category": "World",
+      "title": "Why Japan’s anti-hate measures fall short",
+      "summary": "Anti-immigration policy protest in Oct 2026. Screen capture from the Japan Unfiltered YouTube Channel. Fair Use This post is part of Global Voices’ November 2026 Spotlight series, “ Justice as infrastructure .” In this Spotlight, Global Voices is partnering with The Hague Institute for Innovation of Law ( HiiL ) to highlight the ways justice functions as critical infrastructure for any society. You can support this coverage by donating here . A newborn Black baby delivered at a clinic in Tokyo’s Meguro Ward became the target of a barrage of racist harassment online. The clinic published the baby’s photo with a congratulatory message on its social media account as part of its routine “babies born this month” photo series. A screenshot of the post spread widely on X, gaining more than 1.3 million views within a day. The post attracted many hateful comments loaded with anti-immigrant sentiment and racial discrimination against non-white and non-Japanese people.",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": {
+        "word": "infrastructure",
+        "definition": "The basic systems and structures that a community uses."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for World",
+        "credit": "Sam Hood",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:SLNSW_12830_George_Street_facade_Globe_World_Theatrette.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short",
+          "published_at": "2026-11-20T00:00:00Z",
+          "retrieved_at": "2026-11-20T16:08:37.940681Z",
+          "source_title": "Why Japan’s anti-hate measures fall short",
+          "event_date": null,
+          "author": "Jo Carter",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-52c4c6a2f615693921a8",
+        "f-52c4c6a2f615693921a8-0",
+        "f-52c4c6a2f615693921a8-1",
+        "f-52c4c6a2f615693921a8-2",
+        "f-52c4c6a2f615693921a8-3",
+        "f-52c4c6a2f615693921a8-4",
+        "f-52c4c6a2f615693921a8-5",
+        "f-52c4c6a2f615693921a8-6",
+        "f-52c4c6a2f615693921a8-7"
+      ],
+      "facts": [
+        {
+          "id": "f-52c4c6a2f615693921a8",
+          "text": "Why Japan’s anti-hate measures fall short",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        },
+        {
+          "id": "f-52c4c6a2f615693921a8-0",
+          "text": "Anti-immigration policy protest in Oct 2026.",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        },
+        {
+          "id": "f-52c4c6a2f615693921a8-1",
+          "text": "Screen capture from the Japan Unfiltered YouTube Channel.",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        },
+        {
+          "id": "f-52c4c6a2f615693921a8-2",
+          "text": "Fair Use This post is part of Global Voices’ November 2026 Spotlight series, “ Justice as infrastructure .” In this Spotlight, Global Voices is partnering with The Hague Institute for Innovation of Law ( HiiL ) to highlight the ways justice functions as critical infrastructure for any society.",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        },
+        {
+          "id": "f-52c4c6a2f615693921a8-3",
+          "text": "You can support this coverage by donating here .",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        },
+        {
+          "id": "f-52c4c6a2f615693921a8-4",
+          "text": "A newborn Black baby delivered at a clinic in Tokyo’s Meguro Ward became the target of a barrage of racist harassment online.",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        },
+        {
+          "id": "f-52c4c6a2f615693921a8-5",
+          "text": "The clinic published the baby’s photo with a congratulatory message on its social media account as part of its routine “babies born this month” photo series.",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        },
+        {
+          "id": "f-52c4c6a2f615693921a8-6",
+          "text": "A screenshot of the post spread widely on X, gaining more than 1.3 million views within a day.",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        },
+        {
+          "id": "f-52c4c6a2f615693921a8-7",
+          "text": "The post attracted many hateful comments loaded with anti-immigrant sentiment and racial discrimination against non-white and non-Japanese people.",
+          "source_url": "https://globalvoices.org/2026/11/20/why-japans-anti-hate-measures-fall-short"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "b3d7c560bdb7c40564fd",
+      "category": "Money & Business",
+      "title": "Major boost to local housing and regeneration ambitions as regional leaders strengthen co-delivery ties with Homes England and National Housing Bank",
+      "summary": "Mayors and leaders central to new wave of Place Delivery Agreements that back local priorities through joint commitments, resources and expertise. Mayors, regional leaders, Homes England and the National Housing Bank have agreed multiple ground-breaking collaborations in the last two months that will accelerate co-delivery of local housing and regeneration plans across England. This includes the first wave of new Place Delivery Agreements (PDAs) , first outlined by the housing minister in September, which give mayors a stronger role in shaping housing delivery, regeneration and growth. Individual agreements with South Yorkshire Combined Mayoral Authority, East Midlands Combined County Authority, West Midlands Combined Mayoral Authority, North East Mayoral Combined Authority, West of England Combined Authority and Liverpool City Region Combined Authority have now been published, with more partnerships to be announced shortly.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Money & Business",
+        "credit": "Robin Webster",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/major-boost-to-local-housing-and-regeneration-ambitions-as-regional-leaders-strengthen-co-delivery-ties-with-homes-england-and-national-housing-bank",
+          "published_at": "2026-11-20T14:26:53Z",
+          "retrieved_at": "2026-11-20T16:08:37.940681Z",
+          "source_title": "Major boost to local housing and regeneration ambitions as regional leaders strengthen co-delivery ties with Homes England and National Housing Bank",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-b3d7c560bdb7c40564fd",
+        "f-b3d7c560bdb7c40564fd-0",
+        "f-b3d7c560bdb7c40564fd-1",
+        "f-b3d7c560bdb7c40564fd-2",
+        "f-b3d7c560bdb7c40564fd-3"
+      ],
+      "facts": [
+        {
+          "id": "f-b3d7c560bdb7c40564fd",
+          "text": "Major boost to local housing and regeneration ambitions as regional leaders strengthen co-delivery ties with Homes England and National Housing Bank",
+          "source_url": "https://www.gov.uk/government/news/major-boost-to-local-housing-and-regeneration-ambitions-as-regional-leaders-strengthen-co-delivery-ties-with-homes-england-and-national-housing-bank"
+        },
+        {
+          "id": "f-b3d7c560bdb7c40564fd-0",
+          "text": "Mayors and leaders central to new wave of Place Delivery Agreements that back local priorities through joint commitments, resources and expertise.",
+          "source_url": "https://www.gov.uk/government/news/major-boost-to-local-housing-and-regeneration-ambitions-as-regional-leaders-strengthen-co-delivery-ties-with-homes-england-and-national-housing-bank"
+        },
+        {
+          "id": "f-b3d7c560bdb7c40564fd-1",
+          "text": "Mayors, regional leaders, Homes England and the National Housing Bank have agreed multiple ground-breaking collaborations in the last two months that will accelerate co-delivery of local housing and regeneration plans across England.",
+          "source_url": "https://www.gov.uk/government/news/major-boost-to-local-housing-and-regeneration-ambitions-as-regional-leaders-strengthen-co-delivery-ties-with-homes-england-and-national-housing-bank"
+        },
+        {
+          "id": "f-b3d7c560bdb7c40564fd-2",
+          "text": "This includes the first wave of new Place Delivery Agreements (PDAs) , first outlined by the housing minister in September, which give mayors a stronger role in shaping housing delivery, regeneration and growth.",
+          "source_url": "https://www.gov.uk/government/news/major-boost-to-local-housing-and-regeneration-ambitions-as-regional-leaders-strengthen-co-delivery-ties-with-homes-england-and-national-housing-bank"
+        },
+        {
+          "id": "f-b3d7c560bdb7c40564fd-3",
+          "text": "Individual agreements with South Yorkshire Combined Mayoral Authority, East Midlands Combined County Authority, West Midlands Combined Mayoral Authority, North East Mayoral Combined Authority, West of England Combined Authority and Liverpool City Region Combined Authority have now been published, with more partnerships to be announced shortly.",
+          "source_url": "https://www.gov.uk/government/news/major-boost-to-local-housing-and-regeneration-ambitions-as-regional-leaders-strengthen-co-delivery-ties-with-homes-england-and-national-housing-bank"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "829dece9ff2dbda74a9c",
+      "category": "Sport",
+      "title": "Member reappointed to the Treasure Valuation Committee",
+      "summary": "The Secretary of State for Digital, Culture, Media and Sport has reappointed Professor Leslie Webster as a Member of the Treasure Valuation Committee for a five-year term. Appointed from 15 April 2027 to 14 April 2032 Professor Webster is a specialist in early medieval art and archaeology. She was formerly a senior curator of the British Museum’s Anglo-Saxon, late Celtic and Viking collections and Keeper of the Department of Britain, Europe and Prehistory. She has served as an Honorary Visiting Professor at the Institute of Archaeology, University College London, and as President of the Society for Medieval Archaeology and is a Fellow of the Society of Antiquaries. She has lectured and published widely. Her recent books include Anglo-Saxon Art: A New History (2012), The Franks Casket (2012), and, as co-editor and contributor, The Staffordshire Hoard: an Anglo-Saxon Treasure (2019). Members of the Treasure Valuation Committee are not remunerated.",
+      "why_it_matters": "Sport offers opportunities to learn about teamwork, practice and fair play.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Exeter_Arena_Athletics_Stadium_-_geograph.org.uk_-_1126689.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Sport",
+        "credit": "Jan Baker",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Exeter_Arena_Athletics_Stadium_-_geograph.org.uk_-_1126689.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee",
+          "published_at": "2026-11-20T12:00:00Z",
+          "retrieved_at": "2026-11-20T16:08:37.940681Z",
+          "source_title": "Member reappointed to the Treasure Valuation Committee",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-829dece9ff2dbda74a9c",
+        "f-829dece9ff2dbda74a9c-0",
+        "f-829dece9ff2dbda74a9c-1",
+        "f-829dece9ff2dbda74a9c-2",
+        "f-829dece9ff2dbda74a9c-3",
+        "f-829dece9ff2dbda74a9c-4",
+        "f-829dece9ff2dbda74a9c-5",
+        "f-829dece9ff2dbda74a9c-6"
+      ],
+      "facts": [
+        {
+          "id": "f-829dece9ff2dbda74a9c",
+          "text": "Member reappointed to the Treasure Valuation Committee",
+          "source_url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee"
+        },
+        {
+          "id": "f-829dece9ff2dbda74a9c-0",
+          "text": "The Secretary of State for Digital, Culture, Media and Sport has reappointed Professor Leslie Webster as a Member of the Treasure Valuation Committee for a five-year term.",
+          "source_url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee"
+        },
+        {
+          "id": "f-829dece9ff2dbda74a9c-1",
+          "text": "Appointed from 15 April 2027 to 14 April 2032 Professor Webster is a specialist in early medieval art and archaeology.",
+          "source_url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee"
+        },
+        {
+          "id": "f-829dece9ff2dbda74a9c-2",
+          "text": "She was formerly a senior curator of the British Museum’s Anglo-Saxon, late Celtic and Viking collections and Keeper of the Department of Britain, Europe and Prehistory.",
+          "source_url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee"
+        },
+        {
+          "id": "f-829dece9ff2dbda74a9c-3",
+          "text": "She has served as an Honorary Visiting Professor at the Institute of Archaeology, University College London, and as President of the Society for Medieval Archaeology and is a Fellow of the Society of Antiquaries.",
+          "source_url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee"
+        },
+        {
+          "id": "f-829dece9ff2dbda74a9c-4",
+          "text": "She has lectured and published widely.",
+          "source_url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee"
+        },
+        {
+          "id": "f-829dece9ff2dbda74a9c-5",
+          "text": "Her recent books include Anglo-Saxon Art: A New History (2012), The Franks Casket (2012), and, as co-editor and contributor, The Staffordshire Hoard: an Anglo-Saxon Treasure (2019).",
+          "source_url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee"
+        },
+        {
+          "id": "f-829dece9ff2dbda74a9c-6",
+          "text": "Members of the Treasure Valuation Committee are not remunerated.",
+          "source_url": "https://www.gov.uk/government/news/member-reappointed-to-the-treasure-valuation-committee"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "a92cc23a668bfe4b397d",
+      "category": "Science & Tech",
+      "title": "The Stormy Southwest Pacific",
+      "summary": "Tropical Cyclone Xavier launched the basin’s storm season with a bang. Even as the unusually quiet 2026 storm season winds down in the North Atlantic, seas have begun to stir on the other side of the world in the Southwest Pacific. On November 15, 2026 , the Fiji Meteorological Service began issuing updates about a slow-moving tropical disturbance northeast of Samoa and the Cook Islands. Within just a few days, it had become one of the most intense November tropical cyclones the region has seen in decades. Named Xavier , the system intensified rapidly , thriving in an environment with minimal wind shear and sea surface temperatures of 29 degrees Celsius (84 degrees Fahrenheit)—well above the threshold required to sustain and strengthen developing tropical cyclones . Xavier was the basin’s second named storm of the season, following only Wati , a short-lived storm that emerged in October.",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "image": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific",
+          "published_at": "2026-11-20T05:01:00Z",
+          "retrieved_at": "2026-11-20T16:08:37.940681Z",
+          "source_title": "The Stormy Southwest Pacific",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-a92cc23a668bfe4b397d",
+        "f-a92cc23a668bfe4b397d-0",
+        "f-a92cc23a668bfe4b397d-1",
+        "f-a92cc23a668bfe4b397d-2",
+        "f-a92cc23a668bfe4b397d-3",
+        "f-a92cc23a668bfe4b397d-4",
+        "f-a92cc23a668bfe4b397d-5"
+      ],
+      "facts": [
+        {
+          "id": "f-a92cc23a668bfe4b397d",
+          "text": "The Stormy Southwest Pacific",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific"
+        },
+        {
+          "id": "f-a92cc23a668bfe4b397d-0",
+          "text": "Tropical Cyclone Xavier launched the basin’s storm season with a bang.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific"
+        },
+        {
+          "id": "f-a92cc23a668bfe4b397d-1",
+          "text": "Even as the unusually quiet 2026 storm season winds down in the North Atlantic, seas have begun to stir on the other side of the world in the Southwest Pacific.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific"
+        },
+        {
+          "id": "f-a92cc23a668bfe4b397d-2",
+          "text": "On November 15, 2026 , the Fiji Meteorological Service began issuing updates about a slow-moving tropical disturbance northeast of Samoa and the Cook Islands.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific"
+        },
+        {
+          "id": "f-a92cc23a668bfe4b397d-3",
+          "text": "Within just a few days, it had become one of the most intense November tropical cyclones the region has seen in decades.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific"
+        },
+        {
+          "id": "f-a92cc23a668bfe4b397d-4",
+          "text": "Named Xavier , the system intensified rapidly , thriving in an environment with minimal wind shear and sea surface temperatures of 29 degrees Celsius (84 degrees Fahrenheit)—well above the threshold required to sustain and strengthen developing tropical cyclones .",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific"
+        },
+        {
+          "id": "f-a92cc23a668bfe4b397d-5",
+          "text": "Xavier was the basin’s second named storm of the season, following only Wati , a short-lived storm that emerged in October.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-8803f00c1a6ae6d639d9",
+      "question": "Complete the headline you read: “____ preliminary assessment update”",
+      "choices": [
+        "England",
+        "Whitchallenger",
+        "Committee"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Whitchallenger preliminary assessment update”.",
+      "story_id": "8803f00c1a6ae6d639d9",
+      "fact_id": "f-8803f00c1a6ae6d639d9"
+    },
+    {
+      "id": "q-52c4c6a2f615693921a8",
+      "question": "Complete the headline you read: “Why Japan’s anti-hate ____ fall short”",
+      "choices": [
+        "measures",
+        "Committee",
+        "England"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Why Japan’s anti-hate measures fall short”.",
+      "story_id": "52c4c6a2f615693921a8",
+      "fact_id": "f-52c4c6a2f615693921a8"
+    },
+    {
+      "id": "q-b3d7c560bdb7c40564fd",
+      "question": "Complete the headline you read: “Major boost to local housing and ____ ambitions as regional leaders strengthen co-delivery ties with Homes England and National Housing Bank”",
+      "choices": [
+        "Japan",
+        "Committee",
+        "regeneration"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “Major boost to local housing and regeneration ambitions as regional leaders strengthen co-delivery ties with Homes England and National Housing Bank”.",
+      "story_id": "b3d7c560bdb7c40564fd",
+      "fact_id": "f-b3d7c560bdb7c40564fd"
+    },
+    {
+      "id": "q-829dece9ff2dbda74a9c",
+      "question": "Complete the headline you read: “Member ____ to the Treasure Valuation Committee”",
+      "choices": [
+        "reappointed",
+        "England",
+        "Homes"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Member reappointed to the Treasure Valuation Committee”.",
+      "story_id": "829dece9ff2dbda74a9c",
+      "fact_id": "f-829dece9ff2dbda74a9c"
+    },
+    {
+      "id": "q-a92cc23a668bfe4b397d",
+      "question": "Complete the headline you read: “The Stormy ____ Pacific”",
+      "choices": [
+        "Southwest",
+        "Committee",
+        "England"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “The Stormy Southwest Pacific”.",
+      "story_id": "a92cc23a668bfe4b397d",
+      "fact_id": "f-a92cc23a668bfe4b397d"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}
