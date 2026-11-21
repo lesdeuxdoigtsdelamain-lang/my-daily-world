@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-21-en-GB",
+  "edition_date": "2026-11-21",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-21T15:56:33.129371Z",
+  "mode": "compact",
+  "ai_provider": "cloudflare",
+  "ai_status": "Validated evidence sentences",
+  "estimated_reading_minutes": 2,
+  "stories": [
+    {
+      "id": "ac0e9b361dc9b860c924",
+      "category": "UK",
+      "title": "Chief of Defence Intelligence speech at Cambridge Intelligence Seminar: 20 November 2026",
+      "summary": "Lt Gen Matthew Jones, Chief of Defence Intelligence speech at Cambridge Intelligence Seminar Good afternoon and it is both a great privilege and pleasure to return to Corpus Christi College and speak at the Cambridge Intelligence Seminar. I have been an admirer of the seminar for many years and am grateful for you giving me the opportunity to address you on contemporary issues, conscious that your normal focus is understandably on the past. I am also pleased that there are members of Corpus’ newly formed Security and Risk Society here this afternoon, and look forward to meeting you afterwards. I wonder if some of you might be the next generation of national security professionals.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026",
+          "published_at": "2026-11-21T11:11:05Z",
+          "retrieved_at": "2026-11-21T15:56:33.129371Z",
+          "source_title": "Chief of Defence Intelligence speech at Cambridge Intelligence Seminar: 20 November 2026",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-ac0e9b361dc9b860c924",
+        "f-ac0e9b361dc9b860c924-0",
+        "f-ac0e9b361dc9b860c924-1",
+        "f-ac0e9b361dc9b860c924-2",
+        "f-ac0e9b361dc9b860c924-3"
+      ],
+      "facts": [
+        {
+          "id": "f-ac0e9b361dc9b860c924",
+          "text": "Chief of Defence Intelligence speech at Cambridge Intelligence Seminar: 20 November 2026",
+          "source_url": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026"
+        },
+        {
+          "id": "f-ac0e9b361dc9b860c924-0",
+          "text": "Lt Gen Matthew Jones, Chief of Defence Intelligence speech at Cambridge Intelligence Seminar Good afternoon and it is both a great privilege and pleasure to return to Corpus Christi College and speak at the Cambridge Intelligence Seminar.",
+          "source_url": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026"
+        },
+        {
+          "id": "f-ac0e9b361dc9b860c924-1",
+          "text": "I have been an admirer of the seminar for many years and am grateful for you giving me the opportunity to address you on contemporary issues, conscious that your normal focus is understandably on the past.",
+          "source_url": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026"
+        },
+        {
+          "id": "f-ac0e9b361dc9b860c924-2",
+          "text": "I am also pleased that there are members of Corpus’ newly formed Security and Risk Society here this afternoon, and look forward to meeting you afterwards.",
+          "source_url": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026"
+        },
+        {
+          "id": "f-ac0e9b361dc9b860c924-3",
+          "text": "I wonder if some of you might be the next generation of national security professionals.",
+          "source_url": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026"
+        },
+        {
+          "id": "f-ac0e9b361dc9b860c924-4",
+          "text": "I am particularly thankful to Professor Chris Andrew as the convener.",
+          "source_url": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026"
+        },
+        {
+          "id": "f-ac0e9b361dc9b860c924-5",
+          "text": "Thirty years after you supervised me in intelligence history here at Corpus, I hope I can demonstrate I did pay attention to you at least occasionally.",
+          "source_url": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "86c8adaa083bde11c02e",
+      "category": "People & Culture",
+      "title": "Reclaiming Indigenous culinary histories in Nepal",
+      "summary": "Timu khole , wild mushroom soup. Used with permission. Food enriches our soul. It makes us who we are. However, the emergence of cosmopolitanism and global and local food politics has sidelined Indigenous food, not to mention the traditions and rituals associated with them. “The national food narrative that is being set completely obscures the varied regional histories and food practices of the Indigenous peoples.” The Foundation , established in 2017, promotes the many varieties of food that have become neglected in Nepal, especially the plants and herbs that can be foraged in the forests and mountains. Working with Aama Samuha , a collective of women’s groups set up to maintain cultural traditions and support communal activities in Nepali villages, she has been documenting and archiving the food knowledge primarily held by Indigenous women in Nepal.",
+      "why_it_matters": "Learning about different ideas and communities can broaden our understanding.",
+      "word_to_know": null,
+      "image": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal",
+          "published_at": "2026-11-21T06:12:59Z",
+          "retrieved_at": "2026-11-21T15:56:33.129371Z",
+          "source_title": "Reclaiming Indigenous culinary histories in Nepal",
+          "event_date": null,
+          "author": "Sanjib Chaudhary",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-86c8adaa083bde11c02e",
+        "f-86c8adaa083bde11c02e-0",
+        "f-86c8adaa083bde11c02e-1",
+        "f-86c8adaa083bde11c02e-2",
+        "f-86c8adaa083bde11c02e-3",
+        "f-86c8adaa083bde11c02e-4",
+        "f-86c8adaa083bde11c02e-5",
+        "f-86c8adaa083bde11c02e-6"
+      ],
+      "facts": [
+        {
+          "id": "f-86c8adaa083bde11c02e",
+          "text": "Reclaiming Indigenous culinary histories in Nepal",
+          "source_url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal"
+        },
+        {
+          "id": "f-86c8adaa083bde11c02e-0",
+          "text": "Timu khole , wild mushroom soup.",
+          "source_url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal"
+        },
+        {
+          "id": "f-86c8adaa083bde11c02e-1",
+          "text": "Used with permission.",
+          "source_url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal"
+        },
+        {
+          "id": "f-86c8adaa083bde11c02e-2",
+          "text": "Food enriches our soul.",
+          "source_url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal"
+        },
+        {
+          "id": "f-86c8adaa083bde11c02e-3",
+          "text": "It makes us who we are.",
+          "source_url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal"
+        },
+        {
+          "id": "f-86c8adaa083bde11c02e-4",
+          "text": "However, the emergence of cosmopolitanism and global and local food politics has sidelined Indigenous food, not to mention the traditions and rituals associated with them.",
+          "source_url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal"
+        },
+        {
+          "id": "f-86c8adaa083bde11c02e-5",
+          "text": "“The national food narrative that is being set completely obscures the varied regional histories and food practices of the Indigenous peoples.” The Foundation , established in 2017, promotes the many varieties of food that have become neglected in Nepal, especially the plants and herbs that can be foraged in the forests and mountains.",
+          "source_url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal"
+        },
+        {
+          "id": "f-86c8adaa083bde11c02e-6",
+          "text": "Working with Aama Samuha , a collective of women’s groups set up to maintain cultural traditions and support communal activities in Nepali villages, she has been documenting and archiving the food knowledge primarily held by Indigenous women in Nepal.",
+          "source_url": "https://globalvoices.org/2026/11/21/rereclaiming-indigenous-culinary-histories-in-nepal"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-ac0e9b361dc9b860c924",
+      "question": "Complete the headline you read: “Chief of Defence ____ speech at Cambridge ____ Seminar: 20 November 2026”",
+      "choices": [
+        "Indigenous",
+        "Nepal",
+        "Intelligence"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “Chief of Defence Intelligence speech at Cambridge Intelligence Seminar: 20 November 2026”.",
+      "story_id": "ac0e9b361dc9b860c924",
+      "fact_id": "f-ac0e9b361dc9b860c924"
+    },
+    {
+      "id": "q-86c8adaa083bde11c02e",
+      "question": "Complete the headline you read: “____ Indigenous culinary histories in Nepal”",
+      "choices": [
+        "Reclaiming",
+        "Chief",
+        "Cambridge"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Reclaiming Indigenous culinary histories in Nepal”.",
+      "story_id": "86c8adaa083bde11c02e",
+      "fact_id": "f-86c8adaa083bde11c02e"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}
