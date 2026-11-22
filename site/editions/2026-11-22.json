@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-22-en-GB",
+  "edition_date": "2026-11-22",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-22T15:56:13.330535Z",
+  "mode": "compact",
+  "ai_provider": "cloudflare",
+  "ai_status": "Validated evidence sentences",
+  "estimated_reading_minutes": 3,
+  "stories": [
+    {
+      "id": "5faad7ca7b82045e5fab",
+      "category": "UK",
+      "title": "UK Government position on COP31 Outcome",
+      "summary": "This COP sought to confront hard truths – that global warming is set to overshoot 1.5C and that we must act with even more urgency to reduce emissions; accelerate clean electrification; deliver our transition away from fossil fuels, and build resilience to climate shocks. The United Kingdom does not believe the cover decision proposed by the Presidencies meets the moment. We believe it moves us backwards on the science when we must accelerate implementation. It has compromised where it should have presented bold collective ambition on climate action.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome",
+          "published_at": "2026-11-22T12:21:38Z",
+          "retrieved_at": "2026-11-22T15:56:13.330535Z",
+          "source_title": "UK Government position on COP31 Outcome",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-5faad7ca7b82045e5fab",
+        "f-5faad7ca7b82045e5fab-0",
+        "f-5faad7ca7b82045e5fab-1",
+        "f-5faad7ca7b82045e5fab-2",
+        "f-5faad7ca7b82045e5fab-3"
+      ],
+      "facts": [
+        {
+          "id": "f-5faad7ca7b82045e5fab",
+          "text": "UK Government position on COP31 Outcome",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        },
+        {
+          "id": "f-5faad7ca7b82045e5fab-0",
+          "text": "This COP sought to confront hard truths – that global warming is set to overshoot 1.5C and that we must act with even more urgency to reduce emissions; accelerate clean electrification; deliver our transition away from fossil fuels, and build resilience to climate shocks.",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        },
+        {
+          "id": "f-5faad7ca7b82045e5fab-1",
+          "text": "The United Kingdom does not believe the cover decision proposed by the Presidencies meets the moment.",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        },
+        {
+          "id": "f-5faad7ca7b82045e5fab-2",
+          "text": "We believe it moves us backwards on the science when we must accelerate implementation.",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        },
+        {
+          "id": "f-5faad7ca7b82045e5fab-3",
+          "text": "It has compromised where it should have presented bold collective ambition on climate action.",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        },
+        {
+          "id": "f-5faad7ca7b82045e5fab-4",
+          "text": "It is our responsibility to protect and uphold the Paris Agreement.",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        },
+        {
+          "id": "f-5faad7ca7b82045e5fab-5",
+          "text": "It is our duty to protect communities across the UK, the Commonwealth and those most vulnerable to climate shocks.",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        },
+        {
+          "id": "f-5faad7ca7b82045e5fab-6",
+          "text": "We have worked closely with partners from across every region of the world in Antalya.",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        },
+        {
+          "id": "f-5faad7ca7b82045e5fab-7",
+          "text": "We have advanced our work on many issues, in ways that weren’t reflected in the cover text to be issued at the end of the COP.",
+          "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "21bdf6d2e090fa1e1da3",
+      "category": "UK",
+      "title": "Pupils learn money skills for real life in curriculum shake-up",
+      "summary": "Children will get a stronger grounding in the financial literacy skills they need to manage money, make informed decisions and succeed at work under major reforms to the national curriculum unveiled today. From mastering times tables and percentages to understanding interest rates, payslips and mortgages, the changes will strengthen foundational knowledge while ensuring young people can put it into practice in modern life and work. More than seven in ten (71%) children aged 7 to 17 make purchases online, with two-thirds (67%) of those doing so without adult supervision.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Countryside_-_geograph.org.uk_-_205780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Paul McIlroy",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_-_geograph.org.uk_-_205780.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up",
+          "published_at": "2026-11-22T09:28:36Z",
+          "retrieved_at": "2026-11-22T15:56:13.330535Z",
+          "source_title": "Pupils learn money skills for real life in curriculum shake-up",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-21bdf6d2e090fa1e1da3",
+        "f-21bdf6d2e090fa1e1da3-1",
+        "f-21bdf6d2e090fa1e1da3-2",
+        "f-21bdf6d2e090fa1e1da3-5"
+      ],
+      "facts": [
+        {
+          "id": "f-21bdf6d2e090fa1e1da3",
+          "text": "Pupils learn money skills for real life in curriculum shake-up",
+          "source_url": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up"
+        },
+        {
+          "id": "f-21bdf6d2e090fa1e1da3-0",
+          "text": "Pupils to learn money skills for real life in curriculum shake-up.",
+          "source_url": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up"
+        },
+        {
+          "id": "f-21bdf6d2e090fa1e1da3-1",
+          "text": "Children will get a stronger grounding in the financial literacy skills they need to manage money, make informed decisions and succeed at work under major reforms to the national curriculum unveiled today.",
+          "source_url": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up"
+        },
+        {
+          "id": "f-21bdf6d2e090fa1e1da3-2",
+          "text": "From mastering times tables and percentages to understanding interest rates, payslips and mortgages, the changes will strengthen foundational knowledge while ensuring young people can put it into practice in modern life and work.",
+          "source_url": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up"
+        },
+        {
+          "id": "f-21bdf6d2e090fa1e1da3-3",
+          "text": "The reforms come as the government acts on the challenge highlighted by Alan Milburn’s Young People and Work Report , to ensure every child benefits from high standards and a rich, ambitious education that connects classroom learning to the real world and opens doors to future opportunities.",
+          "source_url": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up"
+        },
+        {
+          "id": "f-21bdf6d2e090fa1e1da3-4",
+          "text": "Research highlights why financial education needs to keep pace with modern life.",
+          "source_url": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up"
+        },
+        {
+          "id": "f-21bdf6d2e090fa1e1da3-5",
+          "text": "More than seven in ten (71%) children aged 7 to 17 make purchases online, with two-thirds (67%) of those doing so without adult supervision.",
+          "source_url": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "cac9bd38464bc736e539",
+      "category": "UK",
+      "title": "UK reaches for stars with NATO space launch plan",
+      "summary": "UK joins 10 other nations in NATO STARLIFT initiative to create network of flexible satellite launch services. RFA ONE rocket on the launch stool at SaxaVord Spaceport with the integration hangar in the background. Credit: SaxaVord Spaceport. The UK will have more reliable access to space at short notice under NATO plans to develop flexible satellite launch facilities. The STARLIFT initiative, signed by the UK along with allies, establishes plans to develop a network of launch sites across the Alliance, boosting collective security and strengthening the resilience of UK space infrastructure. Every card payment, weather forecast, and journey using mapping and navigation relies on satellites. As space becomes increasingly congested and contested, the ability to place satellites into orbit reliably, securely, and when needed is essential to both national security and daily life in the UK.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": {
+        "word": "satellite",
+        "definition": "An object that travels around a planet or another body in space."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Countryside_-_geograph.org.uk_-_258692.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Paul McIlroy",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_-_geograph.org.uk_-_258692.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
+          "published_at": "2026-11-22T00:01:05Z",
+          "retrieved_at": "2026-11-22T15:56:13.330535Z",
+          "source_title": "UK reaches for stars with NATO space launch plan",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-cac9bd38464bc736e539",
+        "f-cac9bd38464bc736e539-0",
+        "f-cac9bd38464bc736e539-1",
+        "f-cac9bd38464bc736e539-2",
+        "f-cac9bd38464bc736e539-3",
+        "f-cac9bd38464bc736e539-4",
+        "f-cac9bd38464bc736e539-5",
+        "f-cac9bd38464bc736e539-6"
+      ],
+      "facts": [
+        {
+          "id": "f-cac9bd38464bc736e539",
+          "text": "UK reaches for stars with NATO space launch plan",
+          "source_url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan"
+        },
+        {
+          "id": "f-cac9bd38464bc736e539-0",
+          "text": "UK joins 10 other nations in NATO STARLIFT initiative to create network of flexible satellite launch services.",
+          "source_url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan"
+        },
+        {
+          "id": "f-cac9bd38464bc736e539-1",
+          "text": "RFA ONE rocket on the launch stool at SaxaVord Spaceport with the integration hangar in the background.",
+          "source_url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan"
+        },
+        {
+          "id": "f-cac9bd38464bc736e539-2",
+          "text": "Credit: SaxaVord Spaceport.",
+          "source_url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan"
+        },
+        {
+          "id": "f-cac9bd38464bc736e539-3",
+          "text": "The UK will have more reliable access to space at short notice under NATO plans to develop flexible satellite launch facilities.",
+          "source_url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan"
+        },
+        {
+          "id": "f-cac9bd38464bc736e539-4",
+          "text": "The STARLIFT initiative, signed by the UK along with allies, establishes plans to develop a network of launch sites across the Alliance, boosting collective security and strengthening the resilience of UK space infrastructure.",
+          "source_url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan"
+        },
+        {
+          "id": "f-cac9bd38464bc736e539-5",
+          "text": "Every card payment, weather forecast, and journey using mapping and navigation relies on satellites.",
+          "source_url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan"
+        },
+        {
+          "id": "f-cac9bd38464bc736e539-6",
+          "text": "As space becomes increasingly congested and contested, the ability to place satellites into orbit reliably, securely, and when needed is essential to both national security and daily life in the UK.",
+          "source_url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-5faad7ca7b82045e5fab",
+      "question": "Complete the headline you read: “UK ____ position on COP31 Outcome”",
+      "choices": [
+        "Government",
+        "curriculum",
+        "Pupils"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “UK Government position on COP31 Outcome”.",
+      "story_id": "5faad7ca7b82045e5fab",
+      "fact_id": "f-5faad7ca7b82045e5fab"
+    },
+    {
+      "id": "q-21bdf6d2e090fa1e1da3",
+      "question": "Complete the headline you read: “Pupils learn money skills for real life in ____ shake-up”",
+      "choices": [
+        "curriculum",
+        "Outcome",
+        "Government"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Pupils learn money skills for real life in curriculum shake-up”.",
+      "story_id": "21bdf6d2e090fa1e1da3",
+      "fact_id": "f-21bdf6d2e090fa1e1da3"
+    },
+    {
+      "id": "q-cac9bd38464bc736e539",
+      "question": "Complete the headline you read: “UK ____ for stars with NATO space launch plan”",
+      "choices": [
+        "Outcome",
+        "reaches",
+        "Government"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “UK reaches for stars with NATO space launch plan”.",
+      "story_id": "cac9bd38464bc736e539",
+      "fact_id": "f-cac9bd38464bc736e539"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}

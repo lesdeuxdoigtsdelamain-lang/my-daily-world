@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-21-en-GB",
-  "edition_date": "2026-11-21",
-  "published_at": "2026-11-21T15:56:53.006281Z",
-  "last_successful_generation": "2026-11-21T15:56:33.129371Z",
-  "url": "editions/2026-11-21.json",
-  "sha256": "701795424fba614e21417719e15d2769438776cce0042a0c129915a9898f2a1f",
+  "edition_id": "2026-11-22-en-GB",
+  "edition_date": "2026-11-22",
+  "published_at": "2026-11-22T15:56:51.579612Z",
+  "last_successful_generation": "2026-11-22T15:56:13.330535Z",
+  "url": "editions/2026-11-22.json",
+  "sha256": "791b4ce6bd0575bf22c659fdd67b3f3d870b579a3fade656583e5b1aea1c4ba5",
   "state": "success",
   "ai_provider": "cloudflare",
   "mode": "compact"
