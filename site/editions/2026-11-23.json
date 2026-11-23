@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-23-en-GB",
+  "edition_date": "2026-11-23",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-23T16:19:47.286001Z",
+  "mode": "full",
+  "ai_provider": "none",
+  "ai_status": "Unverified AI wording rejected; compact fallback",
+  "estimated_reading_minutes": 6,
+  "stories": [
+    {
+      "id": "c60e31df1621f32a839f",
+      "category": "UK",
+      "title": "British Week 2026 celebrates UK-Cameroon partnership",
+      "summary": "Under the theme \"Connect Collaborate Create Celebrate”, British Week showcases a relationship built on partnership, mutual benefit and shared ambition. The British High Commission in Yaoundé brought together partners from government, business, academia, alumni networks, the creative industries, civil society and youth organisations for British Week 2026. Held from 16 to 19 November under the theme ‘Connect, Collaborate, Create, Celebrate’, British Week focused on UK-Cameroon cooperation through cultural events, business discussions and networking. British Week began on 16 November with a screening of I See You in My Dreams. The film follows a Baka family over several decades and was made by British filmmaker Phil Agland. The screening provided an opportunity to discuss Cameroon’s cultural heritage, identity, social change and the environment. The event also brought together people from the UK and Cameroon through film and storytelling. On 17 November, the UK Alumni Business Forum brought together Cameroonian professionals, entrepreneurs and business leaders with connections to the UK.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": {
+        "word": "heritage",
+        "definition": "Things from the past that people value and pass on."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership",
+          "published_at": "2026-11-23T15:43:06Z",
+          "retrieved_at": "2026-11-23T16:19:47.286001Z",
+          "source_title": "British Week 2026 celebrates UK-Cameroon partnership",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-c60e31df1621f32a839f",
+        "f-c60e31df1621f32a839f-0",
+        "f-c60e31df1621f32a839f-1",
+        "f-c60e31df1621f32a839f-2",
+        "f-c60e31df1621f32a839f-3",
+        "f-c60e31df1621f32a839f-4",
+        "f-c60e31df1621f32a839f-5",
+        "f-c60e31df1621f32a839f-6",
+        "f-c60e31df1621f32a839f-7"
+      ],
+      "facts": [
+        {
+          "id": "f-c60e31df1621f32a839f",
+          "text": "British Week 2026 celebrates UK-Cameroon partnership",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        },
+        {
+          "id": "f-c60e31df1621f32a839f-0",
+          "text": "Under the theme \"Connect Collaborate Create Celebrate”, British Week showcases a relationship built on partnership, mutual benefit and shared ambition.",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        },
+        {
+          "id": "f-c60e31df1621f32a839f-1",
+          "text": "The British High Commission in Yaoundé brought together partners from government, business, academia, alumni networks, the creative industries, civil society and youth organisations for British Week 2026.",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        },
+        {
+          "id": "f-c60e31df1621f32a839f-2",
+          "text": "Held from 16 to 19 November under the theme ‘Connect, Collaborate, Create, Celebrate’, British Week focused on UK-Cameroon cooperation through cultural events, business discussions and networking.",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        },
+        {
+          "id": "f-c60e31df1621f32a839f-3",
+          "text": "British Week began on 16 November with a screening of I See You in My Dreams.",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        },
+        {
+          "id": "f-c60e31df1621f32a839f-4",
+          "text": "The film follows a Baka family over several decades and was made by British filmmaker Phil Agland.",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        },
+        {
+          "id": "f-c60e31df1621f32a839f-5",
+          "text": "The screening provided an opportunity to discuss Cameroon’s cultural heritage, identity, social change and the environment.",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        },
+        {
+          "id": "f-c60e31df1621f32a839f-6",
+          "text": "The event also brought together people from the UK and Cameroon through film and storytelling.",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        },
+        {
+          "id": "f-c60e31df1621f32a839f-7",
+          "text": "On 17 November, the UK Alumni Business Forum brought together Cameroonian professionals, entrepreneurs and business leaders with connections to the UK.",
+          "source_url": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "fa36708ae8e6be25cbbd",
+      "category": "Science & Tech",
+      "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+      "summary": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets. This high-resolution, mid-infrared observation from Webb reveals new details that are helping astronomers chronicle the structure and evolution of Cas A’s original star. The Webb data supports a scenario in which the interior of the star underwent a dramatic change, possibly just hours before its demise. These results published Monday in The Astrophysical Journal Letters . Stars begin their lives as large clouds of mostly hydrogen gas and cosmic dust called molecular clouds. Eventually, gravity causes these molecular clouds to collapse, the material heats up, and protostars — infant stars — form.",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "image": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution",
+          "published_at": "2026-11-23T15:00:00Z",
+          "retrieved_at": "2026-11-23T16:19:47.286001Z",
+          "source_title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-fa36708ae8e6be25cbbd",
+        "f-fa36708ae8e6be25cbbd-0",
+        "f-fa36708ae8e6be25cbbd-1",
+        "f-fa36708ae8e6be25cbbd-2",
+        "f-fa36708ae8e6be25cbbd-3",
+        "f-fa36708ae8e6be25cbbd-4",
+        "f-fa36708ae8e6be25cbbd-5",
+        "f-fa36708ae8e6be25cbbd-6"
+      ],
+      "facts": [
+        {
+          "id": "f-fa36708ae8e6be25cbbd",
+          "text": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+          "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution"
+        },
+        {
+          "id": "f-fa36708ae8e6be25cbbd-0",
+          "text": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A).",
+          "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution"
+        },
+        {
+          "id": "f-fa36708ae8e6be25cbbd-1",
+          "text": "Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets.",
+          "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution"
+        },
+        {
+          "id": "f-fa36708ae8e6be25cbbd-2",
+          "text": "This high-resolution, mid-infrared observation from Webb reveals new details that are helping astronomers chronicle the structure and evolution of Cas A’s original star.",
+          "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution"
+        },
+        {
+          "id": "f-fa36708ae8e6be25cbbd-3",
+          "text": "The Webb data supports a scenario in which the interior of the star underwent a dramatic change, possibly just hours before its demise.",
+          "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution"
+        },
+        {
+          "id": "f-fa36708ae8e6be25cbbd-4",
+          "text": "These results published Monday in The Astrophysical Journal Letters .",
+          "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution"
+        },
+        {
+          "id": "f-fa36708ae8e6be25cbbd-5",
+          "text": "Stars begin their lives as large clouds of mostly hydrogen gas and cosmic dust called molecular clouds.",
+          "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution"
+        },
+        {
+          "id": "f-fa36708ae8e6be25cbbd-6",
+          "text": "Eventually, gravity causes these molecular clouds to collapse, the material heats up, and protostars — infant stars — form.",
+          "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "3b521cb5bdfe9f696c29",
+      "category": "Environment",
+      "title": "Billy Mitchell Airport Reopens Following Runway Rehabilitation Project",
+      "summary": "News Release Date: November 23, 2026 Contact: Cape Hatteras Public Affairs MANTEO, N.C. — Cape Hatteras National Seashore announces the reopening of the Billy Mitchell Airport (HSE) following the completion of a comprehensive runway rehabilitation project. The airport reopened Nov. 23, restoring full access to this important aviation facility on Hatteras Island. The three-month project included resurfacing the runway and paved areas, installing upgraded tie-downs and anchors, and constructing the airport’s first concrete helipad. The North Carolina Department of Transportation’s Division of Aviation contracted and oversaw the project.“ The runway rehabilitation project at Billy Mitchell Airport enhances visitor safety, modernizes operations and supports a better overall experience for pilots and passengers,” said David Hallac, superintendent, National Parks of Eastern North Carolina .",
+      "why_it_matters": "Environmental news can help us learn about the world we share.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Brooklyn_Museum_-_Forest_Landscape_-_overall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Environment",
+        "credit": "Unknown author Unknown author",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Forest_Landscape_-_overall.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Forest_Landscape_-_overall.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "US National Park Service",
+          "url": "https://www.nps.gov/caha/learn/news/billy-mitchell-airport-reopens-following-runway-rehabilitation-project.htm",
+          "published_at": "2026-11-23T08:40:00Z",
+          "retrieved_at": "2026-11-23T16:19:47.286001Z",
+          "source_title": "Billy Mitchell Airport Reopens Following Runway Rehabilitation Project",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-3b521cb5bdfe9f696c29",
+        "f-3b521cb5bdfe9f696c29-0",
+        "f-3b521cb5bdfe9f696c29-1",
+        "f-3b521cb5bdfe9f696c29-2",
+        "f-3b521cb5bdfe9f696c29-3",
+        "f-3b521cb5bdfe9f696c29-4"
+      ],
+      "facts": [
+        {
+          "id": "f-3b521cb5bdfe9f696c29",
+          "text": "Billy Mitchell Airport Reopens Following Runway Rehabilitation Project",
+          "source_url": "https://www.nps.gov/caha/learn/news/billy-mitchell-airport-reopens-following-runway-rehabilitation-project.htm"
+        },
+        {
+          "id": "f-3b521cb5bdfe9f696c29-0",
+          "text": "News Release Date: November 23, 2026 Contact: Cape Hatteras Public Affairs MANTEO, N.C. — Cape Hatteras National Seashore announces the reopening of the Billy Mitchell Airport (HSE) following the completion of a comprehensive runway rehabilitation project.",
+          "source_url": "https://www.nps.gov/caha/learn/news/billy-mitchell-airport-reopens-following-runway-rehabilitation-project.htm"
+        },
+        {
+          "id": "f-3b521cb5bdfe9f696c29-1",
+          "text": "The airport reopened Nov.",
+          "source_url": "https://www.nps.gov/caha/learn/news/billy-mitchell-airport-reopens-following-runway-rehabilitation-project.htm"
+        },
+        {
+          "id": "f-3b521cb5bdfe9f696c29-2",
+          "text": "23, restoring full access to this important aviation facility on Hatteras Island.",
+          "source_url": "https://www.nps.gov/caha/learn/news/billy-mitchell-airport-reopens-following-runway-rehabilitation-project.htm"
+        },
+        {
+          "id": "f-3b521cb5bdfe9f696c29-3",
+          "text": "The three-month project included resurfacing the runway and paved areas, installing upgraded tie-downs and anchors, and constructing the airport’s first concrete helipad.",
+          "source_url": "https://www.nps.gov/caha/learn/news/billy-mitchell-airport-reopens-following-runway-rehabilitation-project.htm"
+        },
+        {
+          "id": "f-3b521cb5bdfe9f696c29-4",
+          "text": "The North Carolina Department of Transportation’s Division of Aviation contracted and oversaw the project.“ The runway rehabilitation project at Billy Mitchell Airport enhances visitor safety, modernizes operations and supports a better overall experience for pilots and passengers,” said David Hallac, superintendent, National Parks of Eastern North Carolina .",
+          "source_url": "https://www.nps.gov/caha/learn/news/billy-mitchell-airport-reopens-following-runway-rehabilitation-project.htm"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "a5de16c3192272828c0e",
+      "category": "Money & Business",
+      "title": "Market opens up for food and drink in Philippines and Vietnam",
+      "summary": "UK food and drink businesses to benefit from new export opportunities as Baroness Hayman strengthens trade ties with the Philippines and Vietnam. British farmers and meat producers are set to benefit from stronger ties with Vietnam and the Philippines following Biosecurity and Trade Minister Baroness Hayman’s trade visit to the countries. Baroness Hayman led a delegation of 14 British business representatives from across the seafood, meat, animal protein and whisky sectors to unlock new export opportunities for British business for these new and fast-growing markets. Pork producers at home will benefit from the Minister’s successful re-opening of the Vietnamese market to exports of UK Processed Animal Protein. A valuable by-product of the UK meat sector used in animal and fish feed, this has been an industry priority for years. This market is worth an estimated £70 million over five years to exporters.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Money & Business",
+        "credit": "Robin Webster",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/market-opens-up-for-food-and-drink-in-philippines-and-vietnam",
+          "published_at": "2026-11-23T14:37:00Z",
+          "retrieved_at": "2026-11-23T16:19:47.286001Z",
+          "source_title": "Market opens up for food and drink in Philippines and Vietnam",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-a5de16c3192272828c0e",
+        "f-a5de16c3192272828c0e-0",
+        "f-a5de16c3192272828c0e-1",
+        "f-a5de16c3192272828c0e-2",
+        "f-a5de16c3192272828c0e-3",
+        "f-a5de16c3192272828c0e-4",
+        "f-a5de16c3192272828c0e-5"
+      ],
+      "facts": [
+        {
+          "id": "f-a5de16c3192272828c0e",
+          "text": "Market opens up for food and drink in Philippines and Vietnam",
+          "source_url": "https://www.gov.uk/government/news/market-opens-up-for-food-and-drink-in-philippines-and-vietnam"
+        },
+        {
+          "id": "f-a5de16c3192272828c0e-0",
+          "text": "UK food and drink businesses to benefit from new export opportunities as Baroness Hayman strengthens trade ties with the Philippines and Vietnam.",
+          "source_url": "https://www.gov.uk/government/news/market-opens-up-for-food-and-drink-in-philippines-and-vietnam"
+        },
+        {
+          "id": "f-a5de16c3192272828c0e-1",
+          "text": "British farmers and meat producers are set to benefit from stronger ties with Vietnam and the Philippines following Biosecurity and Trade Minister Baroness Hayman’s trade visit to the countries.",
+          "source_url": "https://www.gov.uk/government/news/market-opens-up-for-food-and-drink-in-philippines-and-vietnam"
+        },
+        {
+          "id": "f-a5de16c3192272828c0e-2",
+          "text": "Baroness Hayman led a delegation of 14 British business representatives from across the seafood, meat, animal protein and whisky sectors to unlock new export opportunities for British business for these new and fast-growing markets.",
+          "source_url": "https://www.gov.uk/government/news/market-opens-up-for-food-and-drink-in-philippines-and-vietnam"
+        },
+        {
+          "id": "f-a5de16c3192272828c0e-3",
+          "text": "Pork producers at home will benefit from the Minister’s successful re-opening of the Vietnamese market to exports of UK Processed Animal Protein.",
+          "source_url": "https://www.gov.uk/government/news/market-opens-up-for-food-and-drink-in-philippines-and-vietnam"
+        },
+        {
+          "id": "f-a5de16c3192272828c0e-4",
+          "text": "A valuable by-product of the UK meat sector used in animal and fish feed, this has been an industry priority for years.",
+          "source_url": "https://www.gov.uk/government/news/market-opens-up-for-food-and-drink-in-philippines-and-vietnam"
+        },
+        {
+          "id": "f-a5de16c3192272828c0e-5",
+          "text": "This market is worth an estimated £70 million over five years to exporters.",
+          "source_url": "https://www.gov.uk/government/news/market-opens-up-for-food-and-drink-in-philippines-and-vietnam"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "4e038df9cb512cdf3640",
+      "category": "Sport",
+      "title": "DBS and Everton FC team up to champion safer recruitment in sport",
+      "summary": "DBS release new video with Everton FC to highlight how safer recruitment protects everyone in sport. The Disclosure and Barring Service (DBS) has teamed up with Everton Football Club to launch a new video campaign highlighting the importance of safeguarding and safer recruitment across grassroots and professional sport. The collaboration highlights the vital role safe recruitment plays in protecting young people, volunteers and staff across sports organisations of all sizes, and showcases how DBS’ Regional Outreach team works directly with clubs to make safeguarding straightforward. Jordan Hayden, DBS Regional Outreach Manager, said: In sport, safety starts with the safe recruitment of the workforce and volunteers. From grassroots to the Premier League, proper safeguarding checks protect everyone who loves the game.",
+      "why_it_matters": "Sport offers opportunities to learn about teamwork, practice and fair play.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Exeter_Arena_Athletics_Stadium_-_geograph.org.uk_-_1126689.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Sport",
+        "credit": "Jan Baker",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Exeter_Arena_Athletics_Stadium_-_geograph.org.uk_-_1126689.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/dbs-and-everton-fc-team-up-to-champion-safer-recruitment-in-sport",
+          "published_at": "2026-11-23T09:00:00Z",
+          "retrieved_at": "2026-11-23T16:19:47.286001Z",
+          "source_title": "DBS and Everton FC team up to champion safer recruitment in sport",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-4e038df9cb512cdf3640",
+        "f-4e038df9cb512cdf3640-0",
+        "f-4e038df9cb512cdf3640-1",
+        "f-4e038df9cb512cdf3640-2",
+        "f-4e038df9cb512cdf3640-3",
+        "f-4e038df9cb512cdf3640-4"
+      ],
+      "facts": [
+        {
+          "id": "f-4e038df9cb512cdf3640",
+          "text": "DBS and Everton FC team up to champion safer recruitment in sport",
+          "source_url": "https://www.gov.uk/government/news/dbs-and-everton-fc-team-up-to-champion-safer-recruitment-in-sport"
+        },
+        {
+          "id": "f-4e038df9cb512cdf3640-0",
+          "text": "DBS release new video with Everton FC to highlight how safer recruitment protects everyone in sport.",
+          "source_url": "https://www.gov.uk/government/news/dbs-and-everton-fc-team-up-to-champion-safer-recruitment-in-sport"
+        },
+        {
+          "id": "f-4e038df9cb512cdf3640-1",
+          "text": "The Disclosure and Barring Service (DBS) has teamed up with Everton Football Club to launch a new video campaign highlighting the importance of safeguarding and safer recruitment across grassroots and professional sport.",
+          "source_url": "https://www.gov.uk/government/news/dbs-and-everton-fc-team-up-to-champion-safer-recruitment-in-sport"
+        },
+        {
+          "id": "f-4e038df9cb512cdf3640-2",
+          "text": "The collaboration highlights the vital role safe recruitment plays in protecting young people, volunteers and staff across sports organisations of all sizes, and showcases how DBS’ Regional Outreach team works directly with clubs to make safeguarding straightforward.",
+          "source_url": "https://www.gov.uk/government/news/dbs-and-everton-fc-team-up-to-champion-safer-recruitment-in-sport"
+        },
+        {
+          "id": "f-4e038df9cb512cdf3640-3",
+          "text": "Jordan Hayden, DBS Regional Outreach Manager, said: In sport, safety starts with the safe recruitment of the workforce and volunteers.",
+          "source_url": "https://www.gov.uk/government/news/dbs-and-everton-fc-team-up-to-champion-safer-recruitment-in-sport"
+        },
+        {
+          "id": "f-4e038df9cb512cdf3640-4",
+          "text": "From grassroots to the Premier League, proper safeguarding checks protect everyone who loves the game.",
+          "source_url": "https://www.gov.uk/government/news/dbs-and-everton-fc-team-up-to-champion-safer-recruitment-in-sport"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-c60e31df1621f32a839f",
+      "question": "Complete the headline you read: “British Week 2026 celebrates UK-Cameroon ____”",
+      "choices": [
+        "Billy",
+        "Airport",
+        "partnership"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “British Week 2026 celebrates UK-Cameroon partnership”.",
+      "story_id": "c60e31df1621f32a839f",
+      "fact_id": "f-c60e31df1621f32a839f"
+    },
+    {
+      "id": "q-fa36708ae8e6be25cbbd",
+      "question": "Complete the headline you read: “NASA’s Webb Shows How Supernova Dust ____ Star Evolution”",
+      "choices": [
+        "Airport",
+        "Billy",
+        "Chronicles"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution”.",
+      "story_id": "fa36708ae8e6be25cbbd",
+      "fact_id": "f-fa36708ae8e6be25cbbd"
+    },
+    {
+      "id": "q-3b521cb5bdfe9f696c29",
+      "question": "Complete the headline you read: “Billy Mitchell Airport Reopens Following Runway ____ Project”",
+      "choices": [
+        "Rehabilitation",
+        "Cameroon",
+        "British"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Billy Mitchell Airport Reopens Following Runway Rehabilitation Project”.",
+      "story_id": "3b521cb5bdfe9f696c29",
+      "fact_id": "f-3b521cb5bdfe9f696c29"
+    },
+    {
+      "id": "q-a5de16c3192272828c0e",
+      "question": "Complete the headline you read: “Market opens up for food and drink in ____ and Vietnam”",
+      "choices": [
+        "Billy",
+        "Airport",
+        "Philippines"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “Market opens up for food and drink in Philippines and Vietnam”.",
+      "story_id": "a5de16c3192272828c0e",
+      "fact_id": "f-a5de16c3192272828c0e"
+    },
+    {
+      "id": "q-4e038df9cb512cdf3640",
+      "question": "Complete the headline you read: “DBS and Everton FC team up to champion safer ____ in sport”",
+      "choices": [
+        "recruitment",
+        "Airport",
+        "Billy"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “DBS and Everton FC team up to champion safer recruitment in sport”.",
+      "story_id": "4e038df9cb512cdf3640",
+      "fact_id": "f-4e038df9cb512cdf3640"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}
