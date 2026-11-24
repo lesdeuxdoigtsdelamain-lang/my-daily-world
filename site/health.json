@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "state": "success",
-  "checked_at": "2026-11-23T16:20:34.368402+00:00",
-  "last_successful_publication": "2026-11-23T16:20:34.368402+00:00",
+  "checked_at": "2026-11-24T16:25:09.229419+00:00",
+  "last_successful_publication": "2026-11-24T16:25:09.229419+00:00",
   "detail": "Unverified AI wording rejected; compact fallback",
   "feeds": {
     "globalvoices": {
       "state": "ok",
-      "eligible": 1
+      "eligible": 2
     },
     "nasa": {
       "state": "ok",
-      "eligible": 5
+      "eligible": 10
     },
     "govuk": {
       "state": "ok",
@@ -19,11 +19,11 @@
     },
     "nsf": {
       "state": "ok",
-      "eligible": 0
+      "eligible": 2
     },
     "nps": {
       "state": "ok",
-      "eligible": 1
+      "eligible": 9
     },
     "bbc-world": {
       "state": "disabled",
@@ -54,16 +54,16 @@
     "requests": 2,
     "reported": [
       {
-        "prompt_tokens": 2388,
-        "completion_tokens": 553,
-        "total_tokens": 2941,
-        "neurons": 176.9397430419922
+        "prompt_tokens": 2486,
+        "completion_tokens": 618,
+        "total_tokens": 3104,
+        "neurons": 192.8655242919922
       },
       {
-        "prompt_tokens": 1484,
-        "completion_tokens": 372,
-        "total_tokens": 1856,
-        "neurons": 115.76240539550781
+        "prompt_tokens": 1923,
+        "completion_tokens": 429,
+        "total_tokens": 2352,
+        "neurons": 139.14341735839844
       }
     ],
     "neuron_estimate": null,

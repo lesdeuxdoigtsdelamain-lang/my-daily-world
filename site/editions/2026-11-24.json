@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-24-en-GB",
+  "edition_date": "2026-11-24",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-24T16:24:21.711769Z",
+  "mode": "full",
+  "ai_provider": "none",
+  "ai_status": "Unverified AI wording rejected; compact fallback",
+  "estimated_reading_minutes": 6,
+  "stories": [
+    {
+      "id": "0349e9d53caed28815a1",
+      "category": "UK",
+      "title": "New Chairman appointed to the Disclosure and Barring Service",
+      "summary": "Julian Blazeby will take up the role on 1 December 2026 Julian Blazeby has been appointed as the new Chairman of the Disclosure and Barring Service (DBS). He joined the DBS Board in April 2023 and has been Vice Chairman since April. Julian served as a police officer for 30 years in 3 different forces. He retired as an Assistant Chief Constable in Staffordshire in 2014 before going on to hold the role of Deputy Chief of Police in Jersey between 2017 to 2018. He has also held senior civil service roles in the Ministry of Defence and the Independent Police Complaints Commission and was a Director General in the Government of Jersey where he led the Justice and Home Affairs Department. Julian is also the Independent Chair of the Criminal Injuries Compensation Authority. Julian succeeds Dr Gillian Fairfield, whose 8-year tenure as Chairman ends on 30 November 2026.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service",
+          "published_at": "2026-11-24T16:00:00Z",
+          "retrieved_at": "2026-11-24T16:24:21.711769Z",
+          "source_title": "New Chairman appointed to the Disclosure and Barring Service",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-0349e9d53caed28815a1",
+        "f-0349e9d53caed28815a1-0",
+        "f-0349e9d53caed28815a1-1",
+        "f-0349e9d53caed28815a1-2",
+        "f-0349e9d53caed28815a1-3",
+        "f-0349e9d53caed28815a1-4",
+        "f-0349e9d53caed28815a1-5",
+        "f-0349e9d53caed28815a1-6"
+      ],
+      "facts": [
+        {
+          "id": "f-0349e9d53caed28815a1",
+          "text": "New Chairman appointed to the Disclosure and Barring Service",
+          "source_url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service"
+        },
+        {
+          "id": "f-0349e9d53caed28815a1-0",
+          "text": "Julian Blazeby will take up the role on 1 December 2026 Julian Blazeby has been appointed as the new Chairman of the Disclosure and Barring Service (DBS).",
+          "source_url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service"
+        },
+        {
+          "id": "f-0349e9d53caed28815a1-1",
+          "text": "He joined the DBS Board in April 2023 and has been Vice Chairman since April.",
+          "source_url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service"
+        },
+        {
+          "id": "f-0349e9d53caed28815a1-2",
+          "text": "Julian served as a police officer for 30 years in 3 different forces.",
+          "source_url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service"
+        },
+        {
+          "id": "f-0349e9d53caed28815a1-3",
+          "text": "He retired as an Assistant Chief Constable in Staffordshire in 2014 before going on to hold the role of Deputy Chief of Police in Jersey between 2017 to 2018.",
+          "source_url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service"
+        },
+        {
+          "id": "f-0349e9d53caed28815a1-4",
+          "text": "He has also held senior civil service roles in the Ministry of Defence and the Independent Police Complaints Commission and was a Director General in the Government of Jersey where he led the Justice and Home Affairs Department.",
+          "source_url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service"
+        },
+        {
+          "id": "f-0349e9d53caed28815a1-5",
+          "text": "Julian is also the Independent Chair of the Criminal Injuries Compensation Authority.",
+          "source_url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service"
+        },
+        {
+          "id": "f-0349e9d53caed28815a1-6",
+          "text": "Julian succeeds Dr Gillian Fairfield, whose 8-year tenure as Chairman ends on 30 November 2026.",
+          "source_url": "https://www.gov.uk/government/news/new-chairman-appointed-to-the-disclosure-and-barring-service"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "85a88fce93d56ba5f38a",
+      "category": "Science & Tech",
+      "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
+      "summary": "A brilliant galaxy with a distinct galactic bar takes center stage in this NASA/ESA Hubble Space Telescope image. The galaxy, called NGC 4394, is in the constellation Coma Berenices (Berenice's Hair). At about 55 million light-years away, NGC 4394 is considered relatively nearby for a galaxy. It’s one of more than 1,000 galaxies that make up the Virgo Cluster, which is the galaxy cluster closest to us. With its graceful spiral arms and central bar of stars, NGC 4394 closely resembles what astronomers think our home galaxy, the Milky Way, would look like if we were able to view it from a similar face-on vantage point. In a universe full of arcing spiral galaxies and nebulae organically shaped by the death and birth of stars, straight streaks of stars like NGC 4394’s galactic bar stand out. Galactic bars are extremely common; astronomers estimate 65 percent of nearby spiral galaxies have one.",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/NASA_Achieves_Milestone_for_Engines_to_Power_Future_Artemis_Missions_%28SSC-20230830-s02656%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Science & Tech",
+        "credit": "NASA Stennis Space Center / Danny Nowlin",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NASA_Achieves_Milestone_for_Engines_to_Power_Future_Artemis_Missions_(SSC-20230830-s02656).jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:NASA_Achieves_Milestone_for_Engines_to_Power_Future_Artemis_Missions_(SSC-20230830-s02656).jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar",
+          "published_at": "2026-11-24T13:58:28Z",
+          "retrieved_at": "2026-11-24T16:24:21.711769Z",
+          "source_title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-85a88fce93d56ba5f38a",
+        "f-85a88fce93d56ba5f38a-0",
+        "f-85a88fce93d56ba5f38a-1",
+        "f-85a88fce93d56ba5f38a-2",
+        "f-85a88fce93d56ba5f38a-3",
+        "f-85a88fce93d56ba5f38a-4",
+        "f-85a88fce93d56ba5f38a-5",
+        "f-85a88fce93d56ba5f38a-6"
+      ],
+      "facts": [
+        {
+          "id": "f-85a88fce93d56ba5f38a",
+          "text": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+        },
+        {
+          "id": "f-85a88fce93d56ba5f38a-0",
+          "text": "A brilliant galaxy with a distinct galactic bar takes center stage in this NASA/ESA Hubble Space Telescope image.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+        },
+        {
+          "id": "f-85a88fce93d56ba5f38a-1",
+          "text": "The galaxy, called NGC 4394, is in the constellation Coma Berenices (Berenice's Hair).",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+        },
+        {
+          "id": "f-85a88fce93d56ba5f38a-2",
+          "text": "At about 55 million light-years away, NGC 4394 is considered relatively nearby for a galaxy.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+        },
+        {
+          "id": "f-85a88fce93d56ba5f38a-3",
+          "text": "It’s one of more than 1,000 galaxies that make up the Virgo Cluster, which is the galaxy cluster closest to us.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+        },
+        {
+          "id": "f-85a88fce93d56ba5f38a-4",
+          "text": "With its graceful spiral arms and central bar of stars, NGC 4394 closely resembles what astronomers think our home galaxy, the Milky Way, would look like if we were able to view it from a similar face-on vantage point.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+        },
+        {
+          "id": "f-85a88fce93d56ba5f38a-5",
+          "text": "In a universe full of arcing spiral galaxies and nebulae organically shaped by the death and birth of stars, straight streaks of stars like NGC 4394’s galactic bar stand out.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+        },
+        {
+          "id": "f-85a88fce93d56ba5f38a-6",
+          "text": "Galactic bars are extremely common; astronomers estimate 65 percent of nearby spiral galaxies have one.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "99e73c1174f64c95b985",
+      "category": "Money & Business",
+      "title": "Daniel E. Pinto appointed to the Bank of England’s Financial Policy Committee",
+      "summary": "Daniel E. Pinto has been appointed as an external member of the Financial Policy Committee. The Chancellor of the Exchequer has appointed Daniel E. Pinto as an external member of the Financial Policy Committee (FPC). Mr Pinto has over 40 years of experience in financial services, including in senior leadership roles across global financial markets, most recently as Vice Chairman at JPMorgan Chase. He will serve a 3-year term, which will begin on 4 January 2027. His appointment fills the position held by Jonathan Hall, who will step down from the Committee on 31 December 2026. Economic Secretary to the Treasury, Lucy Rigby, said: The Financial Policy Committee plays a vital role in protecting and enhancing the stability of the UK’s financial system. Daniel Pinto’s significant experience across global financial markets will be valuable for the Committee’s work. I would also like to thank Jon Hall for his contribution to the Committee over the past six years.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Money & Business",
+        "credit": "Robin Webster",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee",
+          "published_at": "2026-11-24T16:00:00Z",
+          "retrieved_at": "2026-11-24T16:24:21.711769Z",
+          "source_title": "Daniel E. Pinto appointed to the Bank of England’s Financial Policy Committee",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-99e73c1174f64c95b985",
+        "f-99e73c1174f64c95b985-0",
+        "f-99e73c1174f64c95b985-1",
+        "f-99e73c1174f64c95b985-2",
+        "f-99e73c1174f64c95b985-3",
+        "f-99e73c1174f64c95b985-4",
+        "f-99e73c1174f64c95b985-5",
+        "f-99e73c1174f64c95b985-6",
+        "f-99e73c1174f64c95b985-7"
+      ],
+      "facts": [
+        {
+          "id": "f-99e73c1174f64c95b985",
+          "text": "Daniel E. Pinto appointed to the Bank of England’s Financial Policy Committee",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        },
+        {
+          "id": "f-99e73c1174f64c95b985-0",
+          "text": "Daniel E. Pinto has been appointed as an external member of the Financial Policy Committee.",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        },
+        {
+          "id": "f-99e73c1174f64c95b985-1",
+          "text": "The Chancellor of the Exchequer has appointed Daniel E. Pinto as an external member of the Financial Policy Committee (FPC).",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        },
+        {
+          "id": "f-99e73c1174f64c95b985-2",
+          "text": "Mr Pinto has over 40 years of experience in financial services, including in senior leadership roles across global financial markets, most recently as Vice Chairman at JPMorgan Chase.",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        },
+        {
+          "id": "f-99e73c1174f64c95b985-3",
+          "text": "He will serve a 3-year term, which will begin on 4 January 2027.",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        },
+        {
+          "id": "f-99e73c1174f64c95b985-4",
+          "text": "His appointment fills the position held by Jonathan Hall, who will step down from the Committee on 31 December 2026.",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        },
+        {
+          "id": "f-99e73c1174f64c95b985-5",
+          "text": "Economic Secretary to the Treasury, Lucy Rigby, said: The Financial Policy Committee plays a vital role in protecting and enhancing the stability of the UK’s financial system.",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        },
+        {
+          "id": "f-99e73c1174f64c95b985-6",
+          "text": "Daniel Pinto’s significant experience across global financial markets will be valuable for the Committee’s work.",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        },
+        {
+          "id": "f-99e73c1174f64c95b985-7",
+          "text": "I would also like to thank Jon Hall for his contribution to the Committee over the past six years.",
+          "source_url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "ca578e32fce7d78244a2",
+      "category": "Sport",
+      "title": "Government sets out ambition of one million more girls to be involved in sport by FIFA Women's World Cup 2035™",
+      "summary": "The vision will see women and girls guaranteed the same access to all funded grassroots facilities as men and boys by the time the UK hosts the biggest event in women’s sport. As part of the Government’s ongoing work to drive a Decade of Change, this will now be delivered with sports organisations using four pillars, to ensure that: ‘Every girl can dream. Every girl can play. Every girl can watch. Every girl can lead’. The ambition is for progress in these four areas to support a million more girls to be involved in sport, at all levels and in all capacities, when the tournament begins. In a major step, new rules will be introduced to make sure that sporting organisations are clearly designed by women and men, for women and men. Public funding will only be released when the needs of women and girls are given equal consideration to the needs of men and boys at every step.",
+      "why_it_matters": "Sport offers opportunities to learn about teamwork, practice and fair play.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Exeter_Arena_Athletics_Stadium_-_geograph.org.uk_-_1126689.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Sport",
+        "credit": "Jan Baker",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Exeter_Arena_Athletics_Stadium_-_geograph.org.uk_-_1126689.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035",
+          "published_at": "2026-11-24T11:27:31Z",
+          "retrieved_at": "2026-11-24T16:24:21.711769Z",
+          "source_title": "Government sets out ambition of one million more girls to be involved in sport by FIFA Women's World Cup 2035™",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-ca578e32fce7d78244a2",
+        "f-ca578e32fce7d78244a2-0",
+        "f-ca578e32fce7d78244a2-1",
+        "f-ca578e32fce7d78244a2-2",
+        "f-ca578e32fce7d78244a2-3",
+        "f-ca578e32fce7d78244a2-4",
+        "f-ca578e32fce7d78244a2-5",
+        "f-ca578e32fce7d78244a2-6",
+        "f-ca578e32fce7d78244a2-7"
+      ],
+      "facts": [
+        {
+          "id": "f-ca578e32fce7d78244a2",
+          "text": "Government sets out ambition of one million more girls to be involved in sport by FIFA Women's World Cup 2035™",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        },
+        {
+          "id": "f-ca578e32fce7d78244a2-0",
+          "text": "The vision will see women and girls guaranteed the same access to all funded grassroots facilities as men and boys by the time the UK hosts the biggest event in women’s sport.",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        },
+        {
+          "id": "f-ca578e32fce7d78244a2-1",
+          "text": "As part of the Government’s ongoing work to drive a Decade of Change, this will now be delivered with sports organisations using four pillars, to ensure that: ‘Every girl can dream.",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        },
+        {
+          "id": "f-ca578e32fce7d78244a2-2",
+          "text": "Every girl can play.",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        },
+        {
+          "id": "f-ca578e32fce7d78244a2-3",
+          "text": "Every girl can watch.",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        },
+        {
+          "id": "f-ca578e32fce7d78244a2-4",
+          "text": "Every girl can lead’.",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        },
+        {
+          "id": "f-ca578e32fce7d78244a2-5",
+          "text": "The ambition is for progress in these four areas to support a million more girls to be involved in sport, at all levels and in all capacities, when the tournament begins.",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        },
+        {
+          "id": "f-ca578e32fce7d78244a2-6",
+          "text": "In a major step, new rules will be introduced to make sure that sporting organisations are clearly designed by women and men, for women and men.",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        },
+        {
+          "id": "f-ca578e32fce7d78244a2-7",
+          "text": "Public funding will only be released when the needs of women and girls are given equal consideration to the needs of men and boys at every step.",
+          "source_url": "https://www.gov.uk/government/news/government-sets-out-ambition-of-one-million-more-girls-to-be-involved-in-sport-by-fifa-womens-world-cup-2035"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "affac594c7546d2a09e1",
+      "category": "World",
+      "title": "First UK Defence Secretary to visit Kharkiv as UK ramps up support for Ukraine",
+      "summary": "Wes Streeting has become the first UK Defence Secretary to visit Kharkiv – 20km from the frontline in Eastern Ukraine – meeting troops at the forefront of Ukraine’s fight for freedom and reaffirming the UK’s unwavering commitment to stand with the Ukrainian people. The Secretary of State for Defence meets with Yevhenii Khmara, the Minister of Defence of Ukraine during a visit to Ukraine. During the visit, he praised the extraordinary courage of Ukraine’s armed forces and reaffirmed further UK military support to strengthen Ukraine’s defences as Russia continues its brutal attacks against Ukrainian cities and critical national infrastructure. The UK will provide additional RapidRanger launchers for Ukraine following a direct request from President Zelenskyy. RapidRanger has already been used effectively by Ukraine against Russian air threats, including propeller and jet-powered Shahed drones. The additional launchers will help Ukraine protect its people, cities and critical infrastructure against Putin’s continued attacks.",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": {
+        "word": "infrastructure",
+        "definition": "The basic systems and structures that a community uses."
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Huddleston_makes_first_visit_to_Botswana_-_20100413_%284554245490%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for World",
+        "credit": "US Army Africa from Vicenza, Italy",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Huddleston_makes_first_visit_to_Botswana_-_20100413_(4554245490).jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine",
+          "published_at": "2026-11-24T15:09:26Z",
+          "retrieved_at": "2026-11-24T16:24:21.711769Z",
+          "source_title": "First UK Defence Secretary to visit Kharkiv as UK ramps up support for Ukraine",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-affac594c7546d2a09e1",
+        "f-affac594c7546d2a09e1-0",
+        "f-affac594c7546d2a09e1-1",
+        "f-affac594c7546d2a09e1-2",
+        "f-affac594c7546d2a09e1-3",
+        "f-affac594c7546d2a09e1-4",
+        "f-affac594c7546d2a09e1-5"
+      ],
+      "facts": [
+        {
+          "id": "f-affac594c7546d2a09e1",
+          "text": "First UK Defence Secretary to visit Kharkiv as UK ramps up support for Ukraine",
+          "source_url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine"
+        },
+        {
+          "id": "f-affac594c7546d2a09e1-0",
+          "text": "Wes Streeting has become the first UK Defence Secretary to visit Kharkiv – 20km from the frontline in Eastern Ukraine – meeting troops at the forefront of Ukraine’s fight for freedom and reaffirming the UK’s unwavering commitment to stand with the Ukrainian people.",
+          "source_url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine"
+        },
+        {
+          "id": "f-affac594c7546d2a09e1-1",
+          "text": "The Secretary of State for Defence meets with Yevhenii Khmara, the Minister of Defence of Ukraine during a visit to Ukraine.",
+          "source_url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine"
+        },
+        {
+          "id": "f-affac594c7546d2a09e1-2",
+          "text": "During the visit, he praised the extraordinary courage of Ukraine’s armed forces and reaffirmed further UK military support to strengthen Ukraine’s defences as Russia continues its brutal attacks against Ukrainian cities and critical national infrastructure.",
+          "source_url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine"
+        },
+        {
+          "id": "f-affac594c7546d2a09e1-3",
+          "text": "The UK will provide additional RapidRanger launchers for Ukraine following a direct request from President Zelenskyy.",
+          "source_url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine"
+        },
+        {
+          "id": "f-affac594c7546d2a09e1-4",
+          "text": "RapidRanger has already been used effectively by Ukraine against Russian air threats, including propeller and jet-powered Shahed drones.",
+          "source_url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine"
+        },
+        {
+          "id": "f-affac594c7546d2a09e1-5",
+          "text": "The additional launchers will help Ukraine protect its people, cities and critical infrastructure against Putin’s continued attacks.",
+          "source_url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-0349e9d53caed28815a1",
+      "question": "Complete the headline you read: “New Chairman appointed to the ____ and Barring Service”",
+      "choices": [
+        "Disclosure",
+        "Committee",
+        "Daniel"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “New Chairman appointed to the Disclosure and Barring Service”.",
+      "story_id": "0349e9d53caed28815a1",
+      "fact_id": "f-0349e9d53caed28815a1"
+    },
+    {
+      "id": "q-85a88fce93d56ba5f38a",
+      "question": "Complete the headline you read: “NASA ____’s New View of NGC 4394 Raises the Bar”",
+      "choices": [
+        "Chairman",
+        "Barring",
+        "Hubble"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “NASA Hubble’s New View of NGC 4394 Raises the Bar”.",
+      "story_id": "85a88fce93d56ba5f38a",
+      "fact_id": "f-85a88fce93d56ba5f38a"
+    },
+    {
+      "id": "q-99e73c1174f64c95b985",
+      "question": "Complete the headline you read: “Daniel E. Pinto ____ to the Bank of England’s Financial Policy Committee”",
+      "choices": [
+        "Barring",
+        "appointed",
+        "Chairman"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Daniel E. Pinto appointed to the Bank of England’s Financial Policy Committee”.",
+      "story_id": "99e73c1174f64c95b985",
+      "fact_id": "f-99e73c1174f64c95b985"
+    },
+    {
+      "id": "q-ca578e32fce7d78244a2",
+      "question": "Complete the headline you read: “____ sets out ambition of one million more girls to be involved in sport by FIFA Women's World Cup 2035™”",
+      "choices": [
+        "Barring",
+        "Government",
+        "Chairman"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Government sets out ambition of one million more girls to be involved in sport by FIFA Women's World Cup 2035™”.",
+      "story_id": "ca578e32fce7d78244a2",
+      "fact_id": "f-ca578e32fce7d78244a2"
+    },
+    {
+      "id": "q-affac594c7546d2a09e1",
+      "question": "Complete the headline you read: “First UK Defence ____ to visit Kharkiv as UK ramps up support for Ukraine”",
+      "choices": [
+        "Chairman",
+        "Barring",
+        "Secretary"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “First UK Defence Secretary to visit Kharkiv as UK ramps up support for Ukraine”.",
+      "story_id": "affac594c7546d2a09e1",
+      "fact_id": "f-affac594c7546d2a09e1"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}

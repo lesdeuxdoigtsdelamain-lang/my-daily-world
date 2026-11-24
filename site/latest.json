@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-23-en-GB",
-  "edition_date": "2026-11-23",
-  "published_at": "2026-11-23T16:20:34.368402Z",
-  "last_successful_generation": "2026-11-23T16:19:47.286001Z",
-  "url": "editions/2026-11-23.json",
-  "sha256": "4e1112ebf05e3b43e4f43c0032b12eae45ffb54fa520fb3841ef70c3d274f7d0",
+  "edition_id": "2026-11-24-en-GB",
+  "edition_date": "2026-11-24",
+  "published_at": "2026-11-24T16:25:09.229419Z",
+  "last_successful_generation": "2026-11-24T16:24:21.711769Z",
+  "url": "editions/2026-11-24.json",
+  "sha256": "1674e19f99d654166b168b678ac6839c12124679dc2dc1692666a74dfec8dd8c",
   "state": "success",
   "ai_provider": "none",
   "mode": "full"
