@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-25-en-GB",
+  "edition_date": "2026-11-25",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-25T16:21:52.794077Z",
+  "mode": "full",
+  "ai_provider": "cloudflare",
+  "ai_status": "Validated evidence sentences",
+  "estimated_reading_minutes": 5,
+  "stories": [
+    {
+      "id": "7c48927ca439b8ba86cb",
+      "category": "UK",
+      "title": "How to submit applications and complaints to the CAC",
+      "summary": "We use some essential cookies to make this website work. We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services. We also use cookies set by other sites to help us deliver content from their services. You have accepted additional cookies. You can change your cookie settings at any time. You have rejected additional cookies. To help us improve GOV.UK, we’d like to know more about your visit today. Please fill in this survey (opens in a new tab ) .",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/applications-and-complaints",
+          "published_at": "2026-11-25T16:02:57Z",
+          "retrieved_at": "2026-11-25T16:21:52.794077Z",
+          "source_title": "How to submit applications and complaints to the CAC",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-7c48927ca439b8ba86cb",
+        "f-7c48927ca439b8ba86cb-0",
+        "f-7c48927ca439b8ba86cb-1",
+        "f-7c48927ca439b8ba86cb-2",
+        "f-7c48927ca439b8ba86cb-3",
+        "f-7c48927ca439b8ba86cb-4",
+        "f-7c48927ca439b8ba86cb-5",
+        "f-7c48927ca439b8ba86cb-6",
+        "f-7c48927ca439b8ba86cb-7"
+      ],
+      "facts": [
+        {
+          "id": "f-7c48927ca439b8ba86cb",
+          "text": "How to submit applications and complaints to the CAC",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        },
+        {
+          "id": "f-7c48927ca439b8ba86cb-0",
+          "text": "We use some essential cookies to make this website work.",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        },
+        {
+          "id": "f-7c48927ca439b8ba86cb-1",
+          "text": "We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        },
+        {
+          "id": "f-7c48927ca439b8ba86cb-2",
+          "text": "We also use cookies set by other sites to help us deliver content from their services.",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        },
+        {
+          "id": "f-7c48927ca439b8ba86cb-3",
+          "text": "You have accepted additional cookies.",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        },
+        {
+          "id": "f-7c48927ca439b8ba86cb-4",
+          "text": "You can change your cookie settings at any time.",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        },
+        {
+          "id": "f-7c48927ca439b8ba86cb-5",
+          "text": "You have rejected additional cookies.",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        },
+        {
+          "id": "f-7c48927ca439b8ba86cb-6",
+          "text": "To help us improve GOV.UK, we’d like to know more about your visit today.",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        },
+        {
+          "id": "f-7c48927ca439b8ba86cb-7",
+          "text": "Please fill in this survey (opens in a new tab ) .",
+          "source_url": "https://www.gov.uk/government/news/applications-and-complaints"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "89bd132084d4900f8619",
+      "category": "Science & Tech",
+      "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+      "summary": "An expanse of stars gleams in a rainbow of colors in these NASA Hubble Space Telescope images of the Milky Way. The images focus on an area of sky toward the galactic bulge, a densely packed, spherical region of stars that surrounds the center of a galaxy’s disk. These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/PIA01598_Hubble_Views_Ancient_Storm_in_the_Atmosphere_of_Jupiter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Science & Tech",
+        "credit": "Amy Simon (Cornell U.), Reta Beebe (NMSU), Heidi Hammel (Space Science Institute, MIT)",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:PIA01598_Hubble_Views_Ancient_Storm_in_the_Atmosphere_of_Jupiter.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:PIA01598_Hubble_Views_Ancient_Storm_in_the_Atmosphere_of_Jupiter.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman",
+          "published_at": "2026-11-25T14:56:54Z",
+          "retrieved_at": "2026-11-25T16:21:52.794077Z",
+          "source_title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-89bd132084d4900f8619",
+        "f-89bd132084d4900f8619-0",
+        "f-89bd132084d4900f8619-1",
+        "f-89bd132084d4900f8619-2"
+      ],
+      "facts": [
+        {
+          "id": "f-89bd132084d4900f8619",
+          "text": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman"
+        },
+        {
+          "id": "f-89bd132084d4900f8619-0",
+          "text": "An expanse of stars gleams in a rainbow of colors in these NASA Hubble Space Telescope images of the Milky Way.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman"
+        },
+        {
+          "id": "f-89bd132084d4900f8619-1",
+          "text": "The images focus on an area of sky toward the galactic bulge, a densely packed, spherical region of stars that surrounds the center of a galaxy’s disk.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman"
+        },
+        {
+          "id": "f-89bd132084d4900f8619-2",
+          "text": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman"
+        },
+        {
+          "id": "f-89bd132084d4900f8619-3",
+          "text": "Astronomers study the Milky Way’s galactic bulge because it holds nearly a quarter of the galaxy’s stellar mass, and its proximity allows them to examine the region in greater detail.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman"
+        },
+        {
+          "id": "f-89bd132084d4900f8619-4",
+          "text": "Although we can see the glow from these crowded spheres of stars in other galaxies, they are too jam-packed and far away to resolve individual stars.",
+          "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "1cc6bbc9fd8744b9e44b",
+      "category": "Money & Business",
+      "title": "UK creative businesses to benefit from funding package",
+      "summary": "Government funding will help businesses grow, create jobs and compete globally, in the Government's latest vote of confidence in the creative industries. Games studios, music tech start-ups, film and TV innovators and publishers are set to share over £45 million of government funding, as part of the wider £500 million investment in research, development and innovation committed to by UK Research and Innovation (UKRI) in the Creative Industries Sector Plan. The funding aims to support the regional growth of the creative industries across the country, not just in London and the South East.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Money & Business",
+        "credit": "Robin Webster",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package",
+          "published_at": "2026-11-25T15:19:35Z",
+          "retrieved_at": "2026-11-25T16:21:52.794077Z",
+          "source_title": "UK creative businesses to benefit from funding package",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-1cc6bbc9fd8744b9e44b",
+        "f-1cc6bbc9fd8744b9e44b-0",
+        "f-1cc6bbc9fd8744b9e44b-1",
+        "f-1cc6bbc9fd8744b9e44b-3"
+      ],
+      "facts": [
+        {
+          "id": "f-1cc6bbc9fd8744b9e44b",
+          "text": "UK creative businesses to benefit from funding package",
+          "source_url": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package"
+        },
+        {
+          "id": "f-1cc6bbc9fd8744b9e44b-0",
+          "text": "Government funding will help businesses grow, create jobs and compete globally, in the Government's latest vote of confidence in the creative industries.",
+          "source_url": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package"
+        },
+        {
+          "id": "f-1cc6bbc9fd8744b9e44b-1",
+          "text": "Games studios, music tech start-ups, film and TV innovators and publishers are set to share over £45 million of government funding, as part of the wider £500 million investment in research, development and innovation committed to by UK Research and Innovation (UKRI) in the Creative Industries Sector Plan.",
+          "source_url": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package"
+        },
+        {
+          "id": "f-1cc6bbc9fd8744b9e44b-2",
+          "text": "Announced today at the BEYOND conference in Manchester, the investments will fund the new products and services that will power tomorrow’s creative industries, from the latest developments in creative technology to improvements in green design.",
+          "source_url": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package"
+        },
+        {
+          "id": "f-1cc6bbc9fd8744b9e44b-3",
+          "text": "The funding aims to support the regional growth of the creative industries across the country, not just in London and the South East.",
+          "source_url": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package"
+        },
+        {
+          "id": "f-1cc6bbc9fd8744b9e44b-4",
+          "text": "It supports the government’s aim to make the creative industries a strong investment opportunity and a good place to work, whoever you are and wherever you live.",
+          "source_url": "https://www.gov.uk/government/news/uk-creative-businesses-to-benefit-from-funding-package"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "f7c810306519ffbb0db5",
+      "category": "UK",
+      "title": "Confirmed 2026/27 EPR for packaging fees now available",
+      "summary": "PackUK has published confirmed EPR for packaging waste disposal fees for 2026/27 PackUK has today, 25 November 2026, published confirmed Extended Producer Responsibility (EPR) for packaging waste disposal fees for 2026/27. For the first time, producers will pay modulated (Green, Amber, or Red) fees, based on the recyclability of the packaging they place on the market, in line with the Recyclability Assessment Methodology (RAM). The EPR for packaging scheme forms the cornerstone of the UK’s packaging reforms. Over £2 billion has already been provided to local authorities in the UK through the scheme to improve household waste collection and recycling services, directly benefiting local areas.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Countryside_-_geograph.org.uk_-_205780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Paul McIlroy",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_-_geograph.org.uk_-_205780.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/confirmed-202627-epr-for-packaging-fees-now-available",
+          "published_at": "2026-11-25T15:55:09Z",
+          "retrieved_at": "2026-11-25T16:21:52.794077Z",
+          "source_title": "Confirmed 2026/27 EPR for packaging fees now available",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-f7c810306519ffbb0db5",
+        "f-f7c810306519ffbb0db5-0",
+        "f-f7c810306519ffbb0db5-1",
+        "f-f7c810306519ffbb0db5-3",
+        "f-f7c810306519ffbb0db5-4"
+      ],
+      "facts": [
+        {
+          "id": "f-f7c810306519ffbb0db5",
+          "text": "Confirmed 2026/27 EPR for packaging fees now available",
+          "source_url": "https://www.gov.uk/government/news/confirmed-202627-epr-for-packaging-fees-now-available"
+        },
+        {
+          "id": "f-f7c810306519ffbb0db5-0",
+          "text": "PackUK has published confirmed EPR for packaging waste disposal fees for 2026/27 PackUK has today, 25 November 2026, published confirmed Extended Producer Responsibility (EPR) for packaging waste disposal fees for 2026/27.",
+          "source_url": "https://www.gov.uk/government/news/confirmed-202627-epr-for-packaging-fees-now-available"
+        },
+        {
+          "id": "f-f7c810306519ffbb0db5-1",
+          "text": "For the first time, producers will pay modulated (Green, Amber, or Red) fees, based on the recyclability of the packaging they place on the market, in line with the Recyclability Assessment Methodology (RAM).",
+          "source_url": "https://www.gov.uk/government/news/confirmed-202627-epr-for-packaging-fees-now-available"
+        },
+        {
+          "id": "f-f7c810306519ffbb0db5-2",
+          "text": "This transparency aims to support informed investment decisions and encourage producers to move away from difficult to recycle materials over time.",
+          "source_url": "https://www.gov.uk/government/news/confirmed-202627-epr-for-packaging-fees-now-available"
+        },
+        {
+          "id": "f-f7c810306519ffbb0db5-3",
+          "text": "The EPR for packaging scheme forms the cornerstone of the UK’s packaging reforms.",
+          "source_url": "https://www.gov.uk/government/news/confirmed-202627-epr-for-packaging-fees-now-available"
+        },
+        {
+          "id": "f-f7c810306519ffbb0db5-4",
+          "text": "Over £2 billion has already been provided to local authorities in the UK through the scheme to improve household waste collection and recycling services, directly benefiting local areas.",
+          "source_url": "https://www.gov.uk/government/news/confirmed-202627-epr-for-packaging-fees-now-available"
+        },
+        {
+          "id": "f-f7c810306519ffbb0db5-5",
+          "text": "As the scheme matures, PackUK expects increasingly high-quality, well-evidenced data from producers.",
+          "source_url": "https://www.gov.uk/government/news/confirmed-202627-epr-for-packaging-fees-now-available"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "72d5939984a9bcaeca30",
+      "category": "UK",
+      "title": "UK Medical teams deliver lifeline healthcare in Gaza",
+      "summary": "UK allocates £14 million for UK-Med to deliver lifesaving emergency treatment, surgery and rehabilitation for Palestinians in Gaza. Palestinians will receive emergency treatment, surgery and rehabilitation through the UK’s £14 million allocation to UK-Med this financial year. This funding is expected to help UK-Med deliver: UK-Med works alongside Palestinian colleagues to provide frontline healthcare across Gaza, including through two field hospitals and two primary healthcare centres. Its teams are also helping to expand surgical capacity and strengthen high-dependency and paediatric services. UK-Med’s doctors and humanitarian teams are making a tangible difference in what remains an appalling humanitarian crisis. But their work can only save lives if aid and medical supplies reach the people who need them. The UK is calling for immediate, rapid and unimpeded humanitarian access throughout Gaza, with crossings opened and essential supplies allowed in.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Countryside_-_geograph.org.uk_-_258692.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Paul McIlroy",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_-_geograph.org.uk_-_258692.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza",
+          "published_at": "2026-11-25T15:17:00Z",
+          "retrieved_at": "2026-11-25T16:21:52.794077Z",
+          "source_title": "UK Medical teams deliver lifeline healthcare in Gaza",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-72d5939984a9bcaeca30",
+        "f-72d5939984a9bcaeca30-0",
+        "f-72d5939984a9bcaeca30-1",
+        "f-72d5939984a9bcaeca30-2",
+        "f-72d5939984a9bcaeca30-3",
+        "f-72d5939984a9bcaeca30-4",
+        "f-72d5939984a9bcaeca30-5",
+        "f-72d5939984a9bcaeca30-6"
+      ],
+      "facts": [
+        {
+          "id": "f-72d5939984a9bcaeca30",
+          "text": "UK Medical teams deliver lifeline healthcare in Gaza",
+          "source_url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza"
+        },
+        {
+          "id": "f-72d5939984a9bcaeca30-0",
+          "text": "UK allocates £14 million for UK-Med to deliver lifesaving emergency treatment, surgery and rehabilitation for Palestinians in Gaza.",
+          "source_url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza"
+        },
+        {
+          "id": "f-72d5939984a9bcaeca30-1",
+          "text": "Palestinians will receive emergency treatment, surgery and rehabilitation through the UK’s £14 million allocation to UK-Med this financial year.",
+          "source_url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza"
+        },
+        {
+          "id": "f-72d5939984a9bcaeca30-2",
+          "text": "This funding is expected to help UK-Med deliver: UK-Med works alongside Palestinian colleagues to provide frontline healthcare across Gaza, including through two field hospitals and two primary healthcare centres.",
+          "source_url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza"
+        },
+        {
+          "id": "f-72d5939984a9bcaeca30-3",
+          "text": "Its teams are also helping to expand surgical capacity and strengthen high-dependency and paediatric services.",
+          "source_url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza"
+        },
+        {
+          "id": "f-72d5939984a9bcaeca30-4",
+          "text": "UK-Med’s doctors and humanitarian teams are making a tangible difference in what remains an appalling humanitarian crisis.",
+          "source_url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza"
+        },
+        {
+          "id": "f-72d5939984a9bcaeca30-5",
+          "text": "But their work can only save lives if aid and medical supplies reach the people who need them.",
+          "source_url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza"
+        },
+        {
+          "id": "f-72d5939984a9bcaeca30-6",
+          "text": "The UK is calling for immediate, rapid and unimpeded humanitarian access throughout Gaza, with crossings opened and essential supplies allowed in.",
+          "source_url": "https://www.gov.uk/government/news/uk-medical-teams-deliver-lifeline-healthcare-in-gaza"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-7c48927ca439b8ba86cb",
+      "question": "Complete the headline you read: “How to submit ____ and complaints to the CAC”",
+      "choices": [
+        "applications",
+        "Groundwork",
+        "Confirmed"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “How to submit applications and complaints to the CAC”.",
+      "story_id": "7c48927ca439b8ba86cb",
+      "fact_id": "f-7c48927ca439b8ba86cb"
+    },
+    {
+      "id": "q-89bd132084d4900f8619",
+      "question": "Complete the headline you read: “NASA’s Hubble Views Ocean of Stars in ____ for Roman”",
+      "choices": [
+        "Confirmed",
+        "Medical",
+        "Groundwork"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “NASA’s Hubble Views Ocean of Stars in Groundwork for Roman”.",
+      "story_id": "89bd132084d4900f8619",
+      "fact_id": "f-89bd132084d4900f8619"
+    },
+    {
+      "id": "q-1cc6bbc9fd8744b9e44b",
+      "question": "Complete the headline you read: “UK creative ____ to benefit from funding package”",
+      "choices": [
+        "Confirmed",
+        "businesses",
+        "Groundwork"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “UK creative businesses to benefit from funding package”.",
+      "story_id": "1cc6bbc9fd8744b9e44b",
+      "fact_id": "f-1cc6bbc9fd8744b9e44b"
+    },
+    {
+      "id": "q-f7c810306519ffbb0db5",
+      "question": "Complete the headline you read: “____ 2026/27 EPR for packaging fees now available”",
+      "choices": [
+        "Confirmed",
+        "Hubble",
+        "Groundwork"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Confirmed 2026/27 EPR for packaging fees now available”.",
+      "story_id": "f7c810306519ffbb0db5",
+      "fact_id": "f-f7c810306519ffbb0db5"
+    },
+    {
+      "id": "q-72d5939984a9bcaeca30",
+      "question": "Complete the headline you read: “UK Medical teams deliver lifeline ____ in Gaza”",
+      "choices": [
+        "Groundwork",
+        "healthcare",
+        "Confirmed"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “UK Medical teams deliver lifeline healthcare in Gaza”.",
+      "story_id": "72d5939984a9bcaeca30",
+      "fact_id": "f-72d5939984a9bcaeca30"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}
