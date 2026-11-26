@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-26-en-GB",
+  "edition_date": "2026-11-26",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-26T16:18:41.815296Z",
+  "mode": "full",
+  "ai_provider": "cloudflare",
+  "ai_status": "Validated evidence sentences",
+  "estimated_reading_minutes": 5,
+  "stories": [
+    {
+      "id": "d84677c255a538ee65e6",
+      "category": "UK",
+      "title": "RPC statement: impact of Energy Independence Bill from DESNZ",
+      "summary": "We use some essential cookies to make this website work. We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services. We also use cookies set by other sites to help us deliver content from their services. You have accepted additional cookies. You can change your cookie settings at any time. You have rejected additional cookies. To help us improve GOV.UK, we’d like to know more about your visit today. Please fill in this survey (opens in a new tab ) .",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz",
+          "published_at": "2026-11-26T16:09:23Z",
+          "retrieved_at": "2026-11-26T16:18:41.815296Z",
+          "source_title": "RPC statement: impact of Energy Independence Bill from DESNZ",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-d84677c255a538ee65e6",
+        "f-d84677c255a538ee65e6-0",
+        "f-d84677c255a538ee65e6-1",
+        "f-d84677c255a538ee65e6-2",
+        "f-d84677c255a538ee65e6-3",
+        "f-d84677c255a538ee65e6-4",
+        "f-d84677c255a538ee65e6-5",
+        "f-d84677c255a538ee65e6-6",
+        "f-d84677c255a538ee65e6-7"
+      ],
+      "facts": [
+        {
+          "id": "f-d84677c255a538ee65e6",
+          "text": "RPC statement: impact of Energy Independence Bill from DESNZ",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        },
+        {
+          "id": "f-d84677c255a538ee65e6-0",
+          "text": "We use some essential cookies to make this website work.",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        },
+        {
+          "id": "f-d84677c255a538ee65e6-1",
+          "text": "We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        },
+        {
+          "id": "f-d84677c255a538ee65e6-2",
+          "text": "We also use cookies set by other sites to help us deliver content from their services.",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        },
+        {
+          "id": "f-d84677c255a538ee65e6-3",
+          "text": "You have accepted additional cookies.",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        },
+        {
+          "id": "f-d84677c255a538ee65e6-4",
+          "text": "You can change your cookie settings at any time.",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        },
+        {
+          "id": "f-d84677c255a538ee65e6-5",
+          "text": "You have rejected additional cookies.",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        },
+        {
+          "id": "f-d84677c255a538ee65e6-6",
+          "text": "To help us improve GOV.UK, we’d like to know more about your visit today.",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        },
+        {
+          "id": "f-d84677c255a538ee65e6-7",
+          "text": "Please fill in this survey (opens in a new tab ) .",
+          "source_url": "https://www.gov.uk/government/news/rpc-statement-impact-of-energy-independence-bill-from-desnz"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "2a0813bec4d8783345a2",
+      "category": "World",
+      "title": "Support Global Voices’ January Spotlight: Independent journalism",
+      "summary": "But journalism is on a precipice. The shift from print to digital has opened up new possibilities, as well as vulnerabilities. Changes in how we interact, especially at a distance, have changed what (and how) people want to read, listen to, or watch to understand the news. This decade has seen dramatic changes in the field, from the loss of foundational trust in the institution , to digital , legal , and physical threats to journalists to the near-complete erosion of financial security for people who carry out this work. Increasingly authoritarian governments turn on the media, and the press in countries from Hong Kong to Myanmar to Russia to Nicaragua has been forced into exile .",
+      "why_it_matters": "Comparing reliable sources can help us understand events around the world.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Boukary_konate_et_business_card_global_voices_%284306260961%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for World",
+        "credit": "Toujours Passages",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Boukary_konate_et_business_card_global_voices_(4306260961).jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "Global Voices",
+          "url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism",
+          "published_at": "2026-11-26T08:16:21Z",
+          "retrieved_at": "2026-11-26T16:18:41.815296Z",
+          "source_title": "Support Global Voices’ January Spotlight: Independent journalism",
+          "event_date": null,
+          "author": "Global Voices Announcements",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-2a0813bec4d8783345a2",
+        "f-2a0813bec4d8783345a2-2",
+        "f-2a0813bec4d8783345a2-3",
+        "f-2a0813bec4d8783345a2-4",
+        "f-2a0813bec4d8783345a2-5",
+        "f-2a0813bec4d8783345a2-6"
+      ],
+      "facts": [
+        {
+          "id": "f-2a0813bec4d8783345a2",
+          "text": "Support Global Voices’ January Spotlight: Independent journalism",
+          "source_url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism"
+        },
+        {
+          "id": "f-2a0813bec4d8783345a2-0",
+          "text": "Image made via Canva Pro.",
+          "source_url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism"
+        },
+        {
+          "id": "f-2a0813bec4d8783345a2-1",
+          "text": "All images fair use.",
+          "source_url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism"
+        },
+        {
+          "id": "f-2a0813bec4d8783345a2-2",
+          "text": "But journalism is on a precipice.",
+          "source_url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism"
+        },
+        {
+          "id": "f-2a0813bec4d8783345a2-3",
+          "text": "The shift from print to digital has opened up new possibilities, as well as vulnerabilities.",
+          "source_url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism"
+        },
+        {
+          "id": "f-2a0813bec4d8783345a2-4",
+          "text": "Changes in how we interact, especially at a distance, have changed what (and how) people want to read, listen to, or watch to understand the news.",
+          "source_url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism"
+        },
+        {
+          "id": "f-2a0813bec4d8783345a2-5",
+          "text": "This decade has seen dramatic changes in the field, from the loss of foundational trust in the institution , to digital , legal , and physical threats to journalists to the near-complete erosion of financial security for people who carry out this work.",
+          "source_url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism"
+        },
+        {
+          "id": "f-2a0813bec4d8783345a2-6",
+          "text": "Increasingly authoritarian governments turn on the media, and the press in countries from Hong Kong to Myanmar to Russia to Nicaragua has been forced into exile .",
+          "source_url": "https://globalvoices.org/2026/11/26/support-global-voices-january-spotlight-independent-journalism"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "1d8cc3ca1aef6ec8241a",
+      "category": "Money & Business",
+      "title": "Economic Secretary to the Treasury speech at TechUK",
+      "summary": "Good morning, everyone. Thank you to TechUK for inviting me here and MariaDB for sponsoring this summit and accompanying report. Very good to be back at TechUK and let me say thank to James and everyone at TechUK for the role you play in driving forward the tech agenda in this country. I fundamentally believe its an agenda for progress and as a progressive and tech optimist, I am very much on board. It feels particularly fitting to be having this conversation here, in the heart of London, where the City’s financial expertise meets the UK’s technology ecosystem – and it is a pleasure to be among so many leaders who are helping shape the future of technology and financial services in the UK. My message today is simple: we must turn AI adoption in financial services into greater productivity and growth across the UK economy.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/City_of_London_skyline_from_Dulwich_-_geograph.org.uk_-_5585237.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Money & Business",
+        "credit": "Paul Harrop",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:City_of_London_skyline_from_Dulwich_-_geograph.org.uk_-_5585237.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk",
+          "published_at": "2026-11-26T14:26:16Z",
+          "retrieved_at": "2026-11-26T16:18:41.815296Z",
+          "source_title": "Economic Secretary to the Treasury speech at TechUK",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-1d8cc3ca1aef6ec8241a",
+        "f-1d8cc3ca1aef6ec8241a-1",
+        "f-1d8cc3ca1aef6ec8241a-2",
+        "f-1d8cc3ca1aef6ec8241a-3",
+        "f-1d8cc3ca1aef6ec8241a-4",
+        "f-1d8cc3ca1aef6ec8241a-5",
+        "f-1d8cc3ca1aef6ec8241a-6"
+      ],
+      "facts": [
+        {
+          "id": "f-1d8cc3ca1aef6ec8241a",
+          "text": "Economic Secretary to the Treasury speech at TechUK",
+          "source_url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk"
+        },
+        {
+          "id": "f-1d8cc3ca1aef6ec8241a-0",
+          "text": "Economic Secretary to the Treasury Lucy Rigby delivers her speech at TechUK.",
+          "source_url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk"
+        },
+        {
+          "id": "f-1d8cc3ca1aef6ec8241a-1",
+          "text": "Good morning, everyone.",
+          "source_url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk"
+        },
+        {
+          "id": "f-1d8cc3ca1aef6ec8241a-2",
+          "text": "Thank you to TechUK for inviting me here and MariaDB for sponsoring this summit and accompanying report.",
+          "source_url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk"
+        },
+        {
+          "id": "f-1d8cc3ca1aef6ec8241a-3",
+          "text": "Very good to be back at TechUK and let me say thank to James and everyone at TechUK for the role you play in driving forward the tech agenda in this country.",
+          "source_url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk"
+        },
+        {
+          "id": "f-1d8cc3ca1aef6ec8241a-4",
+          "text": "I fundamentally believe its an agenda for progress and as a progressive and tech optimist, I am very much on board.",
+          "source_url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk"
+        },
+        {
+          "id": "f-1d8cc3ca1aef6ec8241a-5",
+          "text": "It feels particularly fitting to be having this conversation here, in the heart of London, where the City’s financial expertise meets the UK’s technology ecosystem – and it is a pleasure to be among so many leaders who are helping shape the future of technology and financial services in the UK.",
+          "source_url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk"
+        },
+        {
+          "id": "f-1d8cc3ca1aef6ec8241a-6",
+          "text": "My message today is simple: we must turn AI adoption in financial services into greater productivity and growth across the UK economy.",
+          "source_url": "https://www.gov.uk/government/speeches/economic-secretary-to-the-treasury-speech-at-techuk"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "d188389f8c541c0b21b1",
+      "category": "UK",
+      "title": "\"Maintain a clear purpose\", RSH Chief Executive tells landlords",
+      "summary": "RSH Chief Executive Jonathan Walters was speaking at the Social Housing Leaders Conference in London today. RSH Chief Executive Jonathan Walters reminded landlords of the need for strong governance, a clear strategic direction and the need to take a longer-term view in a rapidly growing and changing sector. He said RSH wanted to ensure the sector was financially resilient, well governed and able to invest in existing and new homes confidently for the long term, and so was working towards a formal consultation next year to put needed updates in place to the economic standards.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Countryside_-_geograph.org.uk_-_205780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Paul McIlroy",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_-_geograph.org.uk_-_205780.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/maintain-a-clear-purpose-rsh-chief-executive-tells-landlords",
+          "published_at": "2026-11-26T16:00:01Z",
+          "retrieved_at": "2026-11-26T16:18:41.815296Z",
+          "source_title": "\"Maintain a clear purpose\", RSH Chief Executive tells landlords",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-d188389f8c541c0b21b1",
+        "f-d188389f8c541c0b21b1-0",
+        "f-d188389f8c541c0b21b1-1",
+        "f-d188389f8c541c0b21b1-2"
+      ],
+      "facts": [
+        {
+          "id": "f-d188389f8c541c0b21b1",
+          "text": "\"Maintain a clear purpose\", RSH Chief Executive tells landlords",
+          "source_url": "https://www.gov.uk/government/news/maintain-a-clear-purpose-rsh-chief-executive-tells-landlords"
+        },
+        {
+          "id": "f-d188389f8c541c0b21b1-0",
+          "text": "RSH Chief Executive Jonathan Walters was speaking at the Social Housing Leaders Conference in London today.",
+          "source_url": "https://www.gov.uk/government/news/maintain-a-clear-purpose-rsh-chief-executive-tells-landlords"
+        },
+        {
+          "id": "f-d188389f8c541c0b21b1-1",
+          "text": "RSH Chief Executive Jonathan Walters reminded landlords of the need for strong governance, a clear strategic direction and the need to take a longer-term view in a rapidly growing and changing sector.",
+          "source_url": "https://www.gov.uk/government/news/maintain-a-clear-purpose-rsh-chief-executive-tells-landlords"
+        },
+        {
+          "id": "f-d188389f8c541c0b21b1-2",
+          "text": "He said RSH wanted to ensure the sector was financially resilient, well governed and able to invest in existing and new homes confidently for the long term, and so was working towards a formal consultation next year to put needed updates in place to the economic standards.",
+          "source_url": "https://www.gov.uk/government/news/maintain-a-clear-purpose-rsh-chief-executive-tells-landlords"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "ea52bc91cb07ec882ceb",
+      "category": "Science & Tech",
+      "title": "Seeking Refuge on Resolution Island",
+      "summary": "New Zealanders have long envisioned the island as a predator-free zone for native birds, but swimming stoats have shown a resolve of their own. In the late 1800s, wildlife conservationists in New Zealand were recognizing how predators such as stoats , brought to the country to control other nonnative animal populations, were becoming a threat to native birds. Naturalists at the time surmised that some of the nation’s islands could serve as sanctuaries where endemic species could persist, free from the voracious newcomers.",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": {
+        "word": "glacier",
+        "definition": "A large mass of ice that moves slowly."
+      },
+      "image": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island",
+          "published_at": "2026-11-26T05:01:00Z",
+          "retrieved_at": "2026-11-26T16:18:41.815296Z",
+          "source_title": "Seeking Refuge on Resolution Island",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-ea52bc91cb07ec882ceb",
+        "f-ea52bc91cb07ec882ceb-0",
+        "f-ea52bc91cb07ec882ceb-1",
+        "f-ea52bc91cb07ec882ceb-2"
+      ],
+      "facts": [
+        {
+          "id": "f-ea52bc91cb07ec882ceb",
+          "text": "Seeking Refuge on Resolution Island",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island"
+        },
+        {
+          "id": "f-ea52bc91cb07ec882ceb-0",
+          "text": "New Zealanders have long envisioned the island as a predator-free zone for native birds, but swimming stoats have shown a resolve of their own.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island"
+        },
+        {
+          "id": "f-ea52bc91cb07ec882ceb-1",
+          "text": "In the late 1800s, wildlife conservationists in New Zealand were recognizing how predators such as stoats , brought to the country to control other nonnative animal populations, were becoming a threat to native birds.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island"
+        },
+        {
+          "id": "f-ea52bc91cb07ec882ceb-2",
+          "text": "Naturalists at the time surmised that some of the nation’s islands could serve as sanctuaries where endemic species could persist, free from the voracious newcomers.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island"
+        },
+        {
+          "id": "f-ea52bc91cb07ec882ceb-3",
+          "text": "Resolution Island, located in the Fiordland region along the rugged southwest edge of New Zealand’s South Island, was one of the first eyed for this purpose.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island"
+        },
+        {
+          "id": "f-ea52bc91cb07ec882ceb-4",
+          "text": "This image, acquired with the OLI (Operational Land Imager) on Landsat 9 on December 12, 2025, shows the island’s setting amid a landscape of steep-sided valleys carved by glaciers and now inundated by the ocean.",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island"
+        }
+      ],
+      "content_kind": "grounded_ai",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-d84677c255a538ee65e6",
+      "question": "Complete the headline you read: “RPC statement: impact of Energy ____ Bill from DESNZ”",
+      "choices": [
+        "Chief",
+        "Economic",
+        "Independence"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “RPC statement: impact of Energy Independence Bill from DESNZ”.",
+      "story_id": "d84677c255a538ee65e6",
+      "fact_id": "f-d84677c255a538ee65e6"
+    },
+    {
+      "id": "q-2a0813bec4d8783345a2",
+      "question": "Complete the headline you read: “Support Global Voices’ January Spotlight: ____ journalism”",
+      "choices": [
+        "DESNZ",
+        "Independent",
+        "Chief"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Support Global Voices’ January Spotlight: Independent journalism”.",
+      "story_id": "2a0813bec4d8783345a2",
+      "fact_id": "f-2a0813bec4d8783345a2"
+    },
+    {
+      "id": "q-1d8cc3ca1aef6ec8241a",
+      "question": "Complete the headline you read: “Economic ____ to the Treasury speech at TechUK”",
+      "choices": [
+        "Secretary",
+        "Chief",
+        "DESNZ"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Economic Secretary to the Treasury speech at TechUK”.",
+      "story_id": "1d8cc3ca1aef6ec8241a",
+      "fact_id": "f-1d8cc3ca1aef6ec8241a"
+    },
+    {
+      "id": "q-d188389f8c541c0b21b1",
+      "question": "Complete the headline you read: “\"Maintain a clear purpose\", RSH Chief ____ tells landlords”",
+      "choices": [
+        "DESNZ",
+        "Economic",
+        "Executive"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “\"Maintain a clear purpose\", RSH Chief Executive tells landlords”.",
+      "story_id": "d188389f8c541c0b21b1",
+      "fact_id": "f-d188389f8c541c0b21b1"
+    },
+    {
+      "id": "q-ea52bc91cb07ec882ceb",
+      "question": "Complete the headline you read: “Seeking Refuge on ____ Island”",
+      "choices": [
+        "Resolution",
+        "Chief",
+        "DESNZ"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Seeking Refuge on Resolution Island”.",
+      "story_id": "ea52bc91cb07ec882ceb",
+      "fact_id": "f-ea52bc91cb07ec882ceb"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}

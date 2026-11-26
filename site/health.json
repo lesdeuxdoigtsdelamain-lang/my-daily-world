@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "state": "success",
-  "checked_at": "2026-11-25T16:22:41.613982+00:00",
-  "last_successful_publication": "2026-11-25T16:22:41.613982+00:00",
+  "checked_at": "2026-11-26T16:19:24.500561+00:00",
+  "last_successful_publication": "2026-11-26T16:19:24.500561+00:00",
   "detail": "Validated evidence sentences",
   "feeds": {
     "globalvoices": {
@@ -11,7 +11,7 @@
     },
     "nasa": {
       "state": "ok",
-      "eligible": 10
+      "eligible": 9
     },
     "govuk": {
       "state": "ok",
@@ -23,7 +23,7 @@
     },
     "nps": {
       "state": "ok",
-      "eligible": 8
+      "eligible": 2
     },
     "bbc-world": {
       "state": "disabled",
@@ -54,16 +54,16 @@
     "requests": 2,
     "reported": [
       {
-        "prompt_tokens": 2009,
-        "completion_tokens": 426,
-        "total_tokens": 2435,
-        "neurons": 140.82241821289062
+        "prompt_tokens": 2307,
+        "completion_tokens": 618,
+        "total_tokens": 2925,
+        "neurons": 188.09201049804688
       },
       {
-        "prompt_tokens": 1587,
-        "completion_tokens": 480,
-        "total_tokens": 2067,
-        "neurons": 140.62814331054688
+        "prompt_tokens": 1242,
+        "completion_tokens": 415,
+        "total_tokens": 1657,
+        "neurons": 118.1154556274414
       }
     ],
     "neuron_estimate": null,
