@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "state": "success",
-  "checked_at": "2026-11-26T16:19:24.500561+00:00",
-  "last_successful_publication": "2026-11-26T16:19:24.500561+00:00",
-  "detail": "Validated evidence sentences",
+  "checked_at": "2026-11-27T16:18:36.833364+00:00",
+  "last_successful_publication": "2026-11-27T16:18:36.833364+00:00",
+  "detail": "Unverified AI wording rejected; compact fallback",
   "feeds": {
     "globalvoices": {
       "state": "ok",
@@ -11,7 +11,7 @@
     },
     "nasa": {
       "state": "ok",
-      "eligible": 9
+      "eligible": 6
     },
     "govuk": {
       "state": "ok",
@@ -54,16 +54,16 @@
     "requests": 2,
     "reported": [
       {
-        "prompt_tokens": 2307,
-        "completion_tokens": 618,
-        "total_tokens": 2925,
-        "neurons": 188.09201049804688
+        "prompt_tokens": 2301,
+        "completion_tokens": 607,
+        "total_tokens": 2908,
+        "neurons": 185.67913818359375
       },
       {
-        "prompt_tokens": 1242,
-        "completion_tokens": 415,
-        "total_tokens": 1657,
-        "neurons": 118.1154556274414
+        "prompt_tokens": 1613,
+        "completion_tokens": 433,
+        "total_tokens": 2046,
+        "neurons": 131.69566345214844
       }
     ],
     "neuron_estimate": null,

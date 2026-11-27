@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-27-en-GB",
+  "edition_date": "2026-11-27",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "generated_at": "2026-11-27T16:17:46.042725Z",
+  "mode": "full",
+  "ai_provider": "none",
+  "ai_status": "Unverified AI wording rejected; compact fallback",
+  "estimated_reading_minutes": 6,
+  "stories": [
+    {
+      "id": "d9df8b7dc23a2369140f",
+      "category": "UK",
+      "title": "MHRA approves zanidatamab (Ziihera) for the treatment of gastroesophageal cancer",
+      "summary": "Zanidatamab was previously approved for the treatment of adults with bile duct cancer. Zanidatamab is used when the cancer cannot be removed by surgery and has spread to nearby tissues or other parts of the body. It is used alongside chemotherapy, with or without another cancer medicine called tislelizumab, depending on the level of HER2 in the cancer. Zanidatamab is administered by an infusion drip into a vein every two or three weeks. In a study of 914 patients with HER2-positive gastroesophageal cancer, patients who received zanidatamab alongside chemotherapy and tislelizumab lived on average around seven months longer, and around four months longer without their cancer getting worse. “This approval provides a new treatment option for adults with HER2-positive gastroesophageal cancer, where the cancer cannot be removed by surgery or has spread to other parts of the body. “This approval reflects the MHRA’s commitment to ensuring patients can access safe and effective medicines where there is an unmet clinical need.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Countryside_View_-_geograph.org.uk_-_55826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Donald Bain",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_View_-_geograph.org.uk_-_55826.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer",
+          "published_at": "2026-11-27T15:41:22Z",
+          "retrieved_at": "2026-11-27T16:17:46.042725Z",
+          "source_title": "MHRA approves zanidatamab (Ziihera) for the treatment of gastroesophageal cancer",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-d9df8b7dc23a2369140f",
+        "f-d9df8b7dc23a2369140f-0",
+        "f-d9df8b7dc23a2369140f-1",
+        "f-d9df8b7dc23a2369140f-2",
+        "f-d9df8b7dc23a2369140f-3",
+        "f-d9df8b7dc23a2369140f-4",
+        "f-d9df8b7dc23a2369140f-5",
+        "f-d9df8b7dc23a2369140f-6"
+      ],
+      "facts": [
+        {
+          "id": "f-d9df8b7dc23a2369140f",
+          "text": "MHRA approves zanidatamab (Ziihera) for the treatment of gastroesophageal cancer",
+          "source_url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+        },
+        {
+          "id": "f-d9df8b7dc23a2369140f-0",
+          "text": "Zanidatamab was previously approved for the treatment of adults with bile duct cancer.",
+          "source_url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+        },
+        {
+          "id": "f-d9df8b7dc23a2369140f-1",
+          "text": "Zanidatamab is used when the cancer cannot be removed by surgery and has spread to nearby tissues or other parts of the body.",
+          "source_url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+        },
+        {
+          "id": "f-d9df8b7dc23a2369140f-2",
+          "text": "It is used alongside chemotherapy, with or without another cancer medicine called tislelizumab, depending on the level of HER2 in the cancer.",
+          "source_url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+        },
+        {
+          "id": "f-d9df8b7dc23a2369140f-3",
+          "text": "Zanidatamab is administered by an infusion drip into a vein every two or three weeks.",
+          "source_url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+        },
+        {
+          "id": "f-d9df8b7dc23a2369140f-4",
+          "text": "In a study of 914 patients with HER2-positive gastroesophageal cancer, patients who received zanidatamab alongside chemotherapy and tislelizumab lived on average around seven months longer, and around four months longer without their cancer getting worse.",
+          "source_url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+        },
+        {
+          "id": "f-d9df8b7dc23a2369140f-5",
+          "text": "“This approval provides a new treatment option for adults with HER2-positive gastroesophageal cancer, where the cancer cannot be removed by surgery or has spread to other parts of the body.",
+          "source_url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+        },
+        {
+          "id": "f-d9df8b7dc23a2369140f-6",
+          "text": "“This approval reflects the MHRA’s commitment to ensuring patients can access safe and effective medicines where there is an unmet clinical need.",
+          "source_url": "https://www.gov.uk/government/news/mhra-approves-zanidatamab-ziihera-for-the-treatment-of-gastroesophageal-cancer"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "1380af4ce3b5ec939865",
+      "category": "Science & Tech",
+      "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+      "summary": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage to send the Orion spacecraft to conduct critical rendezvous and docking tests with lunar lander systems in low Earth orbit, advancing the capabilities needed before astronauts return to the lunar surface on Artemis IV.",
+      "why_it_matters": "Science news is a chance to ask what the evidence shows and what is still being studied.",
+      "word_to_know": null,
+      "image": null,
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab",
+          "published_at": "2026-11-27T15:01:00Z",
+          "retrieved_at": "2026-11-27T16:17:46.042725Z",
+          "source_title": "Artemis III Astronaut Andre Douglas Visits VAB",
+          "event_date": null,
+          "author": "HQ Web Team",
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-1380af4ce3b5ec939865",
+        "f-1380af4ce3b5ec939865-0",
+        "f-1380af4ce3b5ec939865-1"
+      ],
+      "facts": [
+        {
+          "id": "f-1380af4ce3b5ec939865",
+          "text": "Artemis III Astronaut Andre Douglas Visits VAB",
+          "source_url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab"
+        },
+        {
+          "id": "f-1380af4ce3b5ec939865-0",
+          "text": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov.",
+          "source_url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab"
+        },
+        {
+          "id": "f-1380af4ce3b5ec939865-1",
+          "text": "During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage to send the Orion spacecraft to conduct critical rendezvous and docking tests with lunar lander systems in low Earth orbit, advancing the capabilities needed before astronauts return to the lunar surface on Artemis IV.",
+          "source_url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "295f5cf1c0f78f382288",
+      "category": "Environment",
+      "title": "Cape Hatteras National Seashore Provides Updates Following Coastal Storm Impacts",
+      "summary": "News Release Date: November 27, 2026 Contact: Cape Hatteras Public Affairs MANTEO, N.C. — National Park Service staff continue to assess damage and public safety conditions across Cape Hatteras National Seashore following a significant coastal storm that caused erosion, roadway damage and impacts to visitor facilities. Road Closures Three sections of N.C. Highway 12 remain closed by the N.C. Department of Transportation as recovery efforts continue. Closures are in effect between Oregon Inlet and Rodanthe, between the villages of Frisco and Hatteras, and near the north end of Ocracoke Island. Travelers should expect delays and monitor drivenc.gov for updates. Storm Impacts On Hatteras and Ocracoke islands, thousands of feet of dunes were lost due to erosion and multiple sections of N.C. Highway 12 sustained damage, leading to the closures. The Avon Fishing Pier also sustained storm damage. Seashore staff are coordinating with the pier leaseholder to evaluate damages and determine repair plans.",
+      "why_it_matters": "Environmental news can help us learn about the world we share.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/CapeHatterasNationalSeashore.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Environment",
+        "credit": "Vbofficial",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/File:CapeHatterasNationalSeashore.JPG",
+        "source_page": "https://commons.wikimedia.org/wiki/File:CapeHatterasNationalSeashore.JPG"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "US National Park Service",
+          "url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm",
+          "published_at": "2026-11-27T07:52:00Z",
+          "retrieved_at": "2026-11-27T16:17:46.042725Z",
+          "source_title": "Cape Hatteras National Seashore Provides Updates Following Coastal Storm Impacts",
+          "event_date": null,
+          "author": null,
+          "license": null,
+          "license_url": null
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-295f5cf1c0f78f382288",
+        "f-295f5cf1c0f78f382288-0",
+        "f-295f5cf1c0f78f382288-1",
+        "f-295f5cf1c0f78f382288-2",
+        "f-295f5cf1c0f78f382288-3",
+        "f-295f5cf1c0f78f382288-4",
+        "f-295f5cf1c0f78f382288-5",
+        "f-295f5cf1c0f78f382288-6"
+      ],
+      "facts": [
+        {
+          "id": "f-295f5cf1c0f78f382288",
+          "text": "Cape Hatteras National Seashore Provides Updates Following Coastal Storm Impacts",
+          "source_url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm"
+        },
+        {
+          "id": "f-295f5cf1c0f78f382288-0",
+          "text": "News Release Date: November 27, 2026 Contact: Cape Hatteras Public Affairs MANTEO, N.C. — National Park Service staff continue to assess damage and public safety conditions across Cape Hatteras National Seashore following a significant coastal storm that caused erosion, roadway damage and impacts to visitor facilities.",
+          "source_url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm"
+        },
+        {
+          "id": "f-295f5cf1c0f78f382288-1",
+          "text": "Road Closures Three sections of N.C. Highway 12 remain closed by the N.C. Department of Transportation as recovery efforts continue.",
+          "source_url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm"
+        },
+        {
+          "id": "f-295f5cf1c0f78f382288-2",
+          "text": "Closures are in effect between Oregon Inlet and Rodanthe, between the villages of Frisco and Hatteras, and near the north end of Ocracoke Island.",
+          "source_url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm"
+        },
+        {
+          "id": "f-295f5cf1c0f78f382288-3",
+          "text": "Travelers should expect delays and monitor drivenc.gov for updates.",
+          "source_url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm"
+        },
+        {
+          "id": "f-295f5cf1c0f78f382288-4",
+          "text": "Storm Impacts On Hatteras and Ocracoke islands, thousands of feet of dunes were lost due to erosion and multiple sections of N.C. Highway 12 sustained damage, leading to the closures.",
+          "source_url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm"
+        },
+        {
+          "id": "f-295f5cf1c0f78f382288-5",
+          "text": "The Avon Fishing Pier also sustained storm damage.",
+          "source_url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm"
+        },
+        {
+          "id": "f-295f5cf1c0f78f382288-6",
+          "text": "Seashore staff are coordinating with the pier leaseholder to evaluate damages and determine repair plans.",
+          "source_url": "https://www.nps.gov/caha/learn/news/cape-hatteras-national-seashore-provides-updates-following-coastal-storm-impacts.htm"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": []
+    },
+    {
+      "id": "d423621b55d34b6b716f",
+      "category": "Money & Business",
+      "title": "Huge trade boost for Northern Ireland as UK-EU trade deal tears down 90% of checks on goods from Great Britain",
+      "summary": "The agreement, struck by the PM in Brussels last week, will help to keep costs down and improve customer choice across the UK, Biosecurity and Trade Minister Baroness Hayman said today (Friday 27 November). Baroness Hayman visited Creative Gardens in Donaghadee, Lidl in Belfast, and farmers in Kilbride, and met CBI business leaders to see how the new UK-EU deal will cut checks and paperwork for local firms. She also met Northern Ireland Executive Minister for agriculture, Andrew Muir, to discuss the positive impacts of the deal and the benefits to food businesses and farmers. Analysis suggests sanitary and phytosanitary (SPS) checks on vehicles moving goods from Great Britain to Northern Ireland could fall by up to 90% once the new arrangements are fully in place.",
+      "why_it_matters": "Understanding money and business can help us make sense of everyday decisions.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for Money & Business",
+        "credit": "Robin Webster",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:City_skyline_from_London_Bridge_station_-_geograph.org.uk_-_5748816.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/huge-trade-boost-for-northern-ireland-as-uk-eu-trade-deal-tears-down-90-of-checks-on-goods-from-great-britain",
+          "published_at": "2026-11-27T15:49:42Z",
+          "retrieved_at": "2026-11-27T16:17:46.042725Z",
+          "source_title": "Huge trade boost for Northern Ireland as UK-EU trade deal tears down 90% of checks on goods from Great Britain",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-d423621b55d34b6b716f",
+        "f-d423621b55d34b6b716f-0",
+        "f-d423621b55d34b6b716f-1",
+        "f-d423621b55d34b6b716f-2",
+        "f-d423621b55d34b6b716f-3"
+      ],
+      "facts": [
+        {
+          "id": "f-d423621b55d34b6b716f",
+          "text": "Huge trade boost for Northern Ireland as UK-EU trade deal tears down 90% of checks on goods from Great Britain",
+          "source_url": "https://www.gov.uk/government/news/huge-trade-boost-for-northern-ireland-as-uk-eu-trade-deal-tears-down-90-of-checks-on-goods-from-great-britain"
+        },
+        {
+          "id": "f-d423621b55d34b6b716f-0",
+          "text": "The agreement, struck by the PM in Brussels last week, will help to keep costs down and improve customer choice across the UK, Biosecurity and Trade Minister Baroness Hayman said today (Friday 27 November).",
+          "source_url": "https://www.gov.uk/government/news/huge-trade-boost-for-northern-ireland-as-uk-eu-trade-deal-tears-down-90-of-checks-on-goods-from-great-britain"
+        },
+        {
+          "id": "f-d423621b55d34b6b716f-1",
+          "text": "Baroness Hayman visited Creative Gardens in Donaghadee, Lidl in Belfast, and farmers in Kilbride, and met CBI business leaders to see how the new UK-EU deal will cut checks and paperwork for local firms.",
+          "source_url": "https://www.gov.uk/government/news/huge-trade-boost-for-northern-ireland-as-uk-eu-trade-deal-tears-down-90-of-checks-on-goods-from-great-britain"
+        },
+        {
+          "id": "f-d423621b55d34b6b716f-2",
+          "text": "She also met Northern Ireland Executive Minister for agriculture, Andrew Muir, to discuss the positive impacts of the deal and the benefits to food businesses and farmers.",
+          "source_url": "https://www.gov.uk/government/news/huge-trade-boost-for-northern-ireland-as-uk-eu-trade-deal-tears-down-90-of-checks-on-goods-from-great-britain"
+        },
+        {
+          "id": "f-d423621b55d34b6b716f-3",
+          "text": "Analysis suggests sanitary and phytosanitary (SPS) checks on vehicles moving goods from Great Britain to Northern Ireland could fall by up to 90% once the new arrangements are fully in place.",
+          "source_url": "https://www.gov.uk/government/news/huge-trade-boost-for-northern-ireland-as-uk-eu-trade-deal-tears-down-90-of-checks-on-goods-from-great-britain"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    },
+    {
+      "id": "92e8b4538c34d658acbe",
+      "category": "UK",
+      "title": "Mini lab-grown human organs to boost search for new treatments as £20m Cambridge lab opens",
+      "summary": "As the £20 million UK Preclinical Translational Models Hub opens its doors, the laboratory will help to usher in a world of new possibilities for patients. Faster access to treatments, a better understanding of how medicines behave inside the body, and fewer animal experiments will all be supported through a new lab opening in Cambridge today (27 November). The site will use organoids - tiny versions of human organs made from tissue donated by NHS patients - to help researchers build up a more accurate picture of the most promising new drugs to take forward for clinical trials. Some studies show that lab-grown organs could actually reduce total pharmaceutical R&D costs by between 10% to 26% . It also has the potential to slash the time it takes for the most promising drugs to move into full scale development by nearly a fifth – meaning a quicker route to get cutting-edge treatments into the hands of health workers.",
+      "why_it_matters": "Following UK news can help us ask informed questions about life around us.",
+      "word_to_know": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Countryside_-_geograph.org.uk_-_205780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Illustration for UK",
+        "credit": "Paul McIlroy",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Countryside_-_geograph.org.uk_-_205780.jpg"
+      },
+      "sensitivity": "low",
+      "country": null,
+      "source_refs": [
+        {
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/mini-lab-grown-human-organs-to-boost-search-for-new-treatments-as-20m-cambridge-lab-opens",
+          "published_at": "2026-11-27T15:34:47Z",
+          "retrieved_at": "2026-11-27T16:17:46.042725Z",
+          "source_title": "Mini lab-grown human organs to boost search for new treatments as £20m Cambridge lab opens",
+          "event_date": null,
+          "author": null,
+          "license": "Open Government Licence v3.0",
+          "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "supporting_fact_ids": [
+        "f-92e8b4538c34d658acbe",
+        "f-92e8b4538c34d658acbe-0",
+        "f-92e8b4538c34d658acbe-1",
+        "f-92e8b4538c34d658acbe-2",
+        "f-92e8b4538c34d658acbe-3",
+        "f-92e8b4538c34d658acbe-4"
+      ],
+      "facts": [
+        {
+          "id": "f-92e8b4538c34d658acbe",
+          "text": "Mini lab-grown human organs to boost search for new treatments as £20m Cambridge lab opens",
+          "source_url": "https://www.gov.uk/government/news/mini-lab-grown-human-organs-to-boost-search-for-new-treatments-as-20m-cambridge-lab-opens"
+        },
+        {
+          "id": "f-92e8b4538c34d658acbe-0",
+          "text": "As the £20 million UK Preclinical Translational Models Hub opens its doors, the laboratory will help to usher in a world of new possibilities for patients.",
+          "source_url": "https://www.gov.uk/government/news/mini-lab-grown-human-organs-to-boost-search-for-new-treatments-as-20m-cambridge-lab-opens"
+        },
+        {
+          "id": "f-92e8b4538c34d658acbe-1",
+          "text": "Faster access to treatments, a better understanding of how medicines behave inside the body, and fewer animal experiments will all be supported through a new lab opening in Cambridge today (27 November).",
+          "source_url": "https://www.gov.uk/government/news/mini-lab-grown-human-organs-to-boost-search-for-new-treatments-as-20m-cambridge-lab-opens"
+        },
+        {
+          "id": "f-92e8b4538c34d658acbe-2",
+          "text": "The site will use organoids - tiny versions of human organs made from tissue donated by NHS patients - to help researchers build up a more accurate picture of the most promising new drugs to take forward for clinical trials.",
+          "source_url": "https://www.gov.uk/government/news/mini-lab-grown-human-organs-to-boost-search-for-new-treatments-as-20m-cambridge-lab-opens"
+        },
+        {
+          "id": "f-92e8b4538c34d658acbe-3",
+          "text": "Some studies show that lab-grown organs could actually reduce total pharmaceutical R&D costs by between 10% to 26% .",
+          "source_url": "https://www.gov.uk/government/news/mini-lab-grown-human-organs-to-boost-search-for-new-treatments-as-20m-cambridge-lab-opens"
+        },
+        {
+          "id": "f-92e8b4538c34d658acbe-4",
+          "text": "It also has the potential to slash the time it takes for the most promising drugs to move into full scale development by nearly a fifth – meaning a quicker route to get cutting-edge treatments into the hands of health workers.",
+          "source_url": "https://www.gov.uk/government/news/mini-lab-grown-human-organs-to-boost-search-for-new-treatments-as-20m-cambridge-lab-opens"
+        }
+      ],
+      "content_kind": "excerpt",
+      "age_suitability": "10-15",
+      "uncertainty_notes": [
+        "This report includes a plan or prediction, which may change."
+      ]
+    }
+  ],
+  "on_this_day": null,
+  "quiz": [
+    {
+      "id": "q-d9df8b7dc23a2369140f",
+      "question": "Complete the headline you read: “MHRA approves zanidatamab (Ziihera) for the treatment of ____ cancer”",
+      "choices": [
+        "Andre",
+        "Artemis",
+        "gastroesophageal"
+      ],
+      "correct_index": 2,
+      "explanation": "The story headline says: “MHRA approves zanidatamab (Ziihera) for the treatment of gastroesophageal cancer”.",
+      "story_id": "d9df8b7dc23a2369140f",
+      "fact_id": "f-d9df8b7dc23a2369140f"
+    },
+    {
+      "id": "q-1380af4ce3b5ec939865",
+      "question": "Complete the headline you read: “Artemis III ____ Andre Douglas Visits VAB”",
+      "choices": [
+        "Astronaut",
+        "Britain",
+        "Cambridge"
+      ],
+      "correct_index": 0,
+      "explanation": "The story headline says: “Artemis III Astronaut Andre Douglas Visits VAB”.",
+      "story_id": "1380af4ce3b5ec939865",
+      "fact_id": "f-1380af4ce3b5ec939865"
+    },
+    {
+      "id": "q-295f5cf1c0f78f382288",
+      "question": "Complete the headline you read: “Cape Hatteras National Seashore Provides Updates ____ Coastal Storm Impacts”",
+      "choices": [
+        "Andre",
+        "Following",
+        "Artemis"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Cape Hatteras National Seashore Provides Updates Following Coastal Storm Impacts”.",
+      "story_id": "295f5cf1c0f78f382288",
+      "fact_id": "f-295f5cf1c0f78f382288"
+    },
+    {
+      "id": "q-d423621b55d34b6b716f",
+      "question": "Complete the headline you read: “Huge trade boost for ____ Ireland as UK-EU trade deal tears down 90% of checks on goods from Great Britain”",
+      "choices": [
+        "Andre",
+        "Northern",
+        "Artemis"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Huge trade boost for Northern Ireland as UK-EU trade deal tears down 90% of checks on goods from Great Britain”.",
+      "story_id": "d423621b55d34b6b716f",
+      "fact_id": "f-d423621b55d34b6b716f"
+    },
+    {
+      "id": "q-92e8b4538c34d658acbe",
+      "question": "Complete the headline you read: “Mini lab-grown human organs to boost search for new ____ as £20m Cambridge lab opens”",
+      "choices": [
+        "Artemis",
+        "treatments",
+        "Andre"
+      ],
+      "correct_index": 1,
+      "explanation": "The story headline says: “Mini lab-grown human organs to boost search for new treatments as £20m Cambridge lab opens”.",
+      "story_id": "92e8b4538c34d658acbe",
+      "fact_id": "f-92e8b4538c34d658acbe"
+    }
+  ],
+  "sample": false,
+  "sample_label": null
+}
